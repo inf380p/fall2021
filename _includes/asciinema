@@ -1,0 +1,20 @@
+
+{% capture size %}{{ include.size }}{% endcapture %}
+{% if size %}
+{% else %}
+{% assign size="medium" %}
+{% endif %}
+
+{% capture number %}{{ include.number }}{% endcapture %}
+{% if number %}
+{% else %}
+{% assign number="7263" %}
+{% endif %}
+
+{% capture speed %}{{ include.speed }}{% endcapture %}
+{% if speed %}
+{% else %}
+{% assign speed="3" %}
+{% endif %}
+
+<script type="text/javascript" src="http://asciinema.org/a/{{ number }}.js" id="asciicast-{{ number }}" async data-speed="{{ speed }}" data-size="{{ size }}"></script>

@@ -1,0 +1,19 @@
+
+### Merging Changes from Silshack into Your Repo
+
+As your classmates and the instructors update the class site, your repository, at http://github.com/username{{ site.baseurl }}, will be out of date.  In fact your site, at http://username.github.io{{ site.baseurl }}, may only show posts from you!  This is because the updates happening to the main repo at [http://github.com/silshack{{ site.baseurl }}](http://github.com/silshack{{ site.baseurl }}) won't get merged back in til you do this manually! This is something you should do every so often so that your preview site looks similar to our class site, [http://silshack.github.io{{ site.baseurl }}](http://silshack.github.io{{ site.baseurl }})
+
+Here we go:
+
+1. Go to the class github repo, at [http://github.com/silshack{{ site.baseurl }}](http://github.com/silshack{{ site.baseurl }})
+2. Find the small green button that is labeled "Compare and review" when you mouse over it and press it.  This will take you to a new page.
+
+<centering>
+![Compare and Review Button](https://github-images.s3.amazonaws.com/help/pull_requests/pull-request-start-review-button.png)
+</centering>
+
+3. Click "Compare Across Forks".  You'll then be able to change the 'Base' and 'Head'.  'Base' means where the code will end up.  Since we want to update our personal sites, select your repository as the 'Base' fork.  The `gh-pages` branch of both repositories should be selected by default.  **The fork and branch names are very important to get right**.  Once you've done this it will load a one-way comparison of the things that are in silshack but not your repo.  
+4. Click the box that says "Click to create a pull request for this comparison".  You'll then be able to enter a title and description for the pull request.  Normally we want to be verbose with these but for these merges we can just type something like "Merging in Recent Changes".  After you've entered a title, click "Send Pull Request".  This will take you to the pull request *in your repository*
+5. Scroll down to the bottom and click "Merge Pull Request"
+
+That's it!  Your repo should now have all of the recent updates made to the main class repo.

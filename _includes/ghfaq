@@ -1,0 +1,28 @@
+## Github Questions
+
+What's a commit?
+
+- A set of line-by-line changes to one or more files in a git repository
+
+What's a branch?
+
+- A version of your source code.  More precisely, it's a sequnce of **commits* that leads to
+the branch's current state.
+
+What's the `gh-pages` branch?
+
+- Where Github looks to automatically build a site
+
+What's a Pull Request?
+
+- A social wrapper around the comparison between two branches designed to prepare for *merging* changes
+
+What's a Merge?
+
+- A process of incorporating the commits from one branch into another. Usually done from a Pull Request but also
+doable from the command line.
+
+What's a merge conflict?
+
+- When two or more commits specify changes to a single line of a file.  These changes can't be automatically
+integrated without potentially using work, so humans need to specify what should happen.

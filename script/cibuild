@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e # halt script on error 
+
+# Commands to run during test
+bundle exec rake test

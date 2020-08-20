@@ -1,21 +1,74 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+name: INF 308P Fall 2020
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: INF 380P
 
-# Build settings
+highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
+
+future: true
+
+timezone: America/New_York
+
+github_repo_url: https://github.com/inf380p/fall2020
+gitter_room: inf380p/fall2020
+
+# Categories to exclude from the index
+special-categories:
+  - "exercise"
+  - "how-to"
+  - "sidebar"
+  - "reading"
+  - "notes"
+
+# Exclude Jekyll's built-in tests
+exclude: [vendor]
+
+# These can contain uppercase: they'll be lowercased in the URL
+page-order:
+  - syllabus
+  - materials
+  - how-to
+  - people
+
+# Same note RE case above
+python-extra-pages:
+  - console
+
+
+permalink: none
+
+baseurl: /fall2020
+url: /fall2020
+
+python: true
+
+course:
+  title: Introduction to Programming
+  number: INF 380P
+  instructor: Prof. Elliott Hauser
+  semester: Fall 2020
+
+authors:
+  elliott:
+    name: Elliott Hauser
+    prof: true
+    gravatar: 0d0d432948d262195358f339768f1240
+    website: http://www.elliotthauser.com
+    github: eah13
+    twitter: hauspoor
+    about:  Elliott Hauser is an Assistant Professor at the UT Austin iSchool.  He's hacking education as one of the cofounders of Trinket.io.
+
+  tommytester:
+    name: Tommy Tester
+    prof: false
+    gravatar:
+    website: "https://en.wikipedia.org/wiki/Turtle"
+    github: tommytester
+    twitter:
+    about: "Testin' course websites since 2014."
+
+baseurl:
+url:
+
