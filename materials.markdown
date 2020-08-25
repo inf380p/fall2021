@@ -100,13 +100,13 @@ be completed by the date and time listed.  Class notes are for your reference of
     <tr aria-label='{{ post.title | escape }}' class="{% if even %}even{% else %}odd{% endif %} {{ post.date | date: '%b%d' }} {% if newdate %}newdate{% endif %} {% if post.categories contains 'notes' %}notes{% endif %}">
         <td>
             {% if post.categories contains "exercise" %}
-            <span class="label round {% if post.inclass == true %}warning">In-class {% else %}success">{% endif %}Exercise</span>
+            <span class="label round {% if post.inclass == true %}inclass">In-class {% else %}success">{% endif %}Exercise</span>
             {% endif %}
             {% if post.categories contains "reading" %}
             <span class="label round info">Reading</span>
             {% endif %}
             {% if post.categories contains "notes" %}
-            <span class="label round">Class Notes</span>
+            <span class="label round notes">Class Notes</span>
             {% endif %}
         </td>
         <td>

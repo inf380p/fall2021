@@ -14,6 +14,9 @@ timezone: America/New_York
 github_repo_url: https://github.com/inf380p/fall2020
 gitter_room: inf380p/fall2020
 
+plugins:
+  - jemoji
+
 # Categories to exclude from the index
 special-categories:
   - "exercise"

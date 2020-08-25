@@ -1,5 +1,5 @@
-
-
+---
+---
 /*****************************************************************************/
 /*
 /* Posts
@@ -45,23 +45,26 @@ img.emoji {
   font-style: italic;
 }
 
-.post pre {
-  padding: 8px 8px;
-  overflow-x: scroll;
-  margin: .4em;
-  background-color: #eef;
+/* Post settings */
+.post {
+  pre {
+    padding: 8px 8px;
+    overflow-x: scroll;
+    margin: .4em;
+    background-color: #eef;
+    code {
+      border: none;
+    }
+  }
+
+  code {
+    padding: 1px 5px;
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0;
+  }
 }
 
-.post code {
-  padding: 1px 5px;
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0;
-}
-
-.post pre code {
-  border: none;
-}
 
 /* terminal */
 .post pre.terminal {
@@ -136,24 +139,39 @@ code, pre {
   background-color: #bf5700 !important;
 }
 
+/* Tables */
+
+/* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
+  tbody {
+    tr.odd {
+      background: #f9f9f9;
+    }
+    tr.even {
+      background: white;
+    }
+    tr.hidden {
+      display: none;
+    }
+    tr.notes {
+      background-color: #bf5700;
+      a {
+        color: white;
+      }
+    }
+  }
+  .label.notes {
+    background-color: #bf5700;
+  }
+  .label.inclass {
+    background-color: #bf5700;
+  }
 }
 
-table tbody tr.odd {
-  background: #f9f9f9;
-}
 
-table tbody tr.even {
-  background: white;
-}
-
-table tbody tr.hidden {
-  display: none;
-}
-
-tr:hover td {
+tr:hover:not(.notes) td {
   background-color: lightyellow;
 }
 
