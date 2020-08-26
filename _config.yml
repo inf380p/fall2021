@@ -82,6 +82,75 @@ authors:
     twitter:
     about: TA extraordinaire.
 
-baseurl:
-url:
+  a-larasati:
+    name: a-larasati
+    prof: false
+    gravatar:
+    website: "#"
+    github: a-larasati
+    twitter:
+    about: "Here's a little about a-larasati"
+
+  bmb4227:
+    name: bmb4227
+    prof: false
+    gravatar:
+    website: "#"
+    github: bmb4227
+    twitter:
+    about: "Here's a little about bmb4227"
+
+  brianna-stedman:
+    name: brianna-stedman
+    prof: false
+    gravatar:
+    website: "#"
+    github: brianna-stedman
+    twitter:
+    about: "Here's a little about brianna-stedman"
+
+  intjnotinfp:
+    name: intjnotinfp
+    prof: false
+    gravatar:
+    website: "#"
+    github: intjnotinfp
+    twitter:
+    about: "Here's a little about intjnotinfp"
+
+  jasfromnz:
+    name: jasfromnz
+    prof: false
+    gravatar:
+    website: "#"
+    github: jasfromnz
+    twitter:
+    about: "Here's a little about jasfromnz"
+
+  KJEZ35:
+    name: KJEZ35
+    prof: false
+    gravatar:
+    website: "#"
+    github: KJEZ35
+    twitter:
+    about: "Here's a little about KJEZ35"
+
+  luznette:
+    name: luznette
+    prof: false
+    gravatar:
+    website: "#"
+    github: luznette
+    twitter:
+    about: "Here's a little about luznette"
+
+  pccisme:
+    name: pccisme
+    prof: false
+    gravatar:
+    website: "#"
+    github: pccisme
+    twitter:
+    about: "Here's a little about pccisme"
 
