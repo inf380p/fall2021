@@ -116,3 +116,6 @@ If you finish early:
 
 * Submit your welcome form
 * [Get started on your first reflection]({{ site.baseurl }}/exercise/first-reflection.html)
+
+Recording of this class (Requires UT Login - see also the how-to page on protected Panopto content)
+<iframe src="https://utexas.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=5eac2c24-3bb5-4535-b7c1-ac23010ff9c6&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
