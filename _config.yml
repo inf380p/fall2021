@@ -77,10 +77,10 @@ authors:
     name: Akef Ebeid
     prof: false
     gravatar:
-    website: "https://en.wikipedia.org/wiki/Turtle"
+    website: "http://www.i3akef.com"
     github: iebeid
-    twitter:
-    about: TA extraordinaire.
+    twitter: https://github.austin.utexas.edu/iae254
+    about: Akef is a fourth year PhD Student here at the UT iSchool. He works mainly in the field of Knowledge Discovery in the Biomedical Scientific Literature. He also did HCI related work in Eye Tracking and Visualization. His passion is applying AI methods to solve problems in Healthcare, Biomedicine and the social good in general.
 
 baseurl:
 url:
