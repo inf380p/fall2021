@@ -49,9 +49,15 @@ Programs are composed of small pieces.  In this class you'll learn about the pie
 exercise will take you from drawing a simple line to making more complex drawings.  This will prepare you for your first homework, which is to use what we learn in class
 and online resources to make a drawing.
 
-# Overview of This & Next Class
+You, yes you, right now, can edit this program! Find and change the color names and click run:
 
-These will be on the [materials]({{ site.baseurl }}/materials.html) page, but I wanted to make sure everything was clear for the first day.
+<iframe src="https://trinket.io/embed/python/6d8b563321?runOption=run&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+We'll talk a bit more about the interface of trinket in class.
+
+# Overview of the Materials Page
+
+I want to explain the [materials]({{ site.baseurl }}/materials.html) page, and highlight a few things.
 
 We should have plenty of time in class to do these, but anything you don't finish, complete by midnight tonight:
 
@@ -61,16 +67,15 @@ We should have plenty of time in class to do these, but anything you don't finis
 * Sign up for Github
 * * Make your first post to our github blog
 * Go over some Github basics
-* (hopefully) start your second post to our Github blog.  You'll have the weekend to finish this for if you need it.
+* (hopefully) start your second post to our Github blog, with some initial reflections.  You'll have the weekend to finish this for if you need it.
 
 Complete these by the beginning of next class:
 
+* Submit your first reflective post (on Github) about the experience of the class and exercises so far (if you don't finish in class)
 * Read Why Python
 * Read about Variables
 * Watch Chapter 1 of "Python Game Development for Beginners" by yours truly (free)
 * Make some basic Python Programs with Chapter 2 extercises
-* Turtlehack!
-* Submit your first reflective post (on Github) about the experience of the class and exercises so far
 
 Later in the semester you'll need full access to "Python Game Development for Beginners".  I suggest a subscription to [Safari Books Online](http://www.safaribooksonline.com).  This will also give you access to a wide range of other tech resources for this class and beyond.  PSA: Safari offers a 10 day free trial. But there are plenty of options for access.
 
@@ -79,11 +84,17 @@ Later in the semester you'll need full access to "Python Game Development for Be
 
 Our first in-class exercise will have you making a cool animation with Python. I'll stop us periodically to discuss and share your progress.
 
+After [signing up for Trinket](https://trinket.io/signup), visit this link: https://trinket.io/courses/join/kUUbrX
+
+You'll find your first assignment ready for you.
+
 # Intermission
 
 I'll need your Github username so I can add you to our site.
 
 # Class Part 2: Github
+
+You should have received an email invite to our github Organization. Check your email or visit [this link](https://github.com/inf380p) while logged in to accept.
 
 Now it's time to:
 
@@ -99,10 +110,9 @@ Let's get going!
 # Last Words / Next Steps
 
 * A theme for programming: **type and read your code closely**
+* We're aiming for *cutural immersion*, not *cultural assimilation*. Be open to coding cultures, and be yourself within them!
 
 If you finish early:
 
 * Submit your welcome form
 * [Get started on your first reflection]({{ site.baseurl }}/exercise/first-reflection.html)
-* [Get started on your Custom Turtle]({{ site.baseurl }}/exercise/custom-turtle.html)
-* [Get started on your Custom Turtle post]({{ site.baseurl }}/exercise/how-to/turtlepost.html)

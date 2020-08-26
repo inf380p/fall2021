@@ -13,9 +13,9 @@ title: Github basics
 We're going to help Tommy the Tester create his first post.
 
 * Create Github account
-* Go to [http://github.com/silshack/summer2018](http://github.com/silshack/summer2018)
+* Go to [{{ site.github_repo_url }}]({{ site.github_repo_url }})
 * Click 'Create New File'
-* This new file will become your post.  Give it the filename `_posts/<username>/2018-05-17-first-post.md` **Remember the importance of careful typing**
+* This new file will become your post.  Give it the filename `_posts/<username>/2020-08-26-first-post.md` **Remember the importance of careful typing**
 * Add this to the top of the file's text content:
 
 ```
@@ -48,6 +48,7 @@ If your build fails, don't panic!  It happens to the best of us.  Click 'Details
 
 Also, remember that passing tests is a minimum standard.  It doesn't mean that your code is perfect, so make sure to read over your code carefully.
 
+{% comment %}
 # Video on Creating and Updating Posts
 
 This video walks through creating and updating a new post as well as updating a post that's already been merged.  It also goes over some of the basics of branches.
@@ -55,3 +56,5 @@ This video walks through creating and updating a new post as well as updating a 
 <iframe src="https://player.vimeo.com/video/151900462" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Hope it helps!
+
+{% endcomment %}
