@@ -71,6 +71,15 @@ authors:
     github: tommytester
     twitter:
     about: "Testin' course websites since 2014."
+    
+  akef:
+    name: Akef Ebeid
+    prof: false
+    gravatar:
+    website: "https://en.wikipedia.org/wiki/Turtle"
+    github: iebeid
+    twitter:
+    about: TA
 
 baseurl:
 url:
