@@ -79,12 +79,12 @@ tess.forward(50)
 Finally, if you need to embed an image, do it thusly:
 
 <pre>
-![Turtle image](http://openbookproject.net/thinkcs/python/english3e/_images/tess03.png)
+![Turtle image](https://www.utexas.edu/sites/all/themes/utexas/img/general/logo.svg)
 </pre>
 
 That code looks like this:
 
-![Turtle image](http://openbookproject.net/thinkcs/python/english3e/_images/tess03.png)
+![Turtle image](https://www.utexas.edu/sites/all/themes/utexas/img/general/logo.svg)
 
 
 ### Thoughts about the exercise
@@ -93,9 +93,3 @@ When submitting exercises, always include reflections, roadblocks you ran into, 
 things you thought were cool. Always include links to example code if you use or are heavily influnced
 by someone else's work. They should be at least a paragraph or two. Regardless of length, the best ones give me a sense of what you did
 and why.  Here's [a post from a previous class](https://silshack.github.io/summer2017/zman7895-logic-turtle-exercise.html) that does a good job of this.
-
-### Going deeper
-
-Think the above is easy?  Try your hand at writing and calling **functions**. We'll get to these
-later but an example from our very own Grant McLendon might help inspire you:
-[Grant's Turtle post form Fall 2013](http://silshack.github.io/fall2013/gmclendon/2013/09/09/grants-turtle.html)

@@ -3,26 +3,36 @@
 To maintain the quality of our site, we're going to help police each others' work. We'll use Github
 Issues to do this, just like open source projects do.
 
-Find a partner. On the [people page]({{ site.baseurl }}/people.html) the partner should have:
+The below instructions are for reviewing a partner's work.
 
-- First Post
-    - Should have a well-formatted title
-    - Should display the author's github name
-    - Should be formatted like a post
+# Checking in-progress posts via pull requests
 
-- First Reflection Post
-    - Should have a well-formatted title
-    - Should display the author's github name
-    - Should be formatted like a post
-
-Go to our class repo's Pull Requests tab. Filter by your partner's name. Their Exercises Pull request:
+Go to our [class repo's Pull Requests tab]({{ site.github_repo_url }}/pulls). Filter by your partner's name or find it in the list. Open Pull requests:
 - Should have a well-formatted pull request title
 - Should have well-formatted YAML header with the correct `author` (their github name) and `layout: post`
-- Should include three trinkets
+- Should include the code or reflections specified in the exercise
 - Should be in a file that's in their subfolder, titled correctly.
 
 *Note: If you can't find their post on the people page, there's likely something wrong with their
 `author:` metadata field.  Look on the main posts page for the post.*
+
+If everything looks good, open a review and **Approve** the post. You may now merge it, which will add it to our site.
+
+If there are things that should be changed, **Request changes** and leave helpful comments about what can be fixed.
+
+This is it, the moment where you're talking with a partner about code. Be a good partner and help build our supportive community!
+
+
+The above instructions are for merging pull requests. Once they're merged, if all goes well, you should see the post on our site. You can check the [list of commits]({{ site.github_repo_url}}/commits) and make sure there's a green checkmark, indicating the changes have finished building. If they're not done yet, check again once they are.
+
+# Checking published posts, and opening issues if needed
+
+Use the [people page]({{ site.baseurl }}/people.html) to see what posts they have, and whether they're all there.
+
+- Each Post:
+    - Should have a well-formatted title
+    - Should display the author's github name
+    - Should be formatted like a post
 
 If any of these things are missing, [Open an Issue](https://help.github.com/articles/creating-an-issue/),
 no more than one issue per assignment.  Title it intelligibly, something like "@classmate's Turtle post title needs spaces".
@@ -36,7 +46,7 @@ In the issue, list the things that are missing. You can make checkboxes if neede
 Be helpful and let your partner know some details of how to fix the error.  [Here's](https://github.com/silshack/spring2016/issues/85)
 one I did in a previous class session that a student fixed.
 
-**@mention** your partner on the issue.  Once you all have commit access we'll **assign** issues.
+**@mention** your partner on the issue and **assign** them to the issue.
 
 # Handling Issues Assigned to You
 

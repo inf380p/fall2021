@@ -3,7 +3,7 @@ layout: post
 author: elliott
 title: "Let's get functional"
 category: notes
-published: false
+published: true
 ---
 
 # Q&A
