@@ -11,6 +11,8 @@ Subject to revision during the first week of class.
 
 Instructor: {{ site.course.instructor }}
 
+Office hours: [Schedule here](http://bit.ly/hauserofficehours) (UTMail or google account required), or contact me.
+
 
 ### Official Course Description
 
