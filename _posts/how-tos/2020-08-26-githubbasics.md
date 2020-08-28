@@ -15,7 +15,7 @@ We're going to help Tommy the Tester create his first post.
 * Create Github account
 * Go to [{{ site.github_repo_url }}]({{ site.github_repo_url }})
 * Click 'Create New File'
-* This new file will become your post.  Give it the filename `_posts/<username>/2020-08-26-first-post.md` **Remember the importance of careful typing**
+* This new file will become your post.  Give it the filename `_posts/<username>/2020-08-26-first-post-<username>.md` **Remember the importance of careful typing**
 * Add this to the top of the file's text content:
 
 ```
