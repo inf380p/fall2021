@@ -2,7 +2,7 @@
 
 by Patrick Chao
 
-### The first on-class activities
+### The first in-class activities
 
 In the first class, we were doing the turtle game in the class. I remember that I've played with turtles when I started to learn Python. Also, because of lack of creativity, I am impressed by how people have done with turtles. Last, thank to Dr. Hauser for explaining two different ways to import modules or libraries, and the reason why he chose to apply them. 
 
