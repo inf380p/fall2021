@@ -20,7 +20,7 @@ Last, I still recommend Python to my friends who want to know more about program
 
 ### Exercise
 
-I was studying the [conversion rules]([https://dmitripavlutin.com/javascriptss-addition-operator-demystified/#:~:text=The%20addition%20operator,%2F%2F%20%22Hello%2C%20World!%22](https://dmitripavlutin.com/javascriptss-addition-operator-demystified/#:~:text=The addition operator,%2F%2F "Hello%2C World!")) in JavaScript, and I was surprised because I always convert integers to strings before printing in Python. 
+I was studying the [conversion rules](https://dmitripavlutin.com/javascriptss-addition-operator-demystified/) in JavaScript, and I was surprised because I always convert integers to strings before printing in Python. 
 
 So, when I was doing the exercise, I actually tried to make sure that Python doesn't apply the same conversion rules in JavaScript and it would pop out the error messages if you try to do something as follows:
 
