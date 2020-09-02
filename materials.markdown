@@ -115,7 +115,7 @@ be completed by the date and time listed.  Class notes are for your reference of
             {% else %}
                 {% capture link %}{{ site.baseurl }}{{ post.url }}{% endcapture %}
             {% endif %}
-            <a href="{{ link }}">{% if post.categories contains "notes" %} <b>{{ post.date | date: "%b %d" }} - {% endif %}{{ post.title }} {% if post.categories contains "notes" %} </b>{% endif %}</a>
+            <a href="{{ link }}">{% if post.categories contains "notes" %} <b>{{ post.date | date: "%b %d" }} - {% endif %}{{ post.title }} {% if post.categories contains "notes" %} </b> <span class="label round mode">{{ post.mode}}</span>{% endif %}</a>
         </td>
         <td>
             {% if post.categories contains "notes"%}

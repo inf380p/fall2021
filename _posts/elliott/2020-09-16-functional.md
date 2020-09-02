@@ -4,6 +4,7 @@ author: elliott
 title: "Let's get functional"
 category: notes
 published: true
+mode: In Person
 ---
 
 # Q&A

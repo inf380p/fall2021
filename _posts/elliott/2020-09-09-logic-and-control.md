@@ -4,7 +4,7 @@ category: notes
 title: "Logic and the flow of Control"
 author: elliott
 published: true
-mode: remote
+mode: Remote
 ---
 
 # Q&A
