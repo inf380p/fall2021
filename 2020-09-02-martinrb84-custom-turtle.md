@@ -4,10 +4,4 @@ author: martinrb84
 title: "Mbeni's Custom Turtle!"
 ---
 
-#!/bin/python3
-import turtle
-
-tina = turtle. Turtle()
-
-turtle_color = input("What color should Tina be?")
-
+<iframe src="https://trinket.io/embed/python/8798928081" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
