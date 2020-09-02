@@ -3,7 +3,7 @@ layout: post
 author: elliott
 category: notes
 title: "Treasure Turtles and Clicky Craziness"
-published: false
+mode: Remote
 ---
 
 # Recommended Reading
