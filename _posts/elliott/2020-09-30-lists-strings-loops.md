@@ -3,7 +3,7 @@ author: elliott
 layout: post
 category: notes
 title: "Lists, Loops & Strings"
-published: false
+mode: In Person
 ---
 
 # Q&A
