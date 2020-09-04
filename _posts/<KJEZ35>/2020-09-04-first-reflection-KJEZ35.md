@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <KJEZ35>
+author: KJEZ35
 title: "First Reflection"
 ---
 
