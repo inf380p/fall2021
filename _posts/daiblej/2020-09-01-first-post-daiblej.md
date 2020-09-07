@@ -1,7 +1,7 @@
 ---
-layout:post
-author:daiblej
-title:Janet's first post
+layout: post
+author: daiblej
+title: "Janet's first post"
 ---
 
 Hi. It's Janet.
