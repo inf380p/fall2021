@@ -1,3 +1,9 @@
+---
+layout: post
+author: pccisme
+title: "pccisme's First Reflection"
+---
+
 ## First Reflection
 
 by Patrick Chao
