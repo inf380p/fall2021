@@ -1,7 +1,7 @@
 ---
-layout:post
-author:daiblej
-title:"Janet's first class reflection"
+layout: post
+author: daiblej
+title: "Janet's first class reflection"
 ---
 
 Actually, I didn't take the first class so I am afraid that I can't catch up with others. I have a lot of concerns before class. Elliot will know that because I send him so many questions through emails. I also asked my friends who are good at coding. They told me Python is not a difficult language. Writing Python is just like writing English. The first reading material also mentions this. However, I am an international student so even writing English can be a big challenge for me. But it shouldn't be an excuse. " We choose to go to the moon not because it's easy, but because it's difficult, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept." No matter what, I start my coding journey now.
