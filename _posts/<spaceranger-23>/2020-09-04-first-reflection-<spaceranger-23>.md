@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Spaceranger First Reflection!"
+Author: Spaceranger-23
+title:  "Spaceranger-23 First Reflection!"
 ---
 
 The first week assignments really challanged my brain on how I think about solving problems. After taking previous python courses online, I assumed that the
