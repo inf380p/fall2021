@@ -1,7 +1,7 @@
 ---
 author: KJEZ35
 layout: post
-title: "embed a tutrtle"
+title: "embed a turtle"
 ---
 
 <iframe src="https://trinket.io/embed/python/674f1f05ba?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
