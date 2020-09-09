@@ -14,13 +14,8 @@ mode: In Person
 
 <iframe src="https://trinket.io/embed/python3/ec89a1f1a3" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-* Your Logical turtle shuld be in the same pull request as your Turtlehack, but in a different post (dated Tuesday).  If any of this doesn't apply to you, fix it now.
 
-# Introductions
-
-Finally!  Let's get to know each other a little.
-
-# Turtlehacks
+# Logical Turtle
 
 [Pair up]({{ site.baseurl}}/pairup.html) and merge up!
 
@@ -51,7 +46,7 @@ I never really got **parameter** vs **argument** until late in my career.  Now y
 
 Link in assignments.
 
-# Code Talks on your Turtle Refactors
+# Code Talks on your Turtlehacks
 
 [Pair up]({{ site.baseurl }}/pairup.html)
 

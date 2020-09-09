@@ -34,9 +34,12 @@ Part III
 # Announcements and Q&A
 
 * Check out the People page! You'll soon be able to update these bios, and they'll appear on your posts automatically.
+* There was an incorrect due date on the trinket assignments. Don't worry about it!
 * Community engagement - Get started now! Here are [some webinars](https://guides.lib.utexas.edu/data-and-donuts) from the UT libraries.
 * Open Source contributions: Extra Credit
+* blocks in python
 * Vocab?
+* How's it going so far?
 
 # Review Last Time
 
@@ -89,11 +92,11 @@ On [Zoom](https://utexas.zoom.us/j/93951295777) together, using screenshares of 
 
 Logical Turtles!
 
-15 minutes: Work on your own
-15 minutes: [Zoom](https://utexas.zoom.us/j/93951295777) together: Check-in for breakout discussions
-15 minutes: Work on your own
-15 minutes: Break
-At the end: [Zoom](https://utexas.zoom.us/j/93951295777) together Code talks
+* 15 minutes: Work on your own. Check-in for breakout discussions
+* 15 minutes: Zoom: Breakout discussions
+* 10 minutes: Work on your own
+* 10 minutes: Break
+* After Break: Zoom: Code talks & screenshares. Introduce Part III
 
 # Logical Turtles code talks
 
@@ -108,6 +111,10 @@ At the end: [Zoom](https://utexas.zoom.us/j/93951295777) together Code talks
 # Part III: Merging on Github from Now On
 
 Re-join [Zoom](https://utexas.zoom.us/j/93951295777)
+
+* 15 minutes: Zoom then on your own: Make a pull request
+* 10 minutes: Zoom: Pair up to review and merge that pull request
+* 10 minutes: Zoom: Wrap up and on your own Github cleanup if needed
 
 Moving forward, you'll review and merge each others' work *in class*.
 
