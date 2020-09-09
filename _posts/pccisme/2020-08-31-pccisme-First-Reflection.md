@@ -1,7 +1,7 @@
 ---
 layout: post
 author: pccisme
-title: "pccisme's First Reflection"
+title: "Patrick's First Reflection"
 ---
 
 ## First Reflection
