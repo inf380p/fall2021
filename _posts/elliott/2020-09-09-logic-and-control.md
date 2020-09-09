@@ -31,8 +31,9 @@ Part III
 * 10 minutes: Zoom: Pair up to review and merge that pull request
 * 10 minutes: Zoom: Wrap up and on your own Github cleanup if needed
 
-# Q&A
+# Announcements and Q&A
 
+* Check out the People page! You'll soon be able to update these bios, and they'll appear on your posts automatically.
 * Community engagement - Get started now! Here are [some webinars](https://guides.lib.utexas.edu/data-and-donuts) from the UT libraries.
 * Open Source contributions: Extra Credit
 * Vocab?

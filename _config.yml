@@ -73,15 +73,6 @@ authors:
     twitter:
     about: "Testin' course websites since 2014."
 
-  akef:
-    name: Akef Ebeid
-    prof: false
-    gravatar:
-    website: "http://www.i3akef.com"
-    github: iebeid
-    twitter: https://github.austin.utexas.edu/iae254
-    about: Akef is a fourth year PhD Student here at the UT iSchool. He works mainly in the field of Knowledge Discovery in the Biomedical Scientific Literature. He also did HCI related work in Eye Tracking and Visualization. His passion is applying AI methods to solve problems in Healthcare, Biomedicine and the social good in general.
-
   a-larasati:
     name: a-larasati
     prof: false
@@ -108,6 +99,33 @@ authors:
     github: brianna-stedman
     twitter:
     about: "Here's a little about brianna-stedman"
+
+  cchinchia:
+    name: cchinchia
+    prof: false
+    gravatar:
+    website: "#"
+    github: cchinchia
+    twitter:
+    about: "Here's a little about cchinchia"
+
+  daiblej:
+    name: daiblej
+    prof: false
+    gravatar:
+    website: "#"
+    github: daiblej
+    twitter:
+    about: "Here's a little about daiblej"
+
+  EAkita:
+    name: EAkita
+    prof: false
+    gravatar:
+    website: "#"
+    github: EAkita
+    twitter:
+    about: "Here's a little about EAkita"
 
   intjnotinfp:
     name: intjnotinfp
@@ -145,6 +163,15 @@ authors:
     twitter:
     about: "Here's a little about luznette"
 
+  Martinrb84:
+    name: Martinrb84
+    prof: false
+    gravatar:
+    website: "#"
+    github: Martinrb84
+    twitter:
+    about: "Here's a little about Martinrb84"
+
   pccisme:
     name: pccisme
     prof: false
@@ -153,6 +180,15 @@ authors:
     github: pccisme
     twitter:
     about: "Here's a little about pccisme"
+
+  spaceranger-23:
+    name: spaceranger-23
+    prof: false
+    gravatar:
+    website: "#"
+    github: spaceranger-23
+    twitter:
+    about: "Here's a little about spaceranger-23"
 
 baseurl:
 url:
