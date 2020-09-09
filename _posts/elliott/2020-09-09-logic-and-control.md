@@ -7,25 +7,118 @@ published: true
 mode: Remote
 ---
 
+[Zoom Room for Remote Classes](https://utexas.zoom.us/j/93951295777)
+
+# Today's Class Schedule
+
+Times are approximate.
+
+Part I - Conditionals and Homework
+* 15 minutes: Zoom: Intro
+* 15 minutes: Conditionals
+* 15 minutes: Zoom: Discussion & Homework. Introduce Part II
+* 10 minutes: Break
+
+Part II
+* 15 minutes: Work on your own. Check-in for breakout discussions
+* 15 minutes: Zoom: Breakout discussions
+* 10 minutes: Work on your own
+* 10 minutes: Break
+* After Break: Zoom: Code talks & screenshares. Introduce Part III
+
+Part III
+* 15 minutes: Zoom then on your own: Make a pull request
+* 10 minutes: Zoom: Pair up to review and merge that pull request
+* 10 minutes: Zoom: Wrap up and on your own Github cleanup if needed
+
 # Q&A
 
-* Community engagement - Get started now!
-* Open Source contributions - now Extra Credit
+* Community engagement - Get started now! Here are [some webinars](https://guides.lib.utexas.edu/data-and-donuts) from the UT libraries.
+* Open Source contributions: Extra Credit
+* Vocab?
 
-# Logistics
+# Review Last Time
 
-Moving forward, you'll review and merge each others' work in class.
+*Turtle & Python*
+* We went through and discussed Turtle Basics and saw that everyone came up with very different programs, using simple building blocks
+* We reviewed Chapter 2 Exercises
+* We used Zoom screenshares to see and discuss code
+* We discussed the importance of reflections embedded into various assignments. Reflections are for me, your peers, and *YOU* to have a window into where you are in terms of understanding.
 
-Review, fix, and close issues assigned to you. We'll have some catch-up time where
+
+*Problem Solving Resources*
+* We talked about problem solving *attitudes* of self-awareness, calm, and determination.
+* We talked about problem solving *strategies* of Stopping, Going in the Right Direction, Working Smart, and Using Resources.
+* We talked about problem solving *tactics* in Python, including commenting code, `print`ing variables, and using the `type()` function to figure out what kind of data something is.
+
+*Github*
+* We talked about how to edit a pull request
+* We discussed Github reviews
+* We made sure everyone could access Panopto Protectedcontent for this class
+* We made a new post for the Custom Turtles exercise, and then edited it to put a Trinket in it.
+
+# Discussion: Logic and the Flow of Control
+
+Boolean values are very simple but very powerful.  There are tons of useful ways to
+construct **expressions** that evaluate to `True` or `False` in Python, and we use these
+to change the behavior of our program.
+
+Basic `if` statements act as 'gates' to control whether blocks of code get executed.
+`elif` and `else` statements enhance this control.
+
+Some specific concepts to understand:
+
+* *Truithiness*: Everything can be evaluated to either true or false. Most things are true.
+* *`try` and `except`*: expecting exceptions (also known as 'errors') in your code. This is *super helpful* for user input. Compare:
+
+<iframe src="https://trinket.io/embed/python3/5cc539fe20" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+...with:
+
+<iframe src="https://trinket.io/embed/python3/8333113d87" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+* *Flow of Control*: Python does things in a specific order. Sometimes it'll not execute some code, and any *runtime errors* in that code won't appear until or unless it does. Let's revisit [the section on short-circuiting](https://books.trinket.io/pfe/03-conditional.html#short-circuit-evaluation-of-logical-expressions).
+
+# Homework Review
+
+On [Zoom](https://utexas.zoom.us/j/93951295777) together, using screenshares of your Trinket exercises.
+
+
+# Part II: In Class Python Exercise
+
+Logical Turtles!
+
+15 minutes: Work on your own
+15 minutes: [Zoom](https://utexas.zoom.us/j/93951295777) together: Check-in for breakout discussions
+15 minutes: Work on your own
+15 minutes: Break
+At the end: [Zoom](https://utexas.zoom.us/j/93951295777) together Code talks
+
+# Logical Turtles code talks
+
+* Story of your approach
+* Your triumphs
+* Your despairs
+* Problem Solving attitudes and strategies
+
+
+
+
+# Part III: Merging on Github from Now On
+
+Re-join [Zoom](https://utexas.zoom.us/j/93951295777)
+
+Moving forward, you'll review and merge each others' work *in class*.
+
+Review, fix, and merge pull requests. We'll have some catch-up time where
 we can review any outstanding issues.
 
 # Merging!
 
 With great power comes great responsibility
 
-* Never merge your own pull request
-* Never commit directly to the `master` branch
-![Imgur](http://i.imgur.com/sEFqgU7.png)
+* Never merge your own pull request (our settings make that impossible, but it's a general rule)
+* Never commit directly to the `production` branch
 * Never merge broken or failing code
 * Always be explicit with your reviews:
 
@@ -43,25 +136,10 @@ Volunteer: Merging with Tommy Tester.
 
 ~10 minutes reviewing & merging posts with a partner.
 
-# Discussion: Logic and the Flow of Control
 
-Boolean values are very simple but very powerful.  There are tons of useful ways to
-construct **expressions** that evaluate to `True` or `False` in Python, and we use these
-to change the behavior of our program.
+# Github cleanup
 
-Basic `if` statements act as 'gates' to control whether blocks of code get executed.
-`elif` and `else` statements enhance this control.
-
-# In Class exercise
-
-Logical Turtles!
-
-# Logical Turtles code talks
-
-* Story of your approach
-* Your triumphs
-* Your despairs
-* Problem Solving attitudes and strategies
+Taking turns with a partner, find *all* your pull requests (open and closed), and review what's happened to them. For the ones that are merged,
 
 # Functions & Refactoring for Next time
 
