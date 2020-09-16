@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Spaceranger-23
-title: Spaceranger-23 TurtleHack Exercise 
+title: "Spaceranger-23 TurtleHack Exercise" 
 ---
 
 <iframe src="https://trinket.io/embed/python/5b869a0dfc" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
