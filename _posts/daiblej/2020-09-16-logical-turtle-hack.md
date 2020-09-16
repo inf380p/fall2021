@@ -1,7 +1,7 @@
 ---
 layout: post
 author: daiblej
-title: "Logical Turtle Exercise"
+title: "Logical Turtle Hack"
 ---
 
 Here's my Logical Turtle Exercise
