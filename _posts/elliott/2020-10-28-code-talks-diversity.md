@@ -3,7 +3,8 @@ layout: post
 author: elliott
 category: notes
 title: "Code Talks; Diversity & Inclusion in Programming"
-published: false
+published: true
+mode: In Person
 ---
 
 # Q&A

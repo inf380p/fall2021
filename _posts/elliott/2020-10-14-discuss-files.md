@@ -3,7 +3,8 @@ author: elliott
 category: notes
 layout: post
 title: "Let's learn files & review dictionaries"
-published: false
+mode: In Person
+published: true
 ---
 
 # Q&A
