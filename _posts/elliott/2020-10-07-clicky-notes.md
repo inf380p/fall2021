@@ -3,7 +3,8 @@ layout: post
 author: elliott
 category: notes
 title: "Clickhack!"
-published: false
+mode: Remote
+published: true
 ---
 
 # Q & A

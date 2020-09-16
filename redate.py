@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os, re
 from pick import Picker, pick
 from collections import defaultdict
