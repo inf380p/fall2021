@@ -1,7 +1,7 @@
 ---
 layout: post
 author: luznette
-title: Janette's Turtle Hack
+title: "Janette's Turtle Hack"
 ---
 For this assignment, I wanted to work on arguments/statements that I did not fully understand. The program that I invisioned would give the user a few prompts to choose a background color, the color of the pen, and a shape to draw. After it drew the shape, I wanted it to ask the user if they wanted to draw again. If they chose "no", then the program would end. If they chose "yes", then the screen would clear and the prompts would come back up again until the user chose "no". For some reason, I could not figure out how to clear the screen before it drew again. At least it loops!
 
