@@ -1,7 +1,7 @@
 ---
 Layout: post
-author: Hesam
-title: "Hesam's Turtle Exercise"
+author: samandalib
+title: "Turtle Exercise for creating 3D texture"
 ---
 Here's the program I'm embeding:
 
