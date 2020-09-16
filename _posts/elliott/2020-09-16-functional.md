@@ -81,7 +81,7 @@ I never really got **parameter** vs **argument** until late in my career.  Now y
 Schedule:
 * Work on functional turtle assignment - 15m
 * Pair up and discuss - 15m
-* Wrap-up comments and looking ahead - 5-10m
+* Wrap-up comments, Looking ahead, and Survey - 5-10m
 
 Balance of time: Complete in-class or homework assignments
 
@@ -100,3 +100,10 @@ Clicky Turtles are on their way!  You'll need Chapter 2 of my video to learn abo
 # Homework: Treasure Hunt Turtles
 
 Check it out on the assignments page.  **Use your resources**
+
+# Please complete this survey!
+
+This will help inform the rest of the semester:
+https://docs.google.com/forms/d/e/1FAIpQLSfLeP97StyWrFa5DAdVLQ2DOsMhgQscDOemyJZPzDWh6URXJA/viewform?usp=sf_link
+
+Mark "N/A" of leave blank if questions don't apply to you or you don't have any feedback for me on that question.
