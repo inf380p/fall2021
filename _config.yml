@@ -64,6 +64,14 @@ authors:
     twitter: hauspoor
     about:  Elliott Hauser is an Assistant Professor at the UT Austin iSchool.  He's hacking education as one of the cofounders of Trinket.io.
 
+  MishaCienfuegos:
+    name: Misha Coleman
+    prof: true
+    gravatar:
+    website:
+    github: MishaCienfuegos
+    about:
+
   tommytester:
     name: Tommy Tester
     prof: false
@@ -162,15 +170,6 @@ authors:
     github: luznette
     twitter:
     about: "Here's a little about luznette"
-
-  Martinrb84:
-    name: Martinrb84
-    prof: false
-    gravatar:
-    website: "#"
-    github: Martinrb84
-    twitter:
-    about: "Here's a little about Martinrb84"
 
   pccisme:
     name: pccisme
