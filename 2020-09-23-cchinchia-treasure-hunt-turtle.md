@@ -4,7 +4,7 @@ author: cchinchia
 title: "Claire's Treasure Hunt Turtle"
 ---
 
-## Here's my turtlehack:
+## Here's my turtle:
 <iframe src="https://trinket.io/embed/python/63b162f68f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## Relection:
