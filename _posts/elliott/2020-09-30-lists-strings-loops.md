@@ -2,12 +2,15 @@
 author: elliott
 layout: post
 category: notes
-title: "Lists, Loops & Strings"
+title: "Pair Programming with Lists, Loops, & Strings"
 mode: Remote
 ---
 
 # Q&A
 
+* TBD
+
+{% comment %}
 * What's `.md` stand for?  [Markdown](https://guides.github.com/features/mastering-markdown/) (as opposed to markup- get it?).  Here's another [cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html)
 * List indices
 * `Ctrl-/` is your friend
@@ -23,6 +26,8 @@ mode: Remote
 * program flow & breaking
 * Reminder on help
 * `None < 1`, truthiness, and other wierdness
+
+{% endcomment %}
 
 # Escape Velocity
 
