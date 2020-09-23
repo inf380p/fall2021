@@ -7,4 +7,4 @@ The while loops and try statements really started to make sense to me with this 
 
 I had a few issues with saving my assignment the first time, which made me have to start over and work on the project from start to finish. This also probably caused some lack of creativity and made me just want to make it work with the minimum requirements. I would have liked to spend some more time playing with click events and making my initial idea a reality. I will make sure that my assignment is properly saved next time in order to avoid that headache!
 
-<iframe src="https://trinket.io/embed/python/428b61c672" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/428b61c672" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
