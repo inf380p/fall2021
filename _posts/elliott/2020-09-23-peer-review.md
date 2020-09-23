@@ -44,7 +44,7 @@ Any other thoughts or things we should discuss as a group?
 
 # September 30th we will be Remote
 
-You're *welcome* to come use the classroom during our schdeuled time if that helps you have a clear time and place to work.
+You're **welcome** to come use the classroom during our schdeuled time if that helps you have a clear time and place to work. Please **reach out** if there's anything I can do to help regarding your situation.
 
 We will revisit the modality of October 14th, our next scheduled in-person class, closer to that date.
 
@@ -60,6 +60,7 @@ link for more info on **return values**, **scope**, and any other concepts that 
 General:
 * **Drafts** & **Saving in Trinket** - 1) Make a Copy of a trinket if you want to revise it! 2) make sure you press Save after editing, especially if you've already embedded it somewhere.
 * I make mistakes and forget things! It's always OK to remind me or ask questions.
+* Use my office hours! And ask me if I need to open up more space.
 
 Left over from last time:
 * What's the deal with `i` in `for i in range(4)`?
