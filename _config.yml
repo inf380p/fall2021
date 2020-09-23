@@ -180,6 +180,24 @@ authors:
     twitter:
     about: "Here's a little about pccisme"
 
+  samandalib:
+    name: samandalib
+    prof: false
+    gravatar:
+    website: "#"
+    github: samandalib
+    twitter:
+    about: "Here's a little about samandalib"
+
+  shwetashambhavi:
+    name: shwetashambhavi
+    prof: false
+    gravatar:
+    website: "#"
+    github: shwetashambhavi
+    twitter:
+    about: "Here's a little about shwetashambhavi"
+
   spaceranger-23:
     name: spaceranger-23
     prof: false
