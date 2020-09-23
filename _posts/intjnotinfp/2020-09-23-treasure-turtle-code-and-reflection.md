@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <yourgithubname>
+author: intjnotinfp
 title: "intjnotinfp's Treasure Turtle code and reflection"
 ---
 
