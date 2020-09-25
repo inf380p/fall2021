@@ -1,5 +1,5 @@
 ---
-author: eakita
+author: EAkita
 layout: post
 title: "Eakita's logical turtle post!"
 ---
