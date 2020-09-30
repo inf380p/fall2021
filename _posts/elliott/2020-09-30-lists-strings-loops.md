@@ -13,8 +13,7 @@ Use Markdown in your posts!
 * Here's another [Markdown cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html)
 
 Study Session Thursdays
-* 2pm, https://utexas.zoom.us/my/hauser
-
+* 2pm: [https://utexas.zoom.us/j/92804583910](https://utexas.zoom.us/j/92804583910)
 
 # Escape Velocity
 
@@ -51,9 +50,11 @@ First, a [warmup]({{ site.baseurl }}/exercise/gerund-challenge.html). I'll navig
 
 Next, more exercises.  Complete these in a pair programming style, then have both partners submit the same code. [Let's go!]({{ site.baseurl }}/exercise/ch8-more.html)
 
-**For extra credit**, submit your work as a coauthored post.
 
-# Next Time
+
+# Next Time (see materials page for descriptions)
+
+**For extra credit**, submit your work as a coauthored post.
 
 **Clickyhack turtle.**
 
