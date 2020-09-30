@@ -4,6 +4,10 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
+{% if page.mode == "Remote" %}
+Join our <a href="{{ site.zoom_url }}">Zoom room</a>
+{% endif %}
+
 <p>
 {% if page.categories contains "exercise" and page.author.prof == true %}
 
