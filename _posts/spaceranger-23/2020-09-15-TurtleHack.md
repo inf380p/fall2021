@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Spaceranger-23
+author: spaceranger-23
 title: "Spaceranger-23 TurtleHack Exercise" 
 ---
 
