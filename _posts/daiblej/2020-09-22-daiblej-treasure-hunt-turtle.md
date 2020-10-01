@@ -13,3 +13,6 @@ The first thing I need to do is avoiding the wrong input. I think input x and y 
 Another thing I learned is the `abs()`. With abs, the distance calculation becomes much easier. I also give notification to their distance input. It makes the whole code more user-friendly to our users. I'm also surprised about the `user_has_won`. With the hint true and false, I quickly know how to end the loop.
 Overall, it's a good practice for me. I would love to know how to solve my loop problem in future classes.
 :turtle:
+
+** Here is my new version after the class**
+<iframe src="https://trinket.io/embed/python/1db2c0d95c" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
