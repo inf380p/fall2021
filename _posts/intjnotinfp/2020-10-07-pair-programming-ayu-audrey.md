@@ -32,3 +32,8 @@ Later on, I tried driving and I was glad that we both tried both roles. It's a l
 One thing that was really great about working with Ayu was how we could play off each other's suggestions to problem solve and find resources. Neither of us knew how to sort alphabetically, so we looked that up. We learned that capitalized items sort first and then lowercase items sort, so a capial-Z word would come before a lowercase-A word. Good to know!
 ---
 Reflection (Ayu):
+
+
+
+Co-authored-by: a-larasati
+Co-authored-by: intjnotinfp
