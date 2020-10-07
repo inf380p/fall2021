@@ -3,7 +3,7 @@ author:
 - KJEZ35
 - daiblej
 layout: post
-title: Kevin and Janet's Pair Programming Reflection 
+title: "Kevin and Janet's Pair Programming Reflection" 
 ---
 
 Problem 4: 
