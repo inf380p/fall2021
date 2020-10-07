@@ -9,7 +9,8 @@ While figuring out the textbook alone has been a big struggle for me, I have had
 
 Another aspect that is still confusing/fuzzy to me is having multiple ways of implementing certain things. Or in other words, many ways to write code. I am struggling between writing code that works and gets the assingment done, and exploring the "best" way to write it so that other people who look at my code can make sense of it. What will make python do less "work" as it runs the code?
 For example, the following code that I've written before essentially does the same thing, but the bottom example I believe is "better written":
-```print ("Hello, my name is Tina. Today we are drawing shapes.")
+```python
+print ("Hello, my name is Tina. Today we are drawing shapes.")
 thisShape = instructions()
 draw(thisShape)
 ask = input("Would you like to draw again? (Yes or No):")
@@ -23,7 +24,8 @@ else:
   
   versus
   
-  ```print ("Hello, my name is Tina. Today we are drawing shapes.")
+  ```python
+  print ("Hello, my name is Tina. Today we are drawing shapes.")
 ask = yes
 while ask=="yes" or ask=="Yes":
   thisShape = instructions()
