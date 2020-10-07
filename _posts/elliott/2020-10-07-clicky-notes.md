@@ -26,11 +26,16 @@ published: true
 
 You know the drill.  Pair up, merge up, confirm the file is visible on the site. If not, work together to determine why. Take a break once all partners' work is displaying on the site. Reconvene at the agreed-upon time.
 
+**If you have changes requested on your reflection pull request, address them during a break**
+
 # Clicky Turtle Discussion
 
 First, let's review the [starter code]({{ site.baseurl }}/exercise/clicky-turtles.html).
 
 Then, in new pairs, play with and discuss each other's work!
+
+
+**If you have changes requested on your reflection pull request, address them during a break**
 
 # Part II: Pair up & Make a Name For Yourself
 
@@ -39,6 +44,8 @@ Our class website runs off of a config file.  Time to tell us who you are (or wa
 Reminder: your public activities in this class can be pseudonymous if you want them to be. You can, but don't have to, include personal information in your bio, display name, and links.
 
 It's [here]({{ site.baseurl }}/exercise/make-a-name-for-yourself.html)
+
+**If you have changes requested on your reflection pull request, address them during a break**
 
 # Part III: Reflecting
 
