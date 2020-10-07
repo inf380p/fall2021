@@ -11,6 +11,7 @@ published: true
 
 * Study session update
 * Moving midterm back to Nov 4th
+* REMOTE class next week
 
 # Pair Programming Review
 
