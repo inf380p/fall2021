@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jasfromnz
-title: “jasfromnz’s class reflection”
+title: "jasfromnz’s class reflection"
 ---
 
 When I first started this class, I was excited to have a more structured opportunity to learn Python, but I was apprehensive about understanding and remembering syntax, because that had always been the biggest challenge for me when I had previously tried to teach myself Python. At first, that was my most common mistake in my programs, and I repeated a lot of the same errors, like forgetting colons at the end of conditional statements. However, as the semester has gone on I’ve noticed that I’ve started to make fewer mistakes, and more importantly, when I do make errors I’m able to identify and fix them much more quickly. As I’ve gotten more practice coding, I have also been to figure out issues I got stuck on previously. For example, I had trouble using logical operators in conditional statements when I was working on the Logical Turtles assignment, and in the end just changed my program to avoid the issue. Later, when working on the Turtle Hack assignment, I encountered the same problem- but this time, I realized that I had failed to write complete statements on either side of the logical operator.
