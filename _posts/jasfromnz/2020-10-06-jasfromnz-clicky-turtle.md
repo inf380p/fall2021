@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jasfromnz
-title: “jasfromnz’s Clicky Turtle”
+title: "jasfromnz’s Clicky Turtle"
 ---
 
 Here’s my Clicky Turtle project:
