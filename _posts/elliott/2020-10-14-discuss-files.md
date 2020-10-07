@@ -3,7 +3,7 @@ author: elliott
 category: notes
 layout: post
 title: "Let's learn files & review dictionaries"
-mode: In Person
+mode: Remote
 published: true
 ---
 
