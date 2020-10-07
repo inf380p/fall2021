@@ -43,6 +43,8 @@ Our class website runs off of a config file.  Time to tell us who you are (or wa
 
 Reminder: your public activities in this class can be pseudonymous if you want them to be. You can, but don't have to, include personal information in your bio, display name, and links.
 
+First: let's have a demo!
+
 It's [here]({{ site.baseurl }}/exercise/make-a-name-for-yourself.html)
 
 **If you have changes requested on your reflection pull request, address them during a break**
