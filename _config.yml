@@ -132,11 +132,11 @@ authors:
   EAkita:
     name: EAkita
     prof: false
-    gravatar:
-    website: "#"
+    #gravatar:
+    #website: "#"
     github: EAkita
-    twitter:
-    about: "Here's a little about EAkita"
+    #twitter:
+    about: "I'm a first year PhD Mechanical Engineering student here at UT, focused on developing automation systems for Oil and Gas applications. My software knowledge is scattered all over the place, so I'm excited to be in this class and build solid fundamentals".
 
   intjnotinfp:
     name: intjnotinfp
