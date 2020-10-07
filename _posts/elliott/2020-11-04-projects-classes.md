@@ -3,7 +3,7 @@ author: elliott
 category: notes
 title: "Project Ideas +  Classes"
 layout: post
-published: false
+published: true
 ---
 
 # Q&A
@@ -32,6 +32,8 @@ Remember my video?  There's a chapter on using dictionaries in Turtle!
 There's also an example game with levels.
 
 # Permanent Groups
+
+We'll be in permanent project accountability groups from now on out. Here they are:
 
 {% include groups %}
 
