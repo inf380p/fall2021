@@ -7,6 +7,16 @@ title: "Brittany's reflection on the class so far"
 I think a lot of lightbulbs went off when I was able to create my custom turtle exerise. I think that was becasue I was able to practice the same skills over and over again and it was a really fun creative project. 
 <iframe src="https://trinket.io/embed/python/234ba0a62b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
+For a while I was really confused by what goes into the () in a functioned until I saw:
+```python
+def go_draw_circle(x, y, size):
+    tina.penup()
+    tina.goto(x,y)
+    tina.circle(size)
+    tina.pendown()
+```
+and then I realized that if there is a variable that would go into the (). However, I had a lot of issues with a function this week with my clicky turtle exercise and spent a lot of time on it but i think I was just feeling uncreative this weekend and need a few days away to think about it becuase it feels like I am making an obvious mistake. 
+
 What's still fuzzy?I think the material that we have covered over the past couple of weeks is definitely still the fuzziest and part of that may be just because it is more complex/or we've covered more content than other weeks. I think what would help with that is 1. practice so if you have a site you would recommend or may some extra optional exercises that might help me and 2. I think if we get a study group going on Thursdays that would be super helpful. I think I end up learning the most when we go over exercises and problems as a class.
 An example of what is still fuzzy. When Claire and I were working on our pair project we used:
 ```python
