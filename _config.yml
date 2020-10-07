@@ -9,7 +9,7 @@ kramdown:
 
 future: true
 
-timezone: America/New_York
+timezone: America/Chicago
 
 github_repo_url: https://github.com/inf380p/inf380p.github.io
 gitter_room: inf380p/fall2020
@@ -64,7 +64,7 @@ authors:
     website: http://www.elliotthauser.com
     github: eah13
     twitter: hauspoor
-    about:  Elliott Hauser is an Assistant Professor at the UT Austin iSchool.  He's hacking education as one of the cofounders of Trinket.io.
+    about:  "Elliott Hauser is an Assistant Professor at the UT Austin iSchool.  He's hacking education as one of the cofounders of Trinket.io."
 
   MishaCienfuegos:
     name: Misha Coleman
