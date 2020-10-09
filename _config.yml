@@ -90,7 +90,7 @@ authors:
     gravatar:
     website: "#"
     github: a-larasati
-    twitter: 
+    twitter:
     about: "Ayu is a second-year graduate student at the iSchool focusing on UX Design and HCI. She enjoy baking and makes fantastic chocolate chip cookies."
 
   bmb4227:
@@ -108,7 +108,7 @@ authors:
     gravatar:
     website: "https://www.youtube.com/watch?v=r3-Y31ONZuI&list=LL&index=8"
     github: brianna-stedman
-    twitter: 
+    twitter:
     about: "Brianna is a 2nd year MIS student in the iSchool. She is a Tennessee native who enjoys hassling her two cats, reading YA novels, painting, and using code to accomplish silly, meaningless things."
 
   cchinchia:
@@ -127,16 +127,16 @@ authors:
     website: "#"
     github: daiblej
     twitter:
-    about: "Janet is a second-year master student in iSchool, learning UX design. 🎓"
+    about: "Janet is a second-year master student in iSchool, learning UX design. :mortar_board:"
 
   EAkita:
     name: EAkita
     prof: false
-    #gravatar:
-    #website: "#"
+    gravatar:
+    website: "#"
     github: EAkita
-    #twitter:
-    about: "I'm a first year PhD Mechanical Engineering student here at UT, focused on developing automation systems for Oil and Gas applications. My software knowledge is scattered all over the place, so I'm excited to be in this class and build solid fundamentals".
+    twitter:
+    about: "I'm a first year PhD Mechanical Engineering student here at UT, focused on developing automation systems for Oil and Gas applications. My software knowledge is scattered all over the place, so I'm excited to be in this class and build solid fundamentals"
 
   intjnotinfp:
     name: intjnotinfp

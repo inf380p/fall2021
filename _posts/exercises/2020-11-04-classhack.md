@@ -4,6 +4,7 @@ author: elliott
 categories:
   - exercise
 title: "Class Hack"
+inclass: true
 ---
 
 {% include prblurb %}
