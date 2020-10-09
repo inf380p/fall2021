@@ -4,6 +4,7 @@ category: notes
 title: "Project Ideas +  Classes"
 layout: post
 published: true
+mode: Remote
 ---
 
 # Q&A
