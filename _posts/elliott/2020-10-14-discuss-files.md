@@ -11,10 +11,6 @@ published: true
 
 **MEETUPS** - Do you have one?
 
-Some App stuff:
-
-- Attributes for specific turtles to make buttons
-
 # Python 3
 
 We'll be using Python 3 in Trinket for all text-based work.  Remember your `print()` functions.
@@ -26,7 +22,7 @@ We'll be using Python 3 in Trinket for all text-based work.  Remember your `prin
 You can make anonymous Python 3 trinkets on Trinket for free.  If you want the convenience of saving your
 Python 3 trinkets to your account, you should use code `inls560` to get our premium plan at a huge discount of $4.50 a month.
 
-# Files
+# Part I: Files
 
 There are a few core actions you should be able to perform on files:
 
@@ -36,7 +32,7 @@ There are a few core actions you should be able to perform on files:
 * Explore your data (not really Dr. Chuck)
 * Print a table from your data (not Dr. Chuck)
 
-We'll do all of these today.
+We'll review all of these today.
 
 Something Dr. Chuck didn't cover: the `with` statement.  This is the Pythonic way to open a file:
 
@@ -69,9 +65,19 @@ This one has five rows and three columns.
 
 To work with lists of lists you'll nee lots of **slicing** and **indexing**.  Remember the `list[x:y:z]` syntax.
 
-Let's get to work!  I recommend you read over questions 1-3 briefly and then go straight to exercise 4.  Let me orient you briefly.
+Let's read over questions 1-3 briefly and then go straight to exercise 4.
 
-# Dictionaries
+
+# Part II: App project Milestones
+
+In two weeks, your first multi-week project is due. Today we'll make milestones and next class we'll review your intiial progress.
+
+
+Let's review the assignment.
+
+Manual groups by Option 1, Drawing App, and Option 2, Blackjack App.
+
+# Part III: Dictionaries
 
 Dictionaries are like simple mini databases.  They're great at keeping track of statistics.
 
@@ -81,20 +87,6 @@ is a core data analysis skill.
 
 # Dictionary exercises today
 
-We'll spend the whole class working **together** on your homework.  I'm here. Use me.
-It's due 11:59pm tonight.  Finish in class or make plans to coordinate.
+We'll spend much of the class working **together** on your homework.  I'm here. Use me.
+It's not due until next class, but I recommend you finish as much as possible during class or make plans to coordinate.
 
-# Next time
-
-**Dictionary Exercises**
-
-More of the same!  Except now you're more skilled.
-
-**Take home, ungraded Mid-term**
-
-This is exactly the same as the other section of INLS 560.  Completing it will get you full credit, and knowing
-your numerical grade should give you a sense of whether you've gotten some of the basics.
-
-This is something that you should treat like a real test.  Review **Syntax**, **flow of control**,
-and **loops** in particular.  Trinket does a lot for you in terms of autocomplete and error detection but this will
-be a paper test with no feedback so make sure you're not too reliant on those crutches.  Try it closed notes and closed book first, then if you need to, look at some class resources and go back with a different color pen to correct your work.

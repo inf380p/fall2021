@@ -49,6 +49,12 @@ For homework, I want you to use this new knowledge to improve an existing trinke
 
 Volunteer for an example?
 
-# If there's time: Midterm Review
+# Final Projects Brainstorms
 
-Let's go over these questions.  Or we can do it next time.
+Time to make our final pairs & groups.
+
+* Pair up
+* Merge Final Idea
+* **Group Up** and discuss with your group
+
+Go around, state your proposed project, and work with the group to critique and strengthen it.  Ask questions of each other!  Take notes on how you'd revise your plan in light of the feedback you've gotten.  At the end of class or tonight, Revise your plan as described in assignments.

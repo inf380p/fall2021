@@ -1,9 +1,10 @@
 ---
 author: elliott
 category: notes
-title: "Review; Final Project"
+title: "Project Updates"
 layout: post
-published: false
+published: true
+mode: Remote
 ---
 
 # Q&A
@@ -16,6 +17,26 @@ published: false
 
 What is the structure (schema) of the request?  [Read the docs](https://developers.google.com/maps/documentation/geocoding/intro#GeocodingResponses).
 Why didn't I give you a link to the docs?
+
+
+# Project Update
+
+You know the drill.  This time, **use your snapshots**.
+
+* Pair up
+* Merge up
+* Stand up (not literally)
+
+During standup:
+
+* What did you say you'd do?
+* What did you actually do?
+* Show and tell your program
+* What will you do for next class?
+* Any problems?
+
+After everyone's done their update, revise your milestones (in your existing post) and **get your partner to merge your revisions**.
+
 
 # Pair up, Merge up, Scatergories
 
@@ -75,15 +96,6 @@ You can both modify existing classes and create your own.
 - **Attributes** are like **variables** that only apply to an object. Think of `tina.x`
 - **Methods**  are like **functions** that only can be called from an object.  Think of `tina.forward(100)
 
-# Final Projects Brainstorms
-
-Time to make our final pairs & groups.
-
-* Pair up
-* Merge Final Idea
-* **Group Up** and discuss with your group
-
-Go around, state your proposed project, and work with the group to critique and strengthen it.  Ask questions of each other!  Take notes on how you'd revise your plan in light of the feedback you've gotten.  At the end of class or tonight, Revise your plan as described in assignments.
 
 # For tomorrow
 
