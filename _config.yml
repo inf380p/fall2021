@@ -175,13 +175,13 @@ authors:
     about: "Janette Nunez is a second year dual degree student in Latin American Studies and Information Studies"
 
   pccisme:
-    name: pccisme
+    name: Patrick Chao
     prof: false
     gravatar:
-    website: "#"
+    website: "https://pchao.dev"
     github: pccisme
-    twitter:
-    about: "Here's a little about pccisme"
+    twitter: pccisme
+    about: "A 2nd year master's student in Information Studies at UT Austin. Let me know if you are trying to develope anything! I will be more than glad to discuss with you!"
 
   samandalib:
     name: Hesam Andalib
