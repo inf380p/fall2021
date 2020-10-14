@@ -20,7 +20,7 @@ We'll be using Python 3 in Trinket for all text-based work.  Remember your `prin
 `end='\n'` lets you specify what to do at the end of the print functin.  It defaults to a newline.
 
 You can make anonymous Python 3 trinkets on Trinket for free.  If you want the convenience of saving your
-Python 3 trinkets to your account, you should use code `inls560` to get our premium plan at a huge discount of $4.50 a month.
+Python 3 trinkets to your account, you should use code `INF380P` to get our premium plan at a huge discount of $4.50 a month.
 
 # Part I: Files
 
