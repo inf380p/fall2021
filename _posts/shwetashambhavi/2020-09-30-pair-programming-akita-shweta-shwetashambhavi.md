@@ -12,7 +12,7 @@ Exercise 4 embedded trinket code:
 
 ---
 Exercise 5 embedded trinket code:
-<iframe src="https://trinket.io/embed/python/db5f2acbd8" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/9a88a39639" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ---
 
 ---
