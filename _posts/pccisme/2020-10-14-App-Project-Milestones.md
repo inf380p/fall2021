@@ -4,12 +4,13 @@ author: pccisme
 title: "Patrick's App Project Milestones"
 ---
 
-My code would be embeded here.
+## Code:
+(My code would be embeded here.)
 
-Project description:
+## Project description:
 I am going to create a blackjack app as my project!
 
-Initial list:
+## Initial list:
 - [ ] Build a text-based interface
 - [ ] Initialize the game
 - [ ] Create get_player_score function
