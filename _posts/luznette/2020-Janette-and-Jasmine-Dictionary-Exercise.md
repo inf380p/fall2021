@@ -3,7 +3,7 @@ layout: post
 author:
 - luznette
 - jasfromnz
-title: "Dictionary Exercise"
+title: "Jasmine and Janette's Dictionary Exercise"
 ---
 For this excercise, the first half was a lot easier than the second. We were able to use the chapters from our assignments, but eventually had to search up videos and search issues on stackoverflow. To solve the bad price data in sales.csv we did the following:
 ```python
