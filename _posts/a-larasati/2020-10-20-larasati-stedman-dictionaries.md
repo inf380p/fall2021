@@ -31,7 +31,7 @@ for state in sorted(transactions_by_state.keys()):
   print(state + '\t' + str(transactions_by_state[state]))
 ```
 
-At it's core, we wanted to count the number of times a state name appears because each appearance of a state indicates a transaction in that state. If a `state` hasn't been added to the dictionary, the code adds the `state` to the dictionary and gives it a count of 1 as the number of transactions that has happened. Once a `state` has been added to the dictionary, the next instances that the specific `state` appears, the code adds 1 to the count.
+At its core, we wanted to count the number of times a state name appears because each appearance of a state indicates a transaction in that state. If a `state` hasn't been added to the dictionary, the code adds the `state` to the dictionary and gives it a count of 1 as the number of transactions that has happened. Once a `state` has been added to the dictionary, the next instances that the specific `state` appears, the code adds 1 to the count.
 
 I had to look up how to print a table separated by tabs, and that was just adding `'\t'` into the print statement.
 
@@ -64,3 +64,8 @@ I had to look up how to write a dictionary within a dictionary, or at least what
 I think remembering the differences between a `string` and a `variable` as related to dictionaries and when to call each one when using a dictionary was something I struggled with. I can't say for sure if I figured out a surefire way to remember which one to call because I kind of brute-forced my way through parts of the code.
 
 #### Brianna's Reflection
+Like Ayu said, this exercise did take some time, but I felt like it did a good job combining the last few chapters of things we had been learning (both lists and dictionaries from chapters 8 and 9). Ayu broke out the code above, but for the first list of dictionaries, one of the biggest challenges while joint-coding (for me) was something super simple, just remembering what our variable names were! A big downside to piecing together different code examples - I found the example code in the "Advanced Text Parsing" section of chapter 9 to be super helpful for accomplishing the first ask of the example, but only after paring it down, renaming aliases, and cleaning up the line splits, etc.  
+
+I was absent the first week that we did partner coding in class, so this was my first experience with having a "driver" and a "navigator." I really liked coding in this way, I found it SO much easier to troubleshoot with two people brainstorming, and catch small mistakes with two sets of eyes on the code. I also think it's valuable to see the ways that my coding partners troubleshoot, such as what resources they might use to try to find a creative solution. 
+
+I also noticed that it never really worked out well when either one of us went off to research/write out our own ideas without talking them through; talking through what I was typing as I was typing it helped Ayu catch some of the mistakes I was making as I was writing. I'm a big fan of completing exercises this way, I think I just need to be more on top of meeting up a second or third time to make sure everything works before class. 
