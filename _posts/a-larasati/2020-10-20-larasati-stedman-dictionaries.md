@@ -69,3 +69,7 @@ Like Ayu said, this exercise did take some time, but I felt like it did a good j
 I was absent the first week that we did partner coding in class, so this was my first experience with having a "driver" and a "navigator." I really liked coding in this way, I found it SO much easier to troubleshoot with two people brainstorming, and catch small mistakes with two sets of eyes on the code. I also think it's valuable to see the ways that my coding partners troubleshoot, such as what resources they might use to try to find a creative solution. 
 
 I also noticed that it never really worked out well when either one of us went off to research/write out our own ideas without talking them through; talking through what I was typing as I was typing it helped Ayu catch some of the mistakes I was making as I was writing. I'm a big fan of completing exercises this way, I think I just need to be more on top of meeting up a second or third time to make sure everything works before class. 
+
+One area we'd like to hopefully expand on is figuring out a way to remove the blank state lines in the sales.csv. We noticed there were two instances in which there was a country but not a state name, so of course we want to count those lines, but since it's a different index, we would need to come up with some sort of nested "if" statement to check for whether the 6th index (state) is null or not, and if null, take the country (7th index) instead. We didn't have time to finish this before class, but it's an area of interest in the future. 
+
+
