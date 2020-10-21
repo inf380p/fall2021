@@ -1,6 +1,6 @@
 ---
 layout: post
-author: eakita
+author: EAkita
 title: "EAkita's reflection for the second class!"
 ---
 

@@ -9,10 +9,11 @@ kramdown:
 
 future: true
 
-timezone: America/New_York
+timezone: America/Chicago
 
 github_repo_url: https://github.com/inf380p/inf380p.github.io
 gitter_room: inf380p/fall2020
+zoom_url: https://utexas.zoom.us/j/97095588089
 
 plugins:
   - jemoji
@@ -52,6 +53,7 @@ course:
   title: Introduction to Programming
   number: INF 380P
   instructor: Prof. Elliott Hauser
+  ta: Misha Coleman
   semester: Fall 2020
 
 authors:
@@ -62,7 +64,7 @@ authors:
     website: http://www.elliotthauser.com
     github: eah13
     twitter: hauspoor
-    about:  Elliott Hauser is an Assistant Professor at the UT Austin iSchool.  He's hacking education as one of the cofounders of Trinket.io.
+    about:  "Elliott Hauser is an Assistant Professor at the UT Austin iSchool.  He's hacking education as one of the cofounders of Trinket.io."
 
   MishaCienfuegos:
     name: Misha Coleman
@@ -70,7 +72,8 @@ authors:
     gravatar:
     website:
     github: MishaCienfuegos
-    about:
+    twitter: mishacienfuegos
+    about: "Misha is the Teaching Assistant, in her first semester of the MSIS program at the iSchool. Previously, she worked as a software developer, learning to code on the job. She loves exploring the world by bike! :bike:"
 
   tommytester:
     name: Tommy Tester
@@ -88,43 +91,43 @@ authors:
     website: "#"
     github: a-larasati
     twitter:
-    about: "Here's a little about a-larasati"
+    about: "Ayu is a second-year graduate student at the iSchool focusing on UX Design and HCI. She enjoy baking and makes fantastic chocolate chip cookies."
 
   bmb4227:
-    name: bmb4227
+    name: Brittany Bratcher
     prof: false
     gravatar:
     website: "#"
     github: bmb4227
     twitter:
-    about: "Here's a little about bmb4227"
+    about: "Brittany is a Graduate Research Associate at the Harry Ransom Center and in her second year at the MSIS program at the University of Texas at Austin."
 
   brianna-stedman:
-    name: brianna-stedman
+    name: Brianna Stedman
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.youtube.com/watch?v=r3-Y31ONZuI&list=LL&index=8"
     github: brianna-stedman
-    twitter:
-    about: "Here's a little about brianna-stedman"
+    twitter: "https://twitter.com/briannastedman"
+    about: "Brianna is a 2nd year MIS student in the iSchool. She is a Tennessee native who enjoys hassling her two cats, reading YA novels, painting, and using code to accomplish silly, meaningless things."
 
   cchinchia:
-    name: cchinchia
+    name: Claire Chang
     prof: false
     gravatar:
     website: "#"
     github: cchinchia
     twitter:
-    about: "Here's a little about cchinchia"
+    about: "Claire is a 2nd year student at UT Austin iSchool."
 
   daiblej:
-    name: daiblej
+    name: Janet Dai
     prof: false
     gravatar:
     website: "#"
     github: daiblej
     twitter:
-    about: "Here's a little about daiblej"
+    about: "Janet is a second-year master student in iSchool, learning UX design. :mortar_board:"
 
   EAkita:
     name: EAkita
@@ -133,7 +136,7 @@ authors:
     website: "#"
     github: EAkita
     twitter:
-    about: "Here's a little about EAkita"
+    about: "I'm a first year PhD Mechanical Engineering student here at UT, focused on developing automation systems for Oil and Gas applications. My software knowledge is scattered all over the place, so I'm excited to be in this class and build solid fundamentals"
 
   intjnotinfp:
     name: intjnotinfp
@@ -145,13 +148,13 @@ authors:
     about: "Here's a little about intjnotinfp"
 
   jasfromnz:
-    name: jasfromnz
+    name: Jasmine Guy
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     github: jasfromnz
-    twitter:
-    about: "Here's a little about jasfromnz"
+    twitter: jasfromnz
+    about: "Jasmine is a first year graduate student at the UT Austin iSchool."
 
   KJEZ35:
     name: KJEZ35
@@ -163,31 +166,49 @@ authors:
     about: "Here's a little about KJEZ35"
 
   luznette:
-    name: luznette
+    name: Janette Nunez
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.youtube.com/watch?v=9Yrt9qkBQ2Q&t=20s"
     github: luznette
-    twitter:
-    about: "Here's a little about luznette"
+    twitter: luzjanettenunez
+    about: "Janette Nunez is a second year dual degree student in Latin American Studies and Information Studies"
 
   pccisme:
-    name: pccisme
+    name: Patrick Chao
+    prof: false
+    gravatar:
+    website: "https://pchao.dev"
+    github: pccisme
+    twitter: pccisme
+    about: "A 2nd year master's student in Information Studies at UT Austin. Let me know if you are trying to develope anything! I will be more than glad to discuss with you!"
+
+  samandalib:
+    name: Hesam Andalib
+    prof: false
+    gravatar:
+    website: "https://www.hesamandalib.com"
+    github: samandalib
+    twitter:
+    about: "Hi! I am a passionate designer with experience and interest in designing human-centered digital products ranging from mobile applications to immersive XR experiences. I like to code and engineer things but don't consider myself a programmer. I am always open to explore new areas and employ my findings in real world projects that many people can benefit from."
+
+  shwetashambhavi:
+    name: shwetashambhavi
     prof: false
     gravatar:
     website: "#"
-    github: pccisme
+    github: shwetashambhavi
     twitter:
-    about: "Here's a little about pccisme"
+    about: "Here's a little about shwetashambhavi"
 
   spaceranger-23:
-    name: spaceranger-23
+    name: Reginald Evans 
     prof: false
     gravatar:
     website: "#"
     github: spaceranger-23
-    twitter:
-    about: "Here's a little about spaceranger-23"
+    twitter: RE3GIE
+    about: "Reginlad is a second year student with the MSIS program at the University of Texas at Austin. His career aspirations consist of becoming a cyber security/software developer in the near future. In his off time, Reginald likes spend his time running at outdoors trails and with his family."
 
 baseurl:
 url:

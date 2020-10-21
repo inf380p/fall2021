@@ -37,6 +37,10 @@ by
 {% endif %}
 </p> <!-- /.byline -->
 
+{% if page.mode == "Remote" %}
+<p>Join our <a href="{{ site.zoom_url }}">Zoom room</a> at the start of class.</p>
+{% endif %}
+
 
 <div class="post">
 {{ content }}

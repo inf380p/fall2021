@@ -2,47 +2,59 @@
 author: elliott
 layout: post
 category: notes
-title: "Lists, Loops & Strings"
-mode: In Person
+title: "Pair Programming with Lists, Loops, & Strings"
+mode: Remote
 ---
 
 # Q&A
 
-* What's `.md` stand for?  [Markdown](https://guides.github.com/features/mastering-markdown/) (as opposed to markup- get it?).  Here's another [cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html)
-* List indices
-* `Ctrl-/` is your friend
-* While True, continue and break
+Use Markdown in your posts!
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) (as opposed to markup- get it?).
+* Here's another [Markdown cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html)
 
-<iframe src="https://trinket.io/embed/python/44b5d714de" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-* what `try`/`except` does to your program
-
-<iframe src="https://trinket.io/embed/python/4b205b50d7" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-* sum & python keywords: don't pick special words for your variables!
-* program flow & breaking
-* Reminder on help
-* `None < 1`, truthiness, and other wierdness
+Study Session Thursdays
+* 2pm: [https://utexas.zoom.us/j/92804583910](https://utexas.zoom.us/j/92804583910)
 
 # Escape Velocity
 
 My goal for all of you is to get you into orbit, able to keep learning on your own and
 ready for a wide range of new technologies.  Let's recalibrate what success means.
 
-# Today
+# Part I
 
-Review the *boatload* of homework you did.  Now.
+Some code examples to start us off
+* While True, continue and break
+
+<iframe src="https://trinket.io/embed/python/cb75ea4a3f" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+* what `try`/`except` does to your program
+
+<iframe src="https://trinket.io/embed/python/4b205b50d7" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+* use **list and string operations, methods, and functions** to do the hard work for you. This is why we have data types!
+
+<iframe src="https://trinket.io/embed/python3/9270d866e0" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Let's review the *boatload* of homework you did.  Now.
+
+# Part II
 
 We're doing more chapter 8 exercises, but more importantly we're learning
 a technique called **pair programming**.  This is both a real technique used
 by professional programmers and a learning strategy that's been shown to
 improve outcomes.  Double win!
 
-First, a [warmup]({{ site.baseurl }}/exercise/gerund-challenge.html)
+First, a [warmup]({{ site.baseurl }}/exercise/gerund-challenge.html). I'll navigate.
+
+# Part III
 
 Next, more exercises.  Complete these in a pair programming style, then have both partners submit the same code. [Let's go!]({{ site.baseurl }}/exercise/ch8-more.html)
 
-# Next Time
+
+
+# Next Time (see materials page for descriptions)
+
+**For extra credit**, submit your work as a coauthored post.
 
 **Clickyhack turtle.**
 

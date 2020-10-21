@@ -3,16 +3,17 @@ author: elliott
 category: notes
 title: "LDOC!"
 layout: post
-published: false
+published: true
+mode: Remote
 ---
 
 Happy Last Day Of Classes!
 
-More to follow..
+More to follow.
 
+{% comment %}
 # Q & A
 
-* [Sneak peek](https://brian-dev.trinket.io/embed/pygame/eeedfef01ee)
 * Strategies for everyone's code:
   * encapsulate 'naked' code
   * Group like things into Classes.  Variables => Attributes  Functions => Methods etc.
@@ -21,7 +22,6 @@ More to follow..
   * Your main.py file should succinctly communicate what your program does **overall**.
   * Tweak/iterate.  Analysts: this means thinking of new ways to view your data.  Turtlers: this means small alterations to your games that make them more fun
   * Everyone: make sure your interfaces are **robust** and **graceful**.
-* :notes: - [Memories](https://silshack.github.io/summer2018/before-picture.html) - :notes:
 
 # Thank You!
 
@@ -38,9 +38,9 @@ update to share: [eah13@mac.com](mailto:eah13@mac.com)
 - [Kickstarters like this one](https://www.kickstarter.com/projects/lesbianswhotech/the-lesbians-who-techs-edie-windsor-coding-scholar) are
 a direct way to improve diversity in our field.
 - Be an ally for an underrepresented group!
-- Think about how wider events like NC HB2 [impact our field](http://www.exitevent.com/article/why-trinket-against-north-carolina-hb2-160425).  Like a program, our field is yours; make it what you want it to be!
 
-# Keep silshacking!
+
+# Keep hacking!
 
 Paul Graham has written that the way to win at startups is the same as the way to not losing - [Don't Die](http://www.paulgraham.com/die.html).  In
 other words, the main criterion of success is whether you keep going.  I think this is exactly analogous to success - whatever that means to you-
@@ -61,3 +61,5 @@ perfecting the details.  If you're not, use your group to make sure you've got a
 
 
 {% include groups %}
+
+{% endcomment %}

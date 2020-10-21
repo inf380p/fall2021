@@ -7,9 +7,15 @@ title: "Syllabus"
 
 Subject to revision during the first week of class.
 
-<h3>{{ site.course.number }}: {{ site.course.title }}</h3>
+<h3>{{ site.course.number }}: {{ site.course.title }}{% if site.course.semester %}, {{ site.course.semester }}{% endif %}</h3>
+
+
 
 Instructor: {{ site.course.instructor }}
+
+{% if site.course.ta %}
+Teaching Assistant: {{ site.course.ta }}
+{% endif %}
 
 Office hours: [Schedule here](http://bit.ly/hauserofficehours) (UTMail or google account required), or contact me.
 

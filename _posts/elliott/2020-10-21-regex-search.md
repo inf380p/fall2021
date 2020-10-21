@@ -6,6 +6,7 @@ title: "Regex & basic search"
 published: false
 ---
 
+
 # Q & A
 
 * Please turn things in on time!  Zeros are no fun.  The assignments list is your friend.
