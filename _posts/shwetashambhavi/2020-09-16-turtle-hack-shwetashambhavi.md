@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Shweta Shambhavi
+author: shwetashambhavi
 title: "Turtle Hack Post"
 ---
 
