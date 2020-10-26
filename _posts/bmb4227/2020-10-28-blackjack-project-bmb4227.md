@@ -43,6 +43,7 @@ After my first attempt at the blackjack program, I edited my milestone list:
 - [ ] Show user cards
 - [ ] Show user total score
 - [ ] Deal two cards to dealers and calculate score
+- [ ] If Dealer's score is less than 16 keep drawing cards
 - [ ] Don't show score until a user chooses to stay
 - [ ] Show user one of the dealers cards so that they know whether to hit or not
 - [ ] Get user input to hit or stay
@@ -52,5 +53,7 @@ After my first attempt at the blackjack program, I edited my milestone list:
 - [ ] Tell user what score is
 - [ ] Calculate whether the dealer or the user wins
 
+I found that adding just a few additional rules like making sure the dealer continued to draw until they reached above 16 made the game more fun. Before I incorporated this rule the user almost always won which is great but not necesarily fun or surprising. I also started going back and cleaning up my program and trying to fulfill some of the other requirements. For example, defining a unique draw card function. Many of the issues I ran into during this process had to do with making sure that I was appending cards correctly and calculating the score with all of the cards that had been drawn. This just took a lot of trial and error and talking through what was added when. 
 
 ## Final Version of Project
+<iframe src="https://trinket.io/embed/python/024df48c89" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
