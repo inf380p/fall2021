@@ -1,7 +1,10 @@
+---
 layout: post
-author: EAkita
-title: "Discovery Drawing app !"
-
+author: <yourgithubname>
+title: "Yourname's first post!"
+---
+    
+    
 Embedded link:
 
 <iframe src="https://trinket.io/embed/python/fe1aedae83" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
