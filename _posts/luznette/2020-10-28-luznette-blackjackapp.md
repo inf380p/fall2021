@@ -27,7 +27,7 @@ answer = input("Do you want to HIT or STAY")
       elif answer == "STAY" or answer == "stay":
         dealer = get_dealer_score()
 ```
-I also kept forgetting to write ```elif`` and made an endless amount of ```if``` statements, which obviously did not work. I realized that I needed to look back at some previous chapters and youtube videos for a refresher on how certain parts are written.
+I also kept forgetting to write ```elif``` and made an endless amount of ```if``` statements, which obviously did not work. I realized that I needed to look back at some previous chapters and youtube videos for a refresher on how certain parts are written.
 
 Here is my updated milestones (new milestones are in bold, milestones that changed a bit are crossed out):
 [x]Welcomes the user, perhaps asks if they need instructions
@@ -36,7 +36,7 @@ Here is my updated milestones (new milestones are in bold, milestones that chang
 [x]**Create a while loop that enters and exits the entire game**
 [x]**Create a while loop that deals cards**
 [x]Allow the program to take in various types of inputs (spelling mistakes, upper case/lower case, etc)
-~~[x]Deals cards (gives two random numbers)~~
+~~[]Deals cards (gives two random numbers)~~
 [x]**Create custom functions for dealing cards to player, dealing cards to dealer, giving new cards to player and updates score**
 [x]**Add the possibility of the player drawing a J, Q, or K with a value of ten**
 [x]**Comment out the program**
