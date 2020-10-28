@@ -69,7 +69,7 @@ if player_coins == 0:
     print("You're out of coins! See you again next time!")
 ```
 
-Overall, I learned a lot throughout this process. I find that these more "structured" exercise gives me more confidence in what needs to be done, and the opportunity to expand on the basics allows me to explore possibilities of what I can do with the code I've written. For both versions, I had `import time` at the beginning because I wanted to use a time-delay function (`time.sleep()`) so that the feedback was a little spaced out; the user has a little time to digest the feedback given before having to give an input for the next prompt.
+Overall, I learned a lot throughout this process. I find that these more "structured" exercise gives me more confidence in what needs to be done, and the opportunity to expand on the basics allows me to explore possibilities of what I can do with the code I've written. For both versions, I had `import time` at the beginning because I wanted to use a time-delay function (`time.sleep()`) so that the feedback was a little spaced out; the user has a little time to digest the feedback given before having to give an input for the next prompt. Also, I worked on this project using VSCode first and then moved everything to Trinket; I wish at some point we're taught to use an IDE or a text editor because if I were to use these skills in the workplace, I wouldn't be using Trinket. Had a good experience with learning how to use terminal through it.
 
 #### Updated Milestones
 
