@@ -27,7 +27,7 @@ I decide to do the blackjack project, as currently, I am addicted in this poker 
   
 <iframe src="https://trinket.io/embed/python3/e9f7763f5a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 **Update**
-<iframe src="https://trinket.io/embed/python3/222445d566" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python3/60479f346e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 **Reflection**
 This is a super interesting challenge. As I mentioned before, blackjack is one of my favorite card games recently. I knew how to play the game and thought the rule was not complicated. However, when I started to list the milestones, I found it is totally different from my mind. It's not a straight flow and has some tricky rules in special situations. Thus, I decided to first finish the basic rules: 
