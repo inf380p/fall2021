@@ -4,8 +4,11 @@ author: elliott
 category: notes
 title: "Code Talks; Diversity & Inclusion in Programming"
 published: true
-mode: In Person
+mode: Remote
 ---
+
+
+**Note: Class is remote, not in person. Our classroom remains available for any student who wants to use it to attend remote class.**
 
 # Q&A
 
