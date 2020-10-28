@@ -39,19 +39,19 @@ I had accidentally used p twice in the print statement and this was throwing off
 
 After my first attempt at the blackjack program, I edited my milestone list:
 
-- [ ] Deal  initial two cards to user
-- [ ] Show user cards
-- [ ] Show user total score
-- [ ] Deal two cards to dealers and calculate score
-- [ ] If Dealer's score is less than 16 keep drawing cards
-- [ ] Don't show score until a user chooses to stay
-- [ ] Show user one of the dealers cards so that they know whether to hit or not
-- [ ] Get user input to hit or stay
-- [ ] If user stays report score
-- [ ] If user hits deal a new card
-- [ ] Keep asking if the user wants to hit until they stay or bust
-- [ ] Tell user what score is
-- [ ] Calculate whether the dealer or the user wins
+- [x] Deal  initial two cards to user
+- [x] Show user cards
+- [x] Show user total score
+- [x] Deal two cards to dealers and calculate score
+- [x] If Dealer's score is less than 16 keep drawing cards
+- [x] Don't show score until a user chooses to stay
+- [x] Show user one of the dealers cards so that they know whether to hit or not
+- [x] Get user input to hit or stay
+- [x] If user stays report score
+- [x] If user hits deal a new card
+- [x] Keep asking if the user wants to hit until they stay or bust
+- [x] Tell user what score is
+- [x] Calculate whether the dealer or the user wins
 
 I found that adding just a few additional rules like making sure the dealer continued to draw until they reached above 16 made the game more fun. Before I incorporated this rule the user almost always won which is great but not necesarily fun or surprising. I also started going back and cleaning up my program and trying to fulfill some of the other requirements. For example, defining a unique draw card function. Many of the issues I ran into during this process had to do with making sure that I was appending cards correctly and to the right list and calculating the score with all of the cards that had been drawn. This just took a lot of trial and error and talking through what was added when. I also at this point decided to add a function that converted a users input into all lower case letters so that YES,Yes,yes, yeS would all be accepted. If I had another week to work on this, I would make a lot of improvements. For example, I have a try and except so that the program will continue to ask the user if they want to play if they enter a bad value. This all works escept that I had also tried to have the program print "bad data" which seems to not be working. I hadn't realized my mistake until much later because the more important feature, continually asking until a correct value is entered, was working. I also would do things to make the dealing more accurate. For example, there is no limit on how many 1s or 2s you can draw in my game just a card between 1 and 10 is dealt. But in a real game of blackjack there would only be 4 1s. I would also like to figure out a way to represent an ace where the user could choose to use the card as either a 1 or 11. I think these small fixes would make the game more fun. 
 
