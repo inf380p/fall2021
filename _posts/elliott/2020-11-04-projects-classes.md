@@ -9,11 +9,9 @@ mode: Remote
 
 # Q&A
 
-- Phew!  We're done with non-final related exercises!
+- Phew!  After today, we're done with non-final related exercises!
 
-# Classhack review
 
-Pair up & Merge up.  Any questions?  Get them answered now.
 
 # Analysts
 
@@ -34,18 +32,16 @@ There's also an example game with levels.
 
 # Permanent Groups
 
-We'll be in permanent project accountability groups from now on out. Here they are:
+Time to make our final pairs & groups.
 
-{% include groups %}
+* Pair up
+* Merge Final Idea
+* **Group Up** and discuss with your group
 
-# For Next Time
+Go around, state your proposed project, and work with the group to critique and strengthen it.  Ask questions of each other!  Take notes on how you'd revise your plan in light of the feedback you've gotten.  At the end of class or tonight, Revise your plan as described in assignments.
 
-**Python and the Web**
+# Classhack: In class exercise
 
-A brief intro to this exercises
-
-**Project update and revised milestones/plan**
-
-Based on our in-class discussion, revise your milestones and work plan (todo list).  Also, **make a copy** of your project and post this copy in a pull request, as a snapshot of where you are.  Don't keep working on this snapshot.
+Work on this in class, and finish tonight if needed.
 
 

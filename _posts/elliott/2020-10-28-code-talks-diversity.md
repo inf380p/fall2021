@@ -12,9 +12,9 @@ mode: Remote
 
 # Q&A
 
-* App peer review & self refleciton cancelled.  Not enough time!
-* I will merge up your project ideas and provide feedback as I do.
-* Another batch of meetups!  Observations?
+* Who's attended a meetup yet?
+* Everyone's doing fine. Most of you are doing really well! What do you want to get out of the rest of the class? Use your projects to do that.
+* Midterm cancelled (unless there is a general outcry). I want you to focus on final project ideas.
 
 # Code Talks
 
@@ -24,9 +24,17 @@ First up: Turtle
 
 Next up: Blackjack
 
+Some topics to consider during your 3-4 minute code talk:
+
+- History and organization of your code
+- Features of your program
+- How your process (e.g. milestones) changed
+- What would you do if you were to **keep going** on this program?
+
+
 # Diversity & Inclusion in Programming: Group Discussion
 
-You have a new superpower.  SILSHack for good!
+You have a new superpower. Hack for good!
 
 The readings for today
 
@@ -40,7 +48,7 @@ Circle up & let's chat a bit.
 
 Classes are recipes for making objects.  They allow you to use familiar notation to define methods, similar to functions, and attributes, similar to variables.
 
-Here's an example you'll see in your reading:
+Here's an example:
 
 <iframe src="https://trinket.io/embed/python3/15442d2e1a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -48,16 +56,11 @@ You can also base classes on preexisting ones.  This is called **class extension
 
 <iframe src="https://trinket.io/embed/python/84d92ea244" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-For homework, I want you to use this new knowledge to improve an existing trinket, both by refactoring it and by adding some new feature using the abilities of classes.
+Next week, I'll ask you to use this new knowledge to improve an existing trinket, both by refactoring it and by adding some new feature using the abilities of classes.
 
 Volunteer for an example?
 
-# Final Projects Brainstorms
+# Final Project Ideas Next Week
 
-Time to make our final pairs & groups.
 
-* Pair up
-* Merge Final Idea
-* **Group Up** and discuss with your group
-
-Go around, state your proposed project, and work with the group to critique and strengthen it.  Ask questions of each other!  Take notes on how you'd revise your plan in light of the feedback you've gotten.  At the end of class or tonight, Revise your plan as described in assignments.
+Come with a pull request, ready to discuss & revise.
