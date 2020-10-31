@@ -1,7 +1,7 @@
 ---
 layout: post
 author:
-- shwetashambbhavi
+- shwetashambhavi
 - EAkita
 title: "Dictionary Pair Programming by Akita and Shweta"
 ---
