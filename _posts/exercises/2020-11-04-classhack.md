@@ -3,7 +3,7 @@ layout: post
 author: elliott
 categories:
   - exercise
-title: "Class Hack"
+title: "Extra Credit: Class Hack"
 inclass: true
 ---
 
