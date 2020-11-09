@@ -1,4 +1,5 @@
 ---
+layout: post
 author:
 - intjnotinfp
 - KJEZ35
