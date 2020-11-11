@@ -37,4 +37,12 @@ If and elif statements will be used in the while loop to help with the collision
 - [ ] Next would be building out the second level
 - [ ] Then would be building out the third level, and so on.
 
+For a more detailed milestones list: 
+
+NOV 11, 2020
+
+- [ ] Move my code over from Python 3 to Pygame 
+- [ ] Get the right number of turtles/cars I want to have one my screen
+- [ ] Next I want to have the cars that are moving horizontally
+
 
