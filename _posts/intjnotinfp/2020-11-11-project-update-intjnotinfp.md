@@ -14,6 +14,8 @@ title: "Audrey's Project Update"
 
 This past week I was able to get through "cataloging" a large portion of my library. Here's what the first draft of the CSV file looks like:
 
+<iframe src="https://trinket.io/embed/python/69a4ece1ca" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 title,author_last,author_first,year,publisher,ISBN,format,genre
 The House of the Seven Gables,Hawthorne,Nathaniel,1981,Viking Penguin,9780140390056,paperback,literary fiction
 The Possessed,Batuman,Elif,2010,"Farrar, Strass, & Giroux",9780374532185,paperback,?
@@ -61,3 +63,5 @@ Poetria nova,,Geoffrey of Vinsauf,2010,The Pontifical Institute of Medieval Stud
 Hopscotch,Cortazar,Julio,2014,Knopf,9780375712661,hardback,
 The Labyrinth of Solitude,Paz,Octavio,1961,Grove Press Inc.,394172426,paperback,
 Tales of Mystery and Imagination,Poe,Edgar Allen,1987,Franklin,,fine binding,
+
+I'm thinking about maybe ditching the "checker" function and just honing in on doing data analysis of my own holdings. I think I was a little bit too ambitious in that regard, and the focus of the assignment is on data visualization and not automation, after all. I kept to the schedule pretty well but didn't anticipate how long it would take to physically pick up all my books and type each of those fields in. I should be done with that by the end of the week and then the next step will be setting up those CSVs as modules and setting the individual items up as dictionaries.
