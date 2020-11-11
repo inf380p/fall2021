@@ -65,3 +65,16 @@ The Labyrinth of Solitude,Paz,Octavio,1961,Grove Press Inc.,394172426,paperback,
 Tales of Mystery and Imagination,Poe,Edgar Allen,1987,Franklin,,fine binding,
 
 I'm thinking about maybe ditching the "checker" function and just honing in on doing data analysis of my own holdings. I think I was a little bit too ambitious in that regard, and the focus of the assignment is on data visualization and not automation, after all. I kept to the schedule pretty well but didn't anticipate how long it would take to physically pick up all my books and type each of those fields in. I should be done with that by the end of the week and then the next step will be setting up those CSVs as modules and setting the individual items up as dictionaries.
+
+New Milestones:
+- [X] Determine which fields to include in CSVs
+- [X] Audit personal library
+- [X] Create CSV file listing entire English-language collection
+- [X] Create CSV file listing entire Spanish-language collection
+- [] Set up (2) files as modules
+- [] Use classes to set up book class with author, copyright data, author last, author first, publisher, format, genre fields
+- [] Create dictionaries for each item, put in a list of lists
+- [] Index the data alphabetized by author last
+- [] Determine which functions and types of graphs I want to use to analyze the data sets 
+- [] Set those functions up
+- [] Visually represent that data with either a graph or chart or both for each function
