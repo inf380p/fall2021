@@ -33,3 +33,18 @@ df.to_csv("S&P500-Symbols.csv", columns=['Symbol'])
 
 At this point of project, I think the main challenge for me is to clean data and prepare what I can gather to be usable for my purpose. I think my milestones can be even tougher from what I was thinking of at the begining of the project. My program so far is mostly consisted of some helper functions for this program:
 <iframe src="https://trinket.io/embed/python/080268889c" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Here are my milestones that I have submitted last week:
+- [ ] Finding appropriate datasets that I can get data from
+- [ ] Cleaning up data as necessary
+- [ ] Learning and using Numpy, Panda and Matplotlib for analyzing
+- [ ] Write the code to use data for analyzing using data science libraries
+- [ ] Visualizing the output with Matplotlib
+and my strech goal was to consider using a REST API to keep the data updated whenever the user wants to try it. But after a week of work I am in a different direction. Actually I started with my strech goal and captured all the data that I need from an existing REST API and started refining the data. 
+My new list of milestones will be as follows:
+- [x] Find the appropriate API to get data from
+- [x] Refine data and make it ready for doing some calculations
+- [ ] Do calculations on data to get data ready for visualization
+- [ ] learn basics of Numpy, Pandas and Matplotlib to be able to work with my data
+- [ ] Visualize data gathered
+- [ ] make the program responsive to user inputs
