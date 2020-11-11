@@ -21,16 +21,18 @@ Original Milestones:
 Updated Milestones:
 - [x] Opens files and puts lines into a dictionary
 - [x] Create a class the countries in data
-- [] Define column data type
-- [] Set up functions for operations:
+- [ ] Define column data type
+- [ ] Set up functions for operations:
   * print column
   * min/max/avg
   * compare two columns (min/max/avg difference)
   * range (first/last) items in column
-- [] Create function to print results
-- [] Create help text function
-- [] Create option menu
-- [] Make iterative
-- [] Allow user to exit program
-- [] Account for data type errors
-- [] Stretch goal- add more functions/options
+- [ ] Create function to print results
+- [ ] Create help text function
+- [ ] Create option menu
+- [ ] Make iterative
+- [ ] Allow user to exit program
+- [ ] Account for data type errors
+- [ ] Modify functions to display data for each country
+- [ ] Create option to pick one or more countries to compare
+- [ ] Automate column data type detection
