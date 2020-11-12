@@ -13,10 +13,19 @@ I would say my problem right now is execution. I should have gotten started righ
 Here is my code that is the same from last week: 
 <iframe src="https://trinket.io/embed/python/42908491d2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-Here are my previous milestones:
+Here are my previous milestones (new milestones in bold):
 - [x] Make a visual representation of how I see the game looking/written 
+- [] **Create level 1**
+- [] **Create level 2**
+- [] **Create level 3**
+- [] **Make help dialog**
+- [] **Be able to click on help dialog at any point in the game**
 - [] Create classes for different types of pets 
-- [] Implement images to the code 
+- [] Implement images/**pet** to the code 
+- [] **Have score and current level in a top corner**
+- [] **Have a completed screen for level 1**
+- [] **Have a completed screen for level 2**
+- [] **Have a win screen for level 3**
 - [] Define functions 
 - [] Comment out code
 
@@ -51,4 +60,4 @@ For now, here are my rough ideas:
 **Interative Interface**
 * Be able to play if they do not get the amount of coins that are needed to go to the next level
 **Custom Images**
-*The pet itself or perhaps use the image as a background for the game
+*The pet itself or perhaps use the image as a background for the game*
