@@ -25,3 +25,28 @@ Milestones/ Successes:
 [X] Determine which functions and types of graphs I want to use to analyze the data sets
 [] Set those functions up
 [] Visually represent that data with either a graph or chart or both for each function
+
+Here's a (more specific) list of coming milestones.
+
+Revised Milestones: 
+
+- [X] Determine which fields to include in CSVs
+- [X] Audit personal library
+- [X] Create (2) CSVs listing entire collections
+- [X] Clean up and normalize data fields
+- [] Define a "book" class that assigns column headers as attributes
+- [] Instantiate the class for each holding
+- [] Create various dictionaries for personal holdings
+- [] Make a comprehensive list of those dictionaries
+- [] Add "help" text
+- [] Return a line graph that displays each publication year with # of titles
+- [] Set up functions that return text that displays:
+      - # of publishing houses
+      - # of books per publisher
+      - ratio/percentage of paperbacks/hardbacks/ fine bindings to total
+      - percentage of each genre represented in collection
+      - percentage of Spanish to English
+** Outside the scope of project, but potential to continue by: **
+- [] Somehow automate a “checker” that runs dictionaries against UT holdings
+- [] Return data about each item: yes/no in regards to whether or not library would accept the donation
+- [] Visually represent that data with either a graph or chart
