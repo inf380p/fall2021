@@ -96,8 +96,3 @@ You can both modify existing classes and create your own.
 - **Attributes** are like **variables** that only apply to an object. Think of `tina.x`
 - **Methods**  are like **functions** that only can be called from an object.  Think of `tina.forward(100)``
 
-
-# For tomorrow
-
-* Revised Plan
-* Classhack
