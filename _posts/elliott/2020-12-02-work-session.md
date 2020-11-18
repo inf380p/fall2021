@@ -18,6 +18,10 @@ mode: Remote
   * Tweak/iterate.  Analysts: this means thinking of new ways to view your data.  Turtlers: this means small alterations to your games that make them more fun
   * Everyone: make sure your interfaces are **robust** and **graceful**.
 
+# Looking back: how far you've come!
+
+TBD
+
 # Thank You!
 
 As I said on the first day of class, I love teaching, and you've been a great group who's worked hard and learned a lot over a very short period.   Thanks for a great summer session!
