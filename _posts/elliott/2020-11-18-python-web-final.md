@@ -11,6 +11,17 @@ mode: Remote
 
 
 
+# Code Style
+
+Python will accept all sorts of things and produce the same exact output. The range of options within that space is the potential for *style*. Style is a convention of how to make these choices. We've seen plenty of examples:
+
+* Capitalize class names (they don't have to be)
+* Use `snake_case` for functions and variable names (you don't have to technically)
+* Put your imports up top, then global variable definitions, then class and function definitions
+
+Your reading for next week is a reference guide for Python style.  Different projects and people will have different style, and it's most polite to conform to their style choices if you contribute. For your projects, try to follow the Hitchhiker's Guide.
+
+
 # Cowsays: APIs are cool
 
 <iframe src="https://trinket.io/embed/python3/0577ff78e3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
