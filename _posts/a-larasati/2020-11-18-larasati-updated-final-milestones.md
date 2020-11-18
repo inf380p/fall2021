@@ -11,20 +11,20 @@ Not entirely sure what happened between last week and this week, but the data fi
   - [x] Find the data
   - [x] Clean the data
     - **11/18 update:** data re-downloaded and re-cleaned
-- [] Program should be able to read the data (either in .txt or .csv format)
-- [] Program should be able to take user inputs
+- [ ] Program should be able to read the data (either in .txt or .csv format)
+- [ ] Program should be able to take user inputs
   - [x] Determine what kind of user inputs 
     - **11/18 update:** inputs will be 3-letter airport code, airport name, and/or airport city
   - [x] Determine what kind of data analysis (in general) program should be able to do
     - **11/18 update:** generate information on delays (types of delays, percentage of a whole, total sum), information on which airlines are most often affected by delays
-- [] **New milestone (11/18):** Program should be able to return basic airport information like name, city, state, hub type, 2019 enplanement data & rank 
-- [] Program should be able to return statistics depending on the input
-- [] Program should include a "Help" function
-  - [] Determine what should go in the function
+- [ ] **New milestone (11/18):** Program should be able to return basic airport information like name, city, state, hub type, 2019 enplanement data & rank 
+- [ ] Program should be able to return statistics depending on the input
+- [ ] Program should include a "Help" function
+  - [ ] Determine what should go in the function
  
 Some stretch goals that would be an interesting addition to the program:
-- [] Find national weather data for 2019 (note: might need to find weather data from/around the airports itself)
-- [] Find more specific air travel data (international vs. domestic arrival/departure)
-- [] Program might be able to identify/compare data from international & domestic flights for a given airport
-- [] Program might be able to identify if a given airport is an airline hub
-- [] Find "historical" data (the past ~5-10 years) so program might be able to compute different changes over time
+- [ ] Find national weather data for 2019 (note: might need to find weather data from/around the airports itself)
+- [ ] Find more specific air travel data (international vs. domestic arrival/departure)
+- [ ] Program might be able to identify/compare data from international & domestic flights for a given airport
+- [ ] Program might be able to identify if a given airport is an airline hub
+- [ ] Find "historical" data (the past ~5-10 years) so program might be able to compute different changes over time
