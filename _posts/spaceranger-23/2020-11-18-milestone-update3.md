@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Spaceranger-23
+author: spaceranger-23
 title: "Data Analysis Milestone 3"
 ---
 
