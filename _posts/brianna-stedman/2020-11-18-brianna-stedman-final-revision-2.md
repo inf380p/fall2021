@@ -1,7 +1,7 @@
 ---
 layout: post 
 author: brianna-stedman
-subject: "Brianna's Revised Final Project Milestones"
+title: "Brianna's final project milestones, second revision"
 ---
 
 I haven't made a lot of ground on my final yet, I've been working with the same data set for a final in another class. What I did start this week was the initial help messages, figuring out what certain functions I will be defining to keep my code neat, importing my data files (I may be switching to use different files than the ones I'd already chosen) and also beginning to figure out where using a dictionary would be relevant to my project. 
