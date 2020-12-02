@@ -2,7 +2,7 @@
  author: KJEZ35
  layout: post
  title: "Third update on final"
- ---
+---
  
  I'll start with a copy of my intial to do list: 
  
