@@ -75,7 +75,7 @@ If you become sick, follow University policy in terms of reporting your illness.
 
 * Attending **one ~~in-person~~ programming meetup** over the course of the semester. This should be with an off-campus group such as [Austin Python](https://www.meetup.com/austinpython/), our local Python user group. Contact me if you're not sure whether a specific event will qualify. **COVID-19 Modifications**: Ideally your event should involve synchronous interaction with other participants, but I know this can be difficult for remote events, as many have transitioned to more presentation-like formats. Do your best, and participate fully, whatever that involves for your event. One benefit of remote events is that you have drastically more to choose from, around the country and the world.
 
-* Extra Credit:  Contributing to **one open source project** in the form of a Github issue or pull request.  This should be an active, independent (i.e. not related to this class).  See me to confirm that your chosen project will qualify.
+* Extra Credit:  Contributing to **one open source project** in the form of a Github issue or pull request.  This should be an active, independent (i.e. not related to this class) project.  See me to confirm that your chosen project will qualify.
 
 These experiences will combine with class assignments, readings, and in-class exercises to deepen students’ interest and facility with the concepts and skills we’ll learn.  ~~Students who are unable to attend the in-person meetups may propose a comparable virtual community interaction in its place.~~ (Virtual meetups explicitly allowed above).
 
@@ -85,11 +85,11 @@ These experiences will combine with class assignments, readings, and in-class ex
 
 **Website chat:** Our class website has a Gittr chat room available from the upper right of every page.  This is available for backchannel Q&A during class.  Participation in this chat will count as classroom participation.  Students are expected to conduct themselves in this room as they do during class, keeping content appropriate and relevant. <a href="#" class="js-gitter-toggle-chat-button">Click here to open the chat</a>
 
-**Final Project:** The semester will culminate in a fully developed program or system of the student’s creation.  More details on the final project will follow.
+**Final Project:** The semester will culminate in a fully developed program or system of the student’s creation.  More details on the final project are below.
 
 **Extra Credit:** There will be infrequent opportunities to earn small amounts of extra credit.  This will usually involve doing things I might normally do, like deploying our class blog, tidying up code I write for this class for wider consumption, or helping moderate our forums.
 
-**Educational Privacy:** It is your FERPA right to keep your educational record, including your enrollment in any specific class, private.  **Assignments that require public submission may be completed pseudonymously if you would like to exercise this right.** This choice will not affect your grade.
+**Educational Privacy:** It is your FERPA right to keep your educational record, including your enrollment in any specific class, private, if you choose to.  **Assignments that require public submission (via a public Github repository, for instance) may be completed pseudonymously if you would like to exercise this right.** This choice will not affect your grade. Details will follow during relevant class sessions, and you're welcome to contact me at any time with questions.
 
 ## Materials
 
