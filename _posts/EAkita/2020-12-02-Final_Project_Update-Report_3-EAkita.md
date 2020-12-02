@@ -9,12 +9,169 @@ title: "Final Project Update & Stand-up Report 3"
 3D spiral game
 
 Embedded link below: 
-
+ 
+<iframe src="https://trinket.io/embed/pygame/92ebdeafb9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 ```python
-#################
-#################
+#Author: Emmanuel Akita
+#Figure out vertical motion and slice graphics
+#followed tutorial from these links: 
+#https://realpython.com/pygame-a-primer/#drawing-on-the-screen
+#https://www.pygame.org/docs/
+#@Akita - refactor code for final, remove unnecessary comments
+
+#@Akita; add intro with text flying in to the screen like star wars
+#player enter their name for feedback 
+
+#slice vs if colision check ==True, then break
+
+#####next - reorg, classes, physics, score, levels
+
+#import modules
+import pygame
+import time
+import random
+import sys, math 
+from os import path
+
+pygame.init()
+clock = pygame.time.Clock() #this sets th FPS
+
+
+#initialize some variables
+DisplayWidth = 900
+DisplayHeight = 500
+speed = 10 #adjust level
+
+white = (255,255,255)
+red = (255,0,100)
+green = (0,250,0) 
+blue = green
+black = (0,0,0) 
+bg_color = black
+
+player_pos = [500, 250] #x and y cordinates for draw.rect screen postion
+player_size_x = 10
+player_size_y = 40
+object_size = 60 #would later be spirograph
+object_pos = [random.randint(0,DisplayWidth-object_size), 60] #random postion everytime it's ran
+object_lst = [object_pos]
+
+#for starfield background
+background = pygame.image.load(path.join('starfield.png'))
+background_rect = background.get_rect()
+
+score = 0 
+font = pygame.font.SysFont("comicsansms", 40)
+
+#fruit slash
+pos = pygame.mouse.get_pos()
+change = pygame.mouse.get_rel()
+past = []
+drag = False
+
+gameDisplay = pygame.display.set_mode((DisplayWidth,DisplayHeight)) #drawing window (screen)
+#screen = pg.display.set_mode((WIDTH, HEIGHT))
+#pygame.display.set_caption("Spirograph SlashMania!")
+
+gameDisplay.fill(white) ### test with space environment later in pygame_space eg
+game_surface = pygame.Surface((DisplayWidth,DisplayHeight))
+game_rect = game_surface.get_rect()
+
+game_over = False
+
+def drop_object(object_lst):
+  
+  delay = random.random() #currently adds objects at the same time, so use dealy
+  if len(object_lst) <5 and delay <0.1:
+    x_pos = random.randint(0,DisplayWidth-object_size)
+    y_pos = 0
+    object_lst.append([x_pos, y_pos])
+
+def draw_object(object_lst):
+  for object_pos in object_lst:
+    pygame.draw.rect(gameDisplay, blue, (object_pos[0],object_pos[1], object_size, object_size)) #w,h = 50
+
+def update_object_position(object_lst, score): #update object postion
+  for index, object_pos in enumerate(object_lst):
+    if object_pos[1] >= 0 and object_pos[1] < DisplayHeight:
+      object_pos[1] +=speed
+    #drop function now takes care of else portion
+    # else:
+    #   object_pos[1] = 0 
+    #   object_pos[0] = random.randint(0,DisplayWidth-object_size) # reset y to fall at dif spots
+      
+    else:
+      object_lst.pop(index)
+      score +=1
+  return score
+
+# def draw_slash():
+#     pygame.draw.rect(gameDisplay, blue, (pos[0],pos[1], 5, 5),0) #w,h = 50
+#     for i in range(len(past)-2):
+#       past[i][1] -= 1
+#       pos = pygame.mouse.get_pos()
+#       change = pygame.mouse.get_rel()
+      
+#       if past[i][1] >= 1:
+#         pygame.draw.line(gameDisplay, red,(past[i][0]),(past[i+1][0]),past[i][1]+10)
+#         pygame.draw.line(gameDisplay, black,(past[i][0]),(past[i+1][0]),past[i][1])
+    
+#     past.insert(0, [pos, (change[1]+10) % 30, (abs(change[0])*3) % 100])
+#     if len(past) >= 4:
+#       past.pop(3)
+#             #Old Version
+
+while not game_over:
+  # for event in pygame.event.get():
+    
+    ###rewrite this section, worked for IDE, not trinket
+    # if event.type ==pygame.QUIT: #quit event
+    
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+      pygame.quit()
+      sys.exit()
+    if event.type == pygame.MOUSEBUTTONDOWN:
+      drag = True
+    if event.type == pygame.MOUSEBUTTONUP:
+      past = []
+      drag = False  
+    #   sys.exit() 
+    #print(event)
+  
+  clock.tick (20) #20 seconds, also adjust object_pos to change speed
+  
+  #update object postion; moved to it's function
+  # if object_pos[1] >= 0 and object_pos[1] < DisplayHeight:
+  #   object_pos[1] +=speed
+  # else:
+  #   object_pos[1] = 0 
+  #   object_pos[0] = random.randint(0,DisplayWidth-object_size) # reset y to fall at dif spots
+    
+  gameDisplay.fill(black)  
+  
+  drop_object(object_lst)
+  score = update_object_position(object_lst,score)
+  print(score)
+  
+  text = "Score:" + str(score)
+  label = font.render(text, 1, white)
+  gameDisplay.blit (label, (DisplayWidth - 400, DisplayHeight -200)) #attach label to the screen
+  
+  draw_object (object_lst) #call the draw_object function to iterate through
+  
+  pygame.draw.rect(gameDisplay, red, (player_pos[0],player_pos[1], player_size_x, player_size_y)) #w,h = 50
+   
+  game_surface.blit(background, background_rect)
+  pygame.display.update()
+    
+  if drag == True:
+    #draw_slash()  #update(Colors)
+    pass
+  #pygame.display.flip()
+#track movement function
 ```
 
 **Reflection**
@@ -45,12 +202,7 @@ Moving forward, I would start reorganizing my code into classes, to make it easi
 * Try to figure out the slash function. 
 * Refactor code to use classes
 * Include dictionary for game state
-* Add some game physics
 
-
-
-
-My focus over the last week was to figure out how to use the concept fo 3D rendering for my spirogram (initial milestone #2). However, I ran into several roadblocks, and haven't figured it out yet. Thus, I pivoted to incorporating motion into my program, as seen in the code snippet above. I was successful in figuring moition for moving from left and right of the screen. 
 
 Thus, initial milestone #1 done and part of #2 is done as well. 
 
@@ -59,28 +211,20 @@ Thus, initial milestone #1 done and part of #2 is done as well.
 Done - Figure out how to do 3D graphics with python. This will involve some math: vectors, 3D matrices etc. and I started doing a bit of reading on this.
 Partly done - Figure out how to move the spirogram from the top of the screen, downwards. 
 
-   Figure out how to do a 3D rendering of the spirogram - **in progress**  
-   Figure out how to “cut” or “slice” the volume
-   Figure out how the volumes will fall, and what is considered “successful” and what is a “failure”
-   Figure out how to score the game, and keep track of the score
-   Add a restart button to reinitialize the game.
-   **New Addition** - Use dictionaries to update the play with the game state. 
+* Figure out how to do a 3D rendering of the spirogram - **in progress** 
+* Figure out how the volumes will fall, and what is considered “successful” and what is a “failure” - done
+* Figure out how to score the game, and keep track of the score - done 
 
-New addtion made to the original milestones, this involves adding dictionaries. The stretch goals are still the same though. 
+* Add a restart button to reinitialize the game.
+* Use dictionaries to update the play with the game state. 
 
-**Next Step**
-The next step will be to continue figuring out how to use the concept fo 3D rendering for my spirogram (initial milestone #2)- I'm essentially attempting to tack on hemispheres to my original sphere. The more I work on this, the more seemingly challenging it comes out tobe. I think my milestones are plenty ambitious. I should have this ready by Nov. 25th. 
-
-*Finish drawing a Spirogram in 3D
-*Alter motion from left to right, to top to buttom 
-
+I have currently taken out the "cut" or "slice" volume, and thinking of just avoiding the falling spirographs and keep track for scores. 
+ 
 **Stretch Goal**
-A stretch goal is to have 2 environments this game can be played in (this is unchanged):
+A stretch goal is still the same; and it mainly revolves around defining the game physics have 2 environments this game can be played in (this is unchanged):
 * In space, where the Physics is relaxed due to microgravity environment (spheres can fall in any direction)
 * On earth, where the falling of the spheres is goverened by the laws of gravity (I'm thinking this might be more difficult, that's why it's a stretch goal; I might have to describe object inertia, maybe even prescribe random parabolic paths...)
 
-**More Reflection** 
-There was talk on implementing dictionaries in our final code. I thus decided to add on a new milestone involving dictionaries to my list, as seen above. After spending some time figuring out the 3D spirogram, I think it's more complicated that I initially thought. I had to give myself an extra week to continue working on this. I had a good discussion with my group partner about how best to incorporate dictionaries. She came up with some pretty good insights which I'll try to implement. 
 
 
 ####Edit after initial commit and group discussion####
