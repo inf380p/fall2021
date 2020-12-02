@@ -1,6 +1,6 @@
 ---
-author: KJEZ35
 layout: post
+author: KJEZ35
 title: "Final Project Update & Stand Up Report”
 ---
 
