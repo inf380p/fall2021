@@ -1,0 +1,7 @@
+---
+layout: post
+author: jasfromnz
+title: "jasfromnz's meetup writeup"
+---
+  I attended the Austin Python Meetup on 12/9. The meetup was split between two presentations, the first one about 40 minutes long and the second about 30 minutes. The first presentation was about patent data analysis with python. The presenter discussed how he improved his analysis of patent data by moving from analysis in excel to pandas in python. He presented resources for general automation with python (including the book Automate the Boring Stuff with Python), showed code and resources for webscraping, such as Mechanical Soup, and showed code and resources for data analysis with python, such as dataprep.eda. The presenter emphasized accessibility in his code, explaining that he thought it was important for his code to be understandable even to people without experience with coding. The second talk focused on copyrighting software, and didn’t contain any discussicion of python specifically. It was really hard to follow without some experience in copyright and I didn’t learn anything from it. 
+	Overall, the meetup was a cool experience, but as the meeting was heavily dominated by older men (>90%), it didn’t feel really accessible for a beginner, especially as a woman. However, the first presentation was really interesting to me and I would like to look into some of the resources the presenter discussed during his presentation in the future. In the future, I would like to attend more coding meetups, but perhaps try a woman-centered group like PyLadies.
