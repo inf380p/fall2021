@@ -1,7 +1,7 @@
 ---
 layout: post
 author: brianna-stedman
-title: Brianna's final project milestones, last revision
+title: "Brianna's final project milestones, last revision"
 ---
 Here is a snapshot of my code where it currently stands (it's very chaotic and disjointed right now):
 <iframe src="https://trinket.io/embed/python/67430a89c4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
