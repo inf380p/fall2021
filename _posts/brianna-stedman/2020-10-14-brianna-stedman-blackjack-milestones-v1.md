@@ -1,7 +1,7 @@
 ---
 layout: post
 author: brianna-stedman
-title: "Brianna's Blackjack Project Milestones"
+title: "Brianna's Blackjack project milestones"
 ---
 Below you can find my intended milestones for my Blackjack project. 
 

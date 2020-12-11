@@ -1,7 +1,7 @@
 ---
 layout: post
 author: brianna-stedman
-title: "Brianna's Turtle Treasure Hunt"
+title: "Brianna's turtle treasure hunt"
 ---
 Here is the turtle treasure hunt I built:
 
