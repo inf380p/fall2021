@@ -1,7 +1,7 @@
 ---
 author: KJEZ35
 layout: post
-title: "Final Project Update & Stand Up Report”
+title: "Final Project Update & Stand Up Report"
 ---
 
 
@@ -63,7 +63,7 @@ If and elif statements will be used in the while loop to help with the collision
 
 NOV 04, 2020
 
--[X] First, I would start by brainstorming the idea and drawing it out on paper. 
+-[X] First, I would start by brainstorming the idea and drawing it out on paper.
 -[X] Next, I would build out the primary introduction screen.
 -[X] I would then move on to building the first level.
 -[] Next would be building out the second level.
