@@ -4,11 +4,11 @@ author: brianna-stedman
 title: "Brianna's final project"
 ---
 
-#PROJECT:#
+#PROJECT:
 
-put link here after I've commented it all 
+<iframe src="https://trinket.io/embed/python3/8459ccbda1" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-#REFLECTION:#
+#REFLECTION:
 For my final project, I decided to tackle the data analysis utility tool. I struggled with the Turtle projects we did, especially the graphical aspect of them, and I just felt much more comfortable working with csv files and math and printing things -- those were the homeworks that came more naturally to my brain. I am also currently taking Database Management, and for our final group project in that class, we built a search engine that pulled up the top 100 NBA players and their statistics. Since I already had access to that csv file and knew it would be clean and reasonable to work with, I built my data utility around that. Initially, I was planning on also involving aggregated team data, but that did not pan out as I had hoped. Instead, I added a capability to save an individual player to a “Dream Team” and then print out aggregated statistics based off of that.
 
 I knew that I would be taking user input, searching through a csv file, creating dictionaries to print and write back to a file, but that is about it. I did not really check back to my milestones once I got started, since I knew essentially what I wanted to do -- I just wasn’t always sure how to do it. I did a LOT of googling; I knew in my head the order by which things needed to be accomplished in my code, so it was mostly looking up syntax, like writing dictionaries to csvs, etc. I’m putting all my links at the bottom of this, but be warned there’s a lot! The most helpful thing that I did for my process was drawing out a kind of flowchart on paper with the rough order of operations. Whenever I started to get lost in my custom functions or lost track of where I was, referring back to the paper map was really helpful, especially since each operation often had multiple options stemming from it. 
@@ -21,7 +21,7 @@ Then, I taught myself how to use classes! They were way easier than I thought, a
 
 I will be honest, I spent way too much time on this for it to be what it is. It was really hard, and I’ve definitely learned a lot and gained a lot of skills! But it also brought a ton of stress, especially at the beginning, when I couldn’t even get my first function to work for almost six hours. Sticking with it was hard, but as the error codes came less and less frequently, it got a lot easier. I also am proud of how flexible I became during this project. In the first dozen hours of working on it, I would get sucked down endless rabbit holes of StackExchange threads, trying to solve my roadblock for hours. But the further I worked on the project, the more easily I became willing to stop going down the rabbit hole and instead try to think of other ways to accomplish what had me stumped. An example of this was when I was trying to save the Dream Team dictionary but kept losing it as the search function would exit. I pretty quickly realized that wouldn’t logically work, so then I tried to create a new csv when the user opened the program and copy the rows there, then reference THAT file for the aggregated statistics -- then I realized how many functions I would be having to build every time I needed to edit the list! That was when I thought about using classes, and I honestly didn’t know if it would even work, but I looked up the documentation and plugged in what I thought would work. It was SO satisfying when it did. Overall though, very stressful project, and I still wasn’t able to accommodate for no player search results -- one of those things I was getting sucked down a rabbit hole during, and have run out of time to finish. I’m very proud of my project, though, and the amount of learning I did over the course of building it. 
 
-#REFERENCES:#
+#REFERENCES:
 https://thispointer.com/python-add-a-column-to-an-existing-csv-file/
 https://stackoverflow.com/questions/7353743/make-dictionary-from-csv-file-columns
 https://stackoverflow.com/questions/36603790/python-regex-findall-to-read-line-in-csv-file
