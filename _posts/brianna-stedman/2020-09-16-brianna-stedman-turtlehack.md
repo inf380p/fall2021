@@ -1,7 +1,7 @@
 ---
 layout: post
 author: brianna-stedman
-title: "Brianna's Turtlehack"
+title: "Brianna's turtlehack"
 ---
 This is a placeholder until I finished the turtlehack that I am wanting to do! This is what I have so far: 
 
