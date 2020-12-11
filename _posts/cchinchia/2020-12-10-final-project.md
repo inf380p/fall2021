@@ -5,7 +5,7 @@ title: "Claire's Final Project: Titanic Survival Prediction Tutorial App"
 ---
 
 # Code
-<iframe src="https://trinket.io/embed/python3/a408bdb9a2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python3/e776c2d147" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 # Reflection
 
