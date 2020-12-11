@@ -1,7 +1,7 @@
 ---
 layout: post
 author: intjnotinfp
-title: " intjnotinfp's Course Reflection Post
+title: " intjnotinfp's Course Reflection Post"
 ---
 In reflecting on the course, I’m realizing how difficult this semester has been and how different it looked than I expected when I got here. Here are some summaries of milestones and things I discovered along the way. 
 
