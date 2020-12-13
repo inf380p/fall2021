@@ -1,0 +1,11 @@
+---
+layout: post
+author: brianna-stedman
+title: "Brianna's meetup writeup"
+---
+
+The meetup that I attended was a live virtual webinar session that also had a Q&A with the finalists afterwards, so that is how I was able to participate and "meet" with people. The webinar was called "The Antiracist Power of Data Activism" and was hosted by a company called Galvanize, which offers "co-working spaces, immersive education in software engineering and data science, and enterprise training." This webinar was a follow-up Q&A type panel to a previous webinar, called "How Can Data Be Racist?". While I wasn't able to attend the first webinar, I was able to watch the recording and view the slides [here.](https://blog.galvanize.com/in-case-you-missed-our-how-data-can-be-racist-event/). 
+
+Most of the discussion was centered around what the individual panelists defined as "anti-racism," and how they are living out their definition in practice in their respective coding communities. All the panelists talked a lot about how important robust representation is; they talked about some best practices in data collection to make sure that all communities have equitable access and representation. I really liked what one of the panelists said, to let the people who are experts lead -- let communities of color tell you where to go. A panelist also talked about "empathetic data," a combination of quantitative and qualitative data, and this was a term I had never heard before. She discussed how both types of data need to be used to understand the full value of lived experiences, which is really necessary to providing context to raw numbers. 
+
+I would definitely find value in this kind of event outside of class. The experience was pretty much what I expected from a virtual webinar. I also correctly assumed that the talk would be less about actual coding and more about the social aspect of racism in the data analysis field. I have done a little bit of research in that field for some other classes, and it is something I'm pretty passionate about and am interested in working in someday (racial justice and data analysis or database management in some capacity). So I could definitely see myself becoming a part of their professional community, and am planning to reach out to one of the panelists over break as well. 
