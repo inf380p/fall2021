@@ -1,7 +1,7 @@
 ---
 layout: post
 author: brianna-stedman
-title: "Brianna's Second Reflection"
+title: "Brianna's second reflection"
 ---
 As I am reflecting on the course so far, it's a little hard to consider it fully since I am really having a hard time with this semester in general because of Covid. I've enjoyed learning what we have so far about Python, I've always wanted to learn this programming language, I'm just not in a good place to be excelling. A lightbulb that has gone off for me was with the try/except exercise in trinket, and since then I've learned to mess around with the placement of the try/except to make sure that I'm only getting my intentional error message when I want. Some confusion I've experienced is with reading through external lists/files. I'm still in the process of fully grasping the chapter 8 materials, so this would also count for what's still fuzzy for me. I'm also not 100% sure what our final project is supposed to look like, and I'm a little nervous about that, so I'm hoping to clear that up very soon so I can get a head start on it, I think I will need it. Finally, a problem solving strategy that has been working for me is googling the error codes that I get. Python is super helpful to show what line my issues are on, so googling them and looking at snippets of other people's code usually helps me in figuring out why mine won't work. 9 times out of 10, I have the correct elements or syntax, just in the wrong order. 
 
