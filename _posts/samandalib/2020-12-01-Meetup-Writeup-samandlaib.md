@@ -1,0 +1,7 @@
+---
+layout: post
+author: samandlib
+title: "Meetup writeup"
+---
+For the purpose of this course, I participated to Python meetups. One was about `Web Scraping with Python` and the other one's title was `Date, time, timezones: avoid pitfalls of dealing with time objects`. The reason that I decided to participate these meetups was basically my personal interest in web scraping and also the opportunity that I have to work with time stamps in the final project was my motivation for the one about Date/Time. Both of the meetups were just filled with a handful of people with special interest in the topic and that made the space to feel more friendly and everyone was comfortable. I learned about different libraries that are used for web scraping in Python and how these things work. Also I found out a lot about time zones and the many challenges that programmers face with when it comes to designing applications that are dependent on the exactness of the time.
+I expected these meetups to have more people with more discussions and sharing of experiences but what I saw was basically one or two people talking and the rest listening to them like a classroom setting. I feel I like to participate in these type of meetups whenever I find an interesting topic that aligns with my area of work or interest. I also like to be a member of these professional communities and share my experiences with others and hear what they think of my takeaways in the professional life.
