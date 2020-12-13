@@ -1,0 +1,37 @@
+---
+layout: post
+author: luznette
+title: "Janette's Final Project"
+---
+
+For the final project, I did not get nearly as far as I wanted to. The game in its final stage was supposed to have a cat named Luna come in and welcome the player, explaining that they were going to be playing a game where they have to jump over hurdles. After that, that cat would get smaller, and move to the corner of the screen where the level and score would display. By passing the level, the player would earn a point. In the second level, the hurdles would start moving, requiring the player to move to the end goal. The final level would have the same moving hurdles, but now, coins would be randomly placed which would increase the score on top of passing the levels. 
+
+The smaller version of Luna that moved to the corner would be the help button. There is text below Luna that says "click me for help", and this would pause the game to explain the instructions again. Here are the requirements, crossing out the ones I was able to get through:
+
+- [] Instructions for the game/welcome message using external data files
+- [x] To keep scores with dictionary
+- [] Instructions for the three levels through custom modules
+- [x] The levels themselves 
+- [x] Go in and out of levels with definite loops
+- [x] Allow characters to move with click events
+- [x] Allow to click pet for help dialog 
+- [x] User input with key events
+- [x] Click the pet to get the help dialog Help Dialog Present at All Times
+- [] Click on pet for level instructions  
+
+I started out this project wanting to expand on a previous project, but about a week into the time we were given to work on the project I got caught up with other assignments that had earlier deadlines. I worked on easier things, such as looking for images and getting the background of the game drawn up. After I passed those deadlines I was unmotivated to work on the project for longer than an hour a few days, and those were mostly spent looking up videos and python documentation. Last week, I started to make progress while using python 3, and the welcome message along with the first level were working smoothly. However, I got to a point where trinket no longer wanted to run my project on python 3 and it asked to transfer my program to pygame. When I clicked yes, I did not realize that it did not transfer everything over correctly, and I had closed down the other tab before I could save it and make adjustments. This caused a lot of frustration and I left the program alone for a few days. 
+
+When I came back to pygame, I noticed that it was not running the same, and for some reason it did not recognize a lot of the code I had done already. For example, the clouds would draw, but they would not fill in, and then I would get an error message. When I tried to find documentation for pygame, a lot of it seemed unfamiliar to me, and I started to get worried that I had to start from scratch. The transition from python 3 to pygame caused a lot of delay and frustration. A lot of the help that I found online started their code with ```import pygame``` and ```pygame.init()```. It was at this point that I considered changing over to the other final option. I left it alone for another day and started trying to figure out how the code that I already had (and trying to rewrite what I had lost) could work with pygame. That also did not work. On Tuesday I commited to starting from (almost) scratch. My goals of the game remained but I started a new trinket and started implementing small things at a time, like figuring out how to draw the clouds and fill them in. I then tried to make the code cleaner so that it would not take as many lines. I was still having trouble putting together all the different parts of the game together, so I decided to break the parts up between a few different trinkets. While this was helpful, I took it too far and would get confused on what the "final'' version was, causing me to work on different trinkets at different phases of the program. 
+
+I had lost the idea of making my ideal program a few weeks ago, but I am very disappointed that I let myself get caught up with details about the aesthetics of the game versus working on getting requirements finished. I did not have my priorities straight and I did work more on making a friendly interface. One of the aspects that was the hardest for me when starting this class was that if something does not work, I do not know how to move on from it and work on something else. I also do not recognize when to step away from the program, which I now realize will often lead to the solution. When I write essays, if I cannot find the words to write the introduction paragraph, for example, I can move on to the second and third analyzing paragraphs. In coding, the error messages do not let me jump back and forth in the way that I am used to. I am hoping that if I continue to work on programing skills, I am able to find better solving skills. 
+
+Till now, I am still not entirely sure why the program was not running in the way that I wanted to. When I revisited it last night, it started working and I was at least able to present the beginning and what the first level would look like. While I am disappointed, I am trying to find the positive which are the overall skills that I learned from this class. My goal at the end of the semester was to be familiar with the possibilities of programming as well as have the vocabulary to have conversations about programming with friends and coworkers. Prior to this class, I knew that programming was relevant to the library world, but I did not completely understand how and I felt like I was missing a lot of context during work meetings. Now, I have the confidence to add my opinion and ask the right questions.
+
+If I could go back in time, I would have started my game on pygame, this would have eliminated a lot of the frustration I went through in the last week and I believe I would have gotten farther in the game. I also would have asked for a few moments off of work in order to attend office hours/work sessions that went on a few weeks ago. I tried to solve a lot of my issues alone, which is never useful no matter the work environment.
+
+Here is my game broken up into different parts:
+1) the welcome message that brings in Luna the Cat.
+<iframe src="https://trinket.io/embed/pygame/666410ff71" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+2) the first level
+<iframe src="https://trinket.io/embed/python/a8dde887f0" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
