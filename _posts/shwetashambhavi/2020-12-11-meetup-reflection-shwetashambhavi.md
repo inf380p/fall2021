@@ -1,0 +1,9 @@
+---
+layout: post
+author: shwetashambhavi
+title: "Meetup Reflection on Data Ethics"
+---
+
+# Meetup Reflection on Data Ethics
+
+For the meetup, I attended Databricks online seminar. I chose to attend this seminar as I am interested in the cloud-based technology and have registered to attend the events they organise to remain updated with the platform and the current flow in the technology used in the Data Engineering and cloud field. In this particular seminar, they focused on the Data Unity and ethics side of the data-related field. It was quite interesting to me as I had never attended a Seminar focused on Data ethics and addressing issues related to it. For most of my time as a student learning technology even when I worked with it, I remained oblivious to my role in  Data ethics. But slowly, I realised that every choice we make and whether we like or not we are actively complying with someone's data policies and accepting it regardless of our beliefs about it. I hadn't realised that it's up to us to understand the data we are using and deciding to move forward with when working on a project in a company or even when we are simply providing information online. Whenever we are in a transaction with data we need to make ourselves aware of the situation and of the things it can impact. Like, if the Data is collected ethically, if it is biased or if it can be used for the wrong reasons.  It made me reflect on things before I took a neutral stance by thinking that it wasn't my responsibility to look into data standard as I am a mere developer and that it's not up to me to make those choices and decisions. But with time, I realise we are always at deciding situations and our actions contribute to it. Overall I think it was a great seminar which focused on data ethics and some of the functionality of Apache Spark and it's open-source nature and how the company is moving forward to improve on it. 
