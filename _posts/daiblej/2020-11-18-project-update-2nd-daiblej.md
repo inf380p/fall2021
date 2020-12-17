@@ -21,7 +21,7 @@ Thus, I revised my milestone again:
 - [x] clean the data
     [x] delete wrong data
     [x] delete duplicated data
-    [x] delete non-english data
+    ~[x] delete non-english data~
 
 - [ ] calculate the categories/geners
 - [ ] make a dictionary for different categories
@@ -35,3 +35,5 @@ interface
 - [ ] help function
 - [ ] a clear layout
 
+Snapshot
+<iframe src="https://trinket.io/embed/python3/17b9813812" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
