@@ -16,7 +16,7 @@ This is the reason why I start use the basic Python language writing the data an
 :one:
 **1st update**
 <iframe src="https://trinket.io/embed/python3/fd7fe26ceb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-My first step is to clean the data. Sorry to say so, but, again, it's not that easy than I expected. Actually, I spent most of my time in this project cleaning the data. I have two dataset. One is [google_play_store](https://www.kaggle.com/lava18/google-play-store-apps) and another is [apple_store](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps). I developed a class to analysis the two different dataset without copying similar code:
+My first step is to clean the data. Sorry to say so, but, again, it's not that easy as I expected. Actually, I spent most of my time in this project cleaning the data. I have two dataset. One is [google_play_store](https://www.kaggle.com/lava18/google-play-store-apps) and another is [apple_store](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps). I developed a class to analysis the two different dataset without copying similar code:
 ```python
 class understand_data():
   def __init__(self,dataset,titleline=[]):
@@ -37,8 +37,8 @@ class understand_data():
 :two:
 **2nd update**
 <iframe src="https://trinket.io/embed/python3/17b9813812" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-By reading the discussion in kaggle.com, I noticed the row[10472] is a wrong input which we need to delete. But I wanted to prove we only have thi sonly wrong input in the dataset. I used ` len(row) != len(google_play[0])` to test my dataset but turned out that I haven't separate the list by ','. I could do so but I also noticed that csv is a style of file that seperate items by ','. I learned to import 'csv' module, which automatically separate the list.(reference:
-# https://stackoverflow.com/questions/51644941/typeerror-csv-reader-object-is-not-subscriptable)
+By reading the discussion in kaggle.com, I noticed the row[10472] is a wrong input which we need to delete. But I wanted to prove we only have this wrong input in the dataset. I used ` len(row) != len(google_play[0])` to test my dataset but turned out that I haven't separate the list by ','. I could do so but I also noticed that csv is a style of file that seperate items by ','. I learned to import 'csv' module, which automatically separate the list.(reference:
+https://stackoverflow.com/questions/51644941/typeerror-csv-reader-object-is-not-subscriptable)
 ```python
 import csv
 with open("googleplaystore.csv") as f:
@@ -101,21 +101,27 @@ interface
 - [ ] help function
 - [x] a clear layout
 
-##Features need to include:
--[x] External data files.
--[x] Dictionaries
--[x] Custom modules
--[x] definite (for) loops
--[x] Custom functions
--[x] Custom classes - Extended or created from scratch.
--[x] A Python 3 Trinket
+##Summary
+Overall, I finished this project in an unexpected way. This is more than a data analysis project. I don't have a very fancy function. However, the main and the most interesting thing is I write the data cleaning part in two different ways. This definitely helps me better understand and analyze the data. I also used three platforms to finish the code (google collab, trinket, IDE(visual studio code)). This is a very special experience for me. I can say after this project, I feel more confident to write Python. I believe I can better involve in different situations for Python.
 
--[x] Include more than one data file in the trinket
--[x] Have help text available somehow. For instance, if the user types ‘Help’, explain what they program can do.
--[x] have an iterative interface. That is, the user should be able to perform any number of supported actions and then exit the program.
--[x] Visualize data via text printouts.
--[x] use a third-party module(I choose pandas)
+Also, I want to thank Prof. Elliott Hauser and TA Misha. They are always willing to help me with code problems. I learnt a lot from them. I can say without them, I may not be able to finish this project and I won't have any interest in Python or the code world.
+
+##Features need to include:
+- [x] External data files.
+- [x] Dictionaries
+- [x] Custom modules
+- [x] definite (for) loops
+- [x] Custom functions
+- [x] Custom classes - Extended or created from scratch.
+- [x] A Python 3 Trinket
+
+- [x] Include more than one data file in the trinket
+- [x] Have help text available somehow. For instance, if the user types ‘Help’, explain what they program can do.
+- [x] have an iterative interface. That is, the user should be able to perform any number of supported actions and then exit the program.
+- [x] Visualize data via text printouts.
+- [x] use a third-party module(I choose pandas)
 
 ##Final Code
+p.s the interface should look better in IDE. trinket isn't able to show the full chart. Thank you.
 #code with pandas
 <iframe src="https://trinket.io/embed/python3/28968cdfc8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
