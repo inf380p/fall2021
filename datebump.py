@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from datetime import date, timedelta
 from pprint import pprint
 from sortedcontainers import SortedDict
@@ -9,23 +10,23 @@ from pick import Picker, pick
 
 use_defaults = True # Otherwise, prompt for inputs
 
-default_start = date(2017,5,17)
-default_end = date(2017,6,22)
+default_start = date(2021,8,25)
+default_end = date(2021,12,6)
 default_dow_dict = {
-    0 : { 
-        "meets" : True,
+    0 : {
+        "meets" : False,
         "name" : "Monday"
     },
     1 : {
-        "meets" : True,
+        "meets" : False,
         "name" : "Tuesday"
     },
     2 : {
         "meets" : True,
         "name" : "Wedneday"
-    }, 
+    },
     3 : {
-        "meets" : True,
+        "meets" : False,
         "name" : "Thursday"
     },
     4 : {
@@ -43,12 +44,8 @@ default_dow_dict = {
 }
 holiday_list = [
     {
-        "date" : date(2017,5,29),
-        "name" : "Memorial Day"
-    },
-    {
-        "date" : date(2017,6,1),
-        "name" : "No Class"
+        "date" : date(2021,11,24),
+        "name" : "Thanksgiving Holiday"
     }
     ]
 unpublish_default = "y"
@@ -82,10 +79,10 @@ def get_valid_num(text, default = None):
         except ValueError:
             print("Please enter a valid number")
     return num
-    
+
 def get_date(text):
     global default_year, prior_month
-    
+
     print("Now collecting " + text)
     # Get Year
     if default_year == None:
@@ -111,14 +108,14 @@ def get_date(text):
         year = get_valid_num("Enter year: ")
     else:
         year = default_year
-        
+
     # Get month
     month = get_valid_num("Enter month: ", prior_month if prior_month else None)
     prior_month = month
-    
+
     # Get day
     day = get_valid_num("Enter day: ")
-    
+
     return date(year, month, day)
 
 def get_dow():
@@ -132,10 +129,10 @@ def get_dow():
         daydict["name"] = day
         dowdict[i] = daydict.copy()
     return dowdict
-        
+
 def get_dates():
     global sessions, num_sessions
-    
+
     print("Determining dates of new class...")
     # Start date
     if use_defaults:
@@ -143,20 +140,20 @@ def get_dates():
     else:
         start_date = get_date("Class Start Date")
     print(start_date)
-    
+
     # End Date
     if use_defaults:
         end_date = default_end
-    else:   
+    else:
         end_date = get_date("Class End Date")
-    
+
     # Days of week class meets
     if use_defaults:
         dow = default_dow_dict
     else:
         print("What days of the week does your class meet? ")
         dow = get_dow()
-    
+
     # Build dict of all days
     delta = end_date - start_date
     for i in range(delta.days + 1):
@@ -164,16 +161,16 @@ def get_dates():
         meets = dow[day_date.weekday()]["meets"]
         if meets:
             num_sessions += 1
-        sessions[str(day_date)] = { 
-            "date" : day_date, 
+        sessions[str(day_date)] = {
+            "date" : day_date,
             "meets" : meets,
             "holiday" : False,
             "nth_class" : num_sessions
         }
     pprint(sessions)
-    
+
     # Subtract any holidays
-    
+
     answer = ""
     holiday_index = 0
     while answer not in no_choices:
@@ -201,11 +198,11 @@ def get_dates():
             try:
                 sessions[str(holiday)]["meets"] = False
                 sessions[str(holiday)]["holiday"] = True
-                sessions[str(holiday)]["holiday_name"] = holiday_name 
+                sessions[str(holiday)]["holiday_name"] = holiday_name
             except KeyError:
                 print("Holiday not during class period.  Try Again.")
         holiday_index += 1
-    
+
     print("Your final class schedule:")
     pprint(sessions)
     print("There are {0} sessions in your schedule".format(num_sessions))
@@ -219,14 +216,14 @@ os.system("mkdir {0}".format(output_dir))
 ###
 
 # Get list of filenames as keys to dict of dicts
-folder = input("Enter the folder where your posts are located (Usually _posts): ")
+folder = input("Enter the folder where your posts are located (Usually _posts/elliott): ")
 for folderName, subfolders, filenames in os.walk(folder):
     print('The current folder is ' + folderName)
     for filename in filenames:
         post_location = folderName + '/'+ filename
         post_date = filename[:10]
         print('Found post: ' + post_location)
-        
+
         with open(post_location) as f:
             post_text = f.read()
             is_published = True if re.search(r'---.*?published\: false.*?---', post_text, flags=re.S) == None else False
@@ -235,9 +232,10 @@ for folderName, subfolders, filenames in os.walk(folder):
                 title = filename[:-3]
             else:
                 title = title_match.group(1)
-            
-        oldposts[post_date] = { 
-            "location" : post_location, 
+
+        # FIXME: dict value should be a list since dates aren't unique
+        oldposts[post_date] = {
+            "location" : post_location,
             "suffix" : filename[10:],
             "is_published" : is_published,
             "post_text" : post_text,
@@ -266,7 +264,7 @@ while answer not in allowed_choices:
         unpublish = False
 
 replacements = {}
-default_title = input("Enter default title for post names")
+default_title = input("Enter default title for post names: ")
 for i, date in enumerate(sessions.keys()):
     session = sessions[date]
     if session["meets"]:
@@ -277,14 +275,14 @@ for i, date in enumerate(sessions.keys()):
             print("No more old posts to convert")
             break
         replacements[date] = []
-        
+
         # Remove selections from old posts
         for selection in selections:
             replacements[date] += [selection[0]]
             oldposts[selection[0][:10]]["selected"] = True
-        
+
         print(replacements[date])
-        
+
         new_filename = str(date) + "-{1}-{0}.md".format(session["nth_class"], default_title)
         new_filepath = output_dir + "/" + new_filename
         with open(new_filepath, 'a+') as f:
@@ -312,5 +310,5 @@ for i, date in enumerate(sessions.keys()):
 author: elliott
 title: {0}
 ---""".format(session["holiday_name"]))
-        
+
 
