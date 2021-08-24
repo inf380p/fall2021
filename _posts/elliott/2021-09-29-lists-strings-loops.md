@@ -4,6 +4,7 @@ layout: post
 category: notes
 title: "Pair Programming with Lists, Loops, & Strings"
 mode: Remote
+published: false
 ---
 
 # Q&A

@@ -3,7 +3,7 @@ author: elliott
 category: notes
 title: "No Class: Thanksgiving break"
 layout: post
-published: true
+published: false
 mode: Remote
 ---
 

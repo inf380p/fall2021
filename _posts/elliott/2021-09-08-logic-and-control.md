@@ -3,11 +3,11 @@ layout: post
 category: notes
 title: "Logic and the flow of Control"
 author: elliott
-published: true
+published: false
 mode: Remote
 ---
 
-[Zoom Room for Remote Classes](https://utexas.zoom.us/j/93951295777)
+[Zoom Room for Remote Classes]({{site.zoom_url}}). Also in the menu bar above.
 
 # Today's Class Schedule
 

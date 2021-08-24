@@ -17,7 +17,9 @@ Instructor: {{ site.course.instructor }}
 Teaching Assistant: {{ site.course.ta }}
 {% endif %}
 
-Office hours: [Schedule here](http://bit.ly/hauserofficehours) (UTMail or google account required), or contact me.
+Location: {{ site.course.location }} (and remote as indicated on Materials page)
+
+Office hours: [Schedule here](http://bit.ly/hauserofficehours) (UTMail or google account required), or contact me. All office hours will be conducted via Zoom.
 
 
 ### Official Course Description
@@ -65,7 +67,7 @@ This class will introduce you to and utilize many of the tools that real develop
 
 ### We Will Follow University Health Policies
 
-**I have family and friends who are at high risk of complications from COVID-19 and/or are not vaccine eligible, as I'm sure many of you do, and take the health and safety of everyone in our classroom extremely seriously.** I recommend following University [mask guidance](https://utexas.app.box.com/s/ymob0b4vimv4j9gnhskpsqywwadk3f10). Visit [protect.utexas.edu](https://protect.utexas.edu/)for other resources and recommendations. Materials for sanitization of hands and individual workspaces will be available before and after class. Please contact me or School administration with any concerns or questions.
+**I have family and friends who are at high risk of complications from COVID-19 and/or are not vaccine eligible, as I'm sure many of you do, and take the health and safety of everyone in our classroom extremely seriously.** I recommend following University [mask guidance](https://utexas.app.box.com/s/ymob0b4vimv4j9gnhskpsqywwadk3f10). Visit [protect.utexas.edu](https://protect.utexas.edu/) for other resources and recommendations. Materials for sanitization of hands and individual workspaces will be available before and after class. Please contact me or School administration with any concerns or questions.
 
 If you become sick, follow University policy in terms of reporting your illness. I will work with you to make sure that you're able to make progess, including on group assignments, even if you're unable to attend our in-person sessions. You do not have to disclose the specifics of any protected health information to me to obtain my assistance with illness-related absences.
 
@@ -93,13 +95,13 @@ These experiences will combine with class assignments, readings, and in-class ex
 
 ## Materials
 
-**Software:** The course will utilize free or University-provided software almost exclusively, much of it open source. Zoom and Panopto will be used for synchronous collaboration and asynchronously created screencasts, respectively. Most, if not all, Python exercises will be completed in browser using Trinket.io. A subscription to Trinket Code+ will make some activities more convenient, but is not technically required. A discount code will be provided for students who choose to subscribe.
+**Software:** The course will utilize free or University-provided software almost exclusively, much of it open source. Zoom and Panopto will be used for synchronous collaboration and asynchronously created screencasts, respectively. Most, if not all, Python exercises will be completed in browser using Runestone or Trinket.io. A subscription to Trinket Code+ will make some activities more convenient, but is not technically required. A discount code will be provided for students who choose to subscribe.
 
 **Hardware:**  Students will need laptops able to run Chrome or other modern web browser. iPads are NOT recommended for coding.  If you must use an iPad, I highly recommend purchasing and external keyboard. Or, since iPad accessories are already pretty expensive, purchase a $150 Chromebook.  **Coders need keyboards.** Panopto works best for video capture when using the Windows or Mac clients. University-owned machines may be available for the times you will need to record your screen if your machine is incapable of doing so. Contact me early if you'd like help securing access to hardware you don't have or can't afford for screencasting.
 
 **Accessories:** Headphones, ideally with high quality microphones, are **required** so that we can listen to things together while in class. They are also ideal if you intend to use the classroom for attending remote classes, and often improve the experience of video conferences even when you're by yourself. If you plan on using headphones you already own, make sure to test them with Zoom. For some reason I have yet to identify, Zoom just plain won't pick up my audio with some of my headphones but is fine with others.
 
-**Primary Textbook:** We'll be using a new version of Charles Severance's excellent Python for Informatics.  I helped update the book to support Python 3, and I edited a free interactive edition, available at https://books.trinket.io.  Since the textbook is [open source](https://github.com/csev/pythonlearn) you can make contributions or fixes to any errors you find with the Github-based collaboration skills we'll learn in the class.
+**Primary Textbook:** We'll be using a new version of Charles Severance's excellent Python for Informatics, edited and improved by [Barbara Ericson](https://www.si.umich.edu/people/barbara-ericson).  The book is free and open, and contains many interactive exercises. We'll use it via the [Runestone](https://runestone.academy) platform, which will help you save and track your progress and, fingers crossed, sync up well with Canvas.
 
 **Primary Video:** I recorded a video series with O'Reilly and we'll use the videos extensively during the section on making interactive games.  The video is [available for purchase from O'Reilly](http://shop.oreilly.com/product/0636920040873.do), [Udemy](https://www.udemy.com/course/python-game-development-for-beginners/), or available along with thousands of other videos and books with a subscription to [Safari Books Online](https://www.safaribooksonline.com).  Students will need some form of access to the video lessons throughout much of the course.
 
@@ -107,7 +109,7 @@ These experiences will combine with class assignments, readings, and in-class ex
 
 **Additional Materials:** There is a wealth of excellent Python material on the Internet.  Here is a selection of some resources students may wish to consult for additional perspectives or information on some of the concepts we'll cover:
 
-* Coursera's [Python for Everybody](https://www.coursera.org/learn/python) by Dr. Chuck.  Yes, the same Dr. Chuck who wrote our textbook.  Some of these older videos use Python 2 syntax but regardless they are an excellent option for students who want a more multimedia experience.  The Week chunks roughly correspond to the first few chapters.  Highly recommended for any time something didn't 'click' in class and you want to hear it again.  Free.
+* Coursera's [Python for Everybody](https://www.coursera.org/learn/python) by Dr. Chuck.  Yes, the same Dr. Chuck who wrote our  ook.  Some of these older videos use Python 2 syntax but regardless they are an excellent option for students who want a more multimedia experience.  The Week chunks roughly correspond to the first few chapters.  Highly recommended for any time something didn't 'click' in class and you want to hear it again.  Free.
 * Related, Dr. Chuck has [a YouTube playlist](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ) with lectures and walkthroughs of much of the course content.
 * [Automate the Boring Stuff](http://automatetheboringstuff.com) by Al Sweigart. Al's book was a close contender for the text of this course.  Free online, and you can buy the book.  Highly recommended if you intend on developing Python proficiency further after the course.
 * [Google's Python Class](https://elliott.trinket.io/google-s-python-class) by Nick Parlante. This is an intensive 2 day course for programmers with experience in a language other than Python.  Its quick pace means that it's best as a refresher or extender after we've covered something.  The link is to a version that I made interactive with Trinket, so it should be quick and easy to pop in and do a section.

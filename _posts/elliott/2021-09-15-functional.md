@@ -3,7 +3,7 @@ layout: post
 author: elliott
 title: "Let's get functional"
 category: notes
-published: true
+published: false
 mode: In Person
 ---
 

@@ -3,7 +3,7 @@ layout: post
 author: elliott
 category: notes
 title: "Code Talks; Diversity & Inclusion in Programming"
-published: true
+published: false
 mode: Remote
 ---
 

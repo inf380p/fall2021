@@ -120,7 +120,17 @@ be completed by the date and time listed.  Class notes are for your reference of
         <td>
             {% if post.categories contains "notes"%}
             {% else %}
-            <span>{% if post.categories contains "exercise" %}{% if post.inclass == true %} {{ post.date | date: "%a, %b %d, %Y" }} by midnight{% else %} {{ post.date | date: "%a, %b %d, %Y" }} at start of class{% endif %}{% else %} {{ post.date | date: "%a, %b %d, %Y" }} {% endif %}</span>
+            <span>
+            {% comment %} Date addition: | date: "%s" | minus : 86400 {% endcomment %}
+                {% if post.categories contains "exercise" %}
+                    {% if post.inclass == true %}
+                      {{ post.date | date: "%a, %b %d, %Y" }} by midnight
+                    {% else %}
+                    {{ post.date | date: "%a, %b %d, %Y" }} at start of class
+                    {% endif %}
+                {% else %} {{ post.date | date: "%a, %b %d, %Y" }}
+                {% endif %}
+            </span>
             {% endif %}
         </td>
     </tr>

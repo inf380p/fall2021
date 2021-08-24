@@ -4,7 +4,7 @@ category: notes
 layout: post
 title: "Let's learn files & review dictionaries"
 mode: Remote
-published: true
+published: false
 ---
 
 # Q&A

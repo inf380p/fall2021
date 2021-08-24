@@ -2,8 +2,8 @@
 layout: post
 categories: notes
 author: elliott
-published: true
 mode: In person
+published: false
 ---
 
 INF 380P. The P is for Party.

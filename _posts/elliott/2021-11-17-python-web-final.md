@@ -3,7 +3,7 @@ author: elliott
 category: notes
 title: "Project Updates"
 layout: post
-published: true
+published: false
 mode: Remote
 ---
 

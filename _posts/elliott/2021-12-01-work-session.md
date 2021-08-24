@@ -4,6 +4,7 @@ author: elliott
 title: "Last Class & Project Work Session"
 category: notes
 mode: Remote
+published: false
 ---
 
 

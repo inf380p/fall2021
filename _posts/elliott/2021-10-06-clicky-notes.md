@@ -4,7 +4,7 @@ author: elliott
 category: notes
 title: "Clickhack!"
 mode: Remote
-published: true
+published: false
 ---
 
 # Q & A

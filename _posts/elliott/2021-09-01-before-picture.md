@@ -1,6 +1,7 @@
 ---
 layout: post
 author: elliott
+published: false
 ---
 
 Yep, this is it: the "before" picture.  We'll revisit once we're closer to "after".
