@@ -4,6 +4,9 @@ author: elliott
 published: false
 ---
 
+Some eary work. You'll see massive improvement before the class is over!
+
+{% comment %}
 Yep, this is it: the "before" picture.  We'll revisit once we're closer to "after".
 <iframe src="https://trinket.io/embed/python/b3ffba4e51" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -26,3 +29,4 @@ Yep, this is it: the "before" picture.  We'll revisit once we're closer to "afte
 Pretty good looking to me!
 
 <iframe src="https://trinket.io/embed/python/dfcc652204" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+{% endcomment %}

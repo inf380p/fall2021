@@ -34,7 +34,7 @@ be completed by the date and time listed.  Class notes are for your reference of
 
 {% comment %} Get readings {% endcomment %}
 {% if site.categories.reading != null %}
-{% assign readings = site.categories.reading |  sort: 'date' %}
+{% assign readings = site.categories.reading |  sort: 'date' | reverse %}
 {% endif %}
 
 {% comment %} Get notes {% endcomment %}
@@ -110,10 +110,20 @@ be completed by the date and time listed.  Class notes are for your reference of
             {% endif %}
         </td>
         <td>
-            {% if post.link %}
-                {% assign link = post.link %}
+
+            {% if post.canvas == false %}
+                {% assign canvas = false %}
+            {% elsif categories contains "notes" %}
+                {% assign canvas = false %}
+            {% endif %}
+            {% if canvas %}
+                {% assign link = site.canvas_url %}
             {% else %}
-                {% capture link %}{{ site.baseurl }}{{ post.url }}{% endcapture %}
+                {% if post.link %}
+                    {% assign link = post.link %}
+                {% else %}
+                    {% capture link %}{{ site.baseurl }}{{ post.url }}{% endcapture %}
+                {% endif %}
             {% endif %}
             <a href="{{ link }}">{% if post.categories contains "notes" %} <b>{{ post.date | date: "%b %d" }} - {% endif %}{{ post.title }} {% if post.categories contains "notes" %} </b> <span class="label round mode">{{ post.mode}}</span>{% endif %}</a>
         </td>

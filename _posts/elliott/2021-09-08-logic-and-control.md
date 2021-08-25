@@ -3,9 +3,13 @@ layout: post
 category: notes
 title: "Logic and the flow of Control"
 author: elliott
-published: false
+published: true
 mode: Remote
 ---
+
+Forthcoming.
+
+{% comment %}
 
 [Zoom Room for Remote Classes]({{site.zoom_url}}). Also in the menu bar above.
 
@@ -152,3 +156,5 @@ Taking turns with a partner, find *all* your pull requests (open and closed), an
 # Functions & Refactoring for Next time
 
 Read up on functions and then use the power of custom functions to make your previous code more concise and more awesome!
+
+{% endcomment %}

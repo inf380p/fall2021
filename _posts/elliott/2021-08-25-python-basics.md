@@ -3,7 +3,7 @@ layout: post
 categories: notes
 author: elliott
 mode: In person
-published: false
+published: true
 ---
 
 INF 380P. The P is for Party.
@@ -60,63 +60,58 @@ We'll talk a bit more about the interface of trinket in class.
 
 I want to explain the [materials]({{ site.baseurl }}/materials.html) page, and highlight a few things.
 
-We should have plenty of time in class to do these, but anything you don't finish, complete by midnight tonight:
-
-* Sign up for Trinket.  You'll need a premium Trinket account by the 2nd week of class.  Use code `INF380P` for 50% off.
-* While logged in to trinket, go [here](https://trinket.io/courses/join/kUUbrX)
-* Complete and Submit the "Basics of Turtle" exercise
-* Sign up for Github
-* * Make your first post to our github blog
-* Go over some Github basics
-* (hopefully) start your second post to our Github blog, with some initial reflections.  You'll have the weekend to finish this for if you need it.
+* The materials page is the best overview of what's going to happen in class. I'll explain a little later about the different platforms we're going to use, but you should bookmark the class website, check it every week, and use it to link to the other platforms we'll use.
+* Readings will be due by the beginning of class. We're using an interactive textbook edited by University of Michigan School of Information professor Barbara Ericson, who is an expert in coding education. It's really quite excellent. The platform we're using to access it, Runestone, is powerful but has some rough edges. It will be worth it, trust me.
+* When you read the textbook, there will be a lot of little activities and quizzes. **Do the activities**. Not only will that let me see you've engaged with the readings, it is a key part of your learning.
+* Especially in the first few sessions, we'll complete exercises related to the readings together during class. When we're in person, those will be individual activities which we'll discuss as a class. When we're remote, I'll incorporate group and/or pair programming components to some of the questions.
+* All in-class exercises should be completeable during class. If you're able to do this, your homework will mostly be reading and interacting with the textbook. You'll have until midnight each day of class if you need extra time in the evenings.
+* **Always** access your textbook and exercises via the links in Canvas. This will ensure (well, make it more likely) that your work and grades get synced back to Canvas. Don't worry: problems with this syncing won't affect your grade, but this is a big class so it'll be easier for everyone if the systems talk to each other correctly.
+* We'll talk about some larger projects and the final when it gets closer to time for them.
+* **Reflections** are a big part of this class. I'm still revising exactly how you'll turn them in, but it will likely be in Canvas to start. More next week since your first reflection is due in two weeks on the 8th.
 
 Complete these by the beginning of next class:
 
-* Submit your first reflective post (on Github) about the experience of the class and exercises so far (if you don't finish in class)
-* Read Why Python
 * Read about Variables
-* Watch Chapter 1 of "Python Game Development for Beginners" by yours truly (free)
-* Make some basic Python Programs with Chapter 2 extercises
+* Read about Debugging
+* Read Why Python
 
-Later in the semester you'll need full access to "Python Game Development for Beginners".  I suggest a subscription to [Safari Books Online](http://www.safaribooksonline.com).  This will also give you access to a wide range of other tech resources for this class and beyond.  PSA: Safari offers a 10 day free trial. But there are plenty of options for access.
-
-
-# Let's Go!
-
-Our first in-class exercise will have you making a cool animation with Python. I'll stop us periodically to discuss and share your progress.
-
-After [signing up for Trinket](https://trinket.io/signup), visit this link: https://trinket.io/courses/join/kUUbrX
-
-You'll find your first assignment ready for you.
+Finally, let's review via an [Overview of the Platforms We'll Use]({{site.baseurl}}/how-to/exercise/platforms.html). This and other content you might want to reference later is in the class website's How-to tab.
 
 # Intermission
 
-I'll need your Github username so I can add you to our site.
+Let's take a break.
 
-# Class Part 2: Github
+# Class Part 2: Why Program?
 
-You should have received an email invite to our github Organization. Check your email or visit [this link](https://github.com/inf380p) while logged in to accept.
+I want to get everyone familiar with our textbook platform, and accessing it through canvas. This will be one of the only times we read in class.
 
-Now it's time to:
+* Go to [**Canvas**]({{ site.canvas_url}}) and click on Pre-reading. Read through the chapter and complete the activities on each page.
 
-* Make your first post to our github blog
-* Go over some Github basics
-* (hopefully) start your second post to our Github blog.  You'll have the weekend to finish this for if you need it.
-
-Let's get going!
-
-* [Can I get a volunteer?]({{ site.baseurl }}/how-to/exercise/githubbasics.html)
-* Chapter 2 - Variables preview
-
-# Last Words / Next Steps
-
-* A theme for programming: **type and read your code closely**
-* We're aiming for *cutural immersion*, not *cultural assimilation*. Be open to coding cultures, and be yourself within them!
+Once everyone has made it through most of the chapter, we'll turn to the exercises together.
 
 If you finish early:
 
 * Submit your welcome form
-* [Get started on your first reflection]({{ site.baseurl }}/exercise/first-reflection.html)
 
-Recording of this class (Requires UT Login - see also the how-to page on protected Panopto content)
-<iframe src="https://utexas.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=5eac2c24-3bb5-4535-b7c1-ac23010ff9c6&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+# Intermission
+
+Second break
+
+# Attendance and a bit about you
+
+Let's briefly get to know each other's names and backgrounds! Please answer the following when I call on you:
+
+* Your name
+* What are you studying?
+* Why are you interested in programming?
+* What's your favorite piece of software ever? Could be a website, mobile app, a historical program like ELIZA, or the classic DOC game Oregon Trail.
+
+**Note: With reasonable exceptions, we'll ask everyone to sit in the same place all semester to aid in contact tracing in the unfortunate event that anyone in class gets Covid this semester**
+
+# Last Words / Next Steps
+
+
+* A theme for programming: **type and read your code closely**
+* We're aiming for *cutural immersion*, not *cultural assimilation*. Be open to coding cultures, and be yourself within them!
+
+If you haven't submitted your welcome form, please do so before Midnight!
