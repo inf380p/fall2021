@@ -4,6 +4,7 @@ inclass: true
 layout: post
 author: elliott
 title: Submit the Welcome Form
+canvas: false
 ---
 
 
