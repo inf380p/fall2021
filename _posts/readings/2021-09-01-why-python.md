@@ -3,6 +3,7 @@ author: elliott
 layout: post
 title: "Why Python?"
 categories: reading
+canvas: false
 ---
 
 # Why Python?
