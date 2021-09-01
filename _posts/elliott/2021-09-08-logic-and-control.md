@@ -14,6 +14,34 @@ Forthcoming.
 
 # Welcome Form review
 
+
+# Survey responses & code reflections
+
+{% comment %}
+Highlights from the welcome survey:
+* "I tried to learn python from my brother and then through CodeAcademy. I followed along but lost interest and forgot what I learned quickly."
+* Goal: "A decent understanding of python and python's application in the real world and where to go next to learn more."
+* "I tend to be a perfectionist, so learning that getting things wrong as part of the learning process makes me a bit anxious, but I really hope to become more comfortable with that as the semester goes on. "
+* "From the little experience that I have, I have navigated coding simply by doing and not really understanding what I am coding."
+* "...quite a lil bit of imposter syndrome..."
+* "I like the feeling of success when I've been working on something for a long time and finally get it to work. That's such an exciting feeling :) "
+* "I would really really like some projects for my portfolio/resume"
+* "I’m fairly worried that I won’t be able to keep up since I’m starting from scratch and this is not my academic strong suit."
+* "I struggle with learning on my own, so I hope that the structure and community in this course will help alleviate those difficulties."
+* "My understanding is that you can get hung up on parts of code and I hope I don’t spend the majority of my time backtracking and trying to figure out where I went wrong."
+* "I am excited about learning a tangible new skill."
+* "I hope to gain technical base where I build from and become more proficient in years to come."
+* " Using open source lectures to learn code does not work for me because I do not have the instructor to go to to ask questions or help how he/she will solve a coding error."
+
+Highlights from the first exercise reflections:
+
+* "I was absolutely overwhelmed in class (and only coded a bunch of lame pre-figured shapes/colors), but once I relaxed and took the time to work through a slightly more complicated project later on, I learned a lot more and was happier with the result. The moral of this story is that I probably won’t get stuff right off the bat and will probably have to mess around with things alone/ in silence later on for it to click. It's going to take a while. That’s ok with me!"
+* "I had a lot of trouble with the move forward and backward and using the x and y coordinates was much easier on my brain."
+* "It seems simple but turns out to be difficult."
+* "Although my piece is fairly simple, I'm happy with how it turned out and I feel confident I could make other shapes and pictures much more easily now."
+{% endcomment %}
+
+
 # Final Project Discussion
 
 It's posted. We'll talk more about it later, but take a look to see where we're headed.  Short version: you'll use everything we're learning to write an awesome program!
