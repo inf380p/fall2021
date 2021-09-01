@@ -12,9 +12,18 @@ Forthcoming.
 {% comment %}
 
 
+# Welcome Form review
+
 # Final Project Discussion
 
 It's posted. We'll talk more about it later, but take a look to see where we're headed.  Short version: you'll use everything we're learning to write an awesome program!
+
+# In Class: Make Sure You Can Access Protected Panopto Content
+
+This brief in-class assignment is also in our [how tos]({{ site.baseurl }}/how-to.html) if you ever run into a situation where these videos aren't displaying for you.
+
+We're doing it this week because next week is remote!
+
 
 
 [Zoom Room for Remote Classes]({{site.zoom_url}}). Also in the menu bar above.
