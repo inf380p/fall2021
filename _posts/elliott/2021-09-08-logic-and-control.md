@@ -11,6 +11,12 @@ Forthcoming.
 
 {% comment %}
 
+
+# Final Project Discussion
+
+It's posted. We'll talk more about it later, but take a look to see where we're headed.  Short version: you'll use everything we're learning to write an awesome program!
+
+
 [Zoom Room for Remote Classes]({{site.zoom_url}}). Also in the menu bar above.
 
 # Today's Class Schedule

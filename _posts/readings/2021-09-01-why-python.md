@@ -88,7 +88,7 @@ intepreters are so much more convenient for programmers than compilers are.
 
 Further Reading:
 
-* Chapter 1 of [our textbook](https://books.trinket.io/pfe/01-intro.html#terminology-interpreter-and-compiler) has more on this subject.
+* Chapter 1 of our textbook has more on this subject.
 * [Discussion about this on Quora](https://www.quora.com/What-is-the-difference-between-compiled-and-interpreted-programming-languages)
 wherein the top commenter says that since every language *can* be interpreted or compiled (which is true), it makes no sense to speak of them in
 such terms.  Which means that what I wrote above is a bunch of hogwash. See if you agree.  You'll find lots of very precise answers like
@@ -98,7 +98,7 @@ I hereby grant you permission (not that you need it) to come up with your own co
 * [List of compiled Languages](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Compiled_languages)
 
 ## Whitespace-based syntax
-Python uses whitespace (spaces, tabs, newlines, and other things that humans don't see)
+Python uses whitespace (spaces, tabs, newlines, and other things that aren't typically displayed to the user)
 to delineate the start and stop of its major pieces.  Many other languages use a verbose syntax,
 which involves a lot of special characters.
 

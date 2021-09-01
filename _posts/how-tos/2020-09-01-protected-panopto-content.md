@@ -6,6 +6,7 @@ categories:
 - exercise
 inclass: true
 title: Accessing Protected Panopto Content
+published: false
 ---
 
 
