@@ -69,7 +69,7 @@ Pomodoros are a productivity technique to ensure that you're taking regular brea
 
 If you find pomodoros help you, you can use them yourself, for anything. There are fancy apps and such, but all you need is a clock or timer and some discipline.
 
-## Schedule
+# Schedule
 
 Pomodoro 1: Intro (in progress). 5m break
 
