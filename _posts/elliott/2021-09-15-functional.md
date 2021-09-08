@@ -3,9 +3,13 @@ layout: post
 author: elliott
 title: "Let's get functional"
 category: notes
-published: false
+published: true
 mode: In Person
 ---
+
+Forthcoming
+
+{% comment %}
 
 # Today: ZOOM
 
@@ -107,3 +111,5 @@ This will help inform the rest of the semester:
 https://docs.google.com/forms/d/e/1FAIpQLSfLeP97StyWrFa5DAdVLQ2DOsMhgQscDOemyJZPzDWh6URXJA/viewform?usp=sf_link
 
 Mark "N/A" of leave blank if questions don't apply to you or you don't have any feedback for me on that question.
+
+{% endcomment %}

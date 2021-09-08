@@ -4,6 +4,7 @@ author: elliott
 categories:
   - exercise
 title: Meetup Writeup
+canvas: false
 ---
 
 Submit one request with a writeup of your off-campus cultural immersion meetup experience.

@@ -4,6 +4,7 @@ author: elliott
 categories:
   - exercise
 title: "Extra Credit: Open Source Contribution Writeup"
+canvas: false
 ---
 
 Submit a pull request detailing your open source contribution, with a link to the work.
