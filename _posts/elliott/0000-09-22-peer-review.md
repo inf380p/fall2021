@@ -7,6 +7,9 @@ mode: Remote
 published: false
 ---
 
+Forthcoming
+
+{% comment %}
 # Welcome to our new Teaching Assistant Misha Coleman
 
 Misha has several years of professional programming experience, and has seen the benefits of a supportive technical community firsthand. We're lucky to have her!
@@ -85,7 +88,6 @@ Pair up via Zoom breakouts
 * *If you or your partner's post doesn't display*, work together to diagnose what is wrong about it: the filename, folders, YAML header, etc. If you can't figure this out, **Ask for Help** via zoom and we'll drop in.
 * Take a break when you're done. Misha and I will pop in to help and stragglers.
 
-
 Reconvene at the agreed time for Part II.
 
 # Part II
@@ -134,3 +136,5 @@ So, it's a lot of material, but doing it all at once should help it all sink in.
 # Flex time
 
 *If you have posts that aren't showing up on the people page*, we'll walk through some examples of how to fix this.
+
+{% endcomment %}

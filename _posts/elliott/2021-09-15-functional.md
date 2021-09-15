@@ -4,112 +4,71 @@ author: elliott
 title: "Let's get functional"
 category: notes
 published: true
-mode: In Person
+mode: "Remote"
 ---
 
-Forthcoming
 
-{% comment %}
+# Announcements
+- What's in a reading assignment? (Arrow button/link at bottom of page screenshare)
+- Panopto tab on Canvas has class recordings
+- Please access your Runestone exercises from Canvas
+- Special Cultural immersion opportunity: ["Technically Wrong" discussion group](https://docs.google.com/forms/d/e/1FAIpQLSegpjPecrguyeslYPy6CZOP9GZsH9Ca4qjiZCcE8P6mfBSrbA/viewform). Contact me *first* if you'd like this to be your cultural immersion activity instead of a programming meetup. It will be significantly more work, but has the potential to be an even more valuable change to experience and analyze cultures of computing and technology.
 
-# Today: ZOOM
+# Vocab and Q&A
+- "high-level" as vocab word & cultural token
+- "stack" in programming languages, and systems.
+- Others?
 
-* Everyone please *mute* your speakers. We have a remote classmate and don't want feedback.
-* Please use your *headphones* in breakout rooms today. Zoom compensates for the fact that you can't look over your partner's shoulder in person (thanks, Covid)
-* I added a Zoom section to the menu bar with a convenient link to the room we'll use from now on. :crossed_fingers: This should automatically record to the cloud and show up in our Panopto folder. We're learning together...
+# First reflection
 
-# Q&A
+Know where you are and how you're feeling, then take action.
 
-* Vocab hotseat!  Got some vocab getting you down? Or a concept that's giving you fits? Let's throw it on the board and clear things up.
-* When to use variables:
+These reflections were really really excellent. Nice work, crew! Some selected quotes follow.
 
-<iframe src="https://trinket.io/embed/python3/ec89a1f1a3" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+## Knowledge (lightbulbs)
 
-* Variables are power because they store the *results* of an expression. Functions are even more powerful because they store *recipes* of expressions that can be reused and even modified depending on how you *call* them. More on functions later this class, but I wanted to make the connection here. Both of these programming concepts were invented and are taught because they're *useful*. _They did not always exist_. Thank you, past programmers, for inventing useful things for yourselves that happen to also be useful to us.
+* "My lightbulb moment was when the book discussed and provided the below chart for the keywords that are used in Python. When I saw this, I felt like I had to screenshot it as it validated for me that there was no such thing as people being predisposed to knowing Python, it was something that I could learn also! Because this gap in knowledge was filled, I was no longer intimidated by the content because it felt like with this out of the way, everything else was easier."
+* "The "lightbulb" moments really came when I had a study session with a classmate, where we went though the activities and talked about where we each felt some confusion. Almost everything she had trouble with, I was able to explain to her, and vice versa. Not only did talking someone else through the process (like pair programming) really cement my understanding, it really helps to have another person's perspective and reasoning on tricky problems."
 
-# Part I: Turtlehacks
+## Attitudes (feelings)
 
-Schedule:
-* Pair up and Merge up (30m)
-* Code talks (30m)
+* "One aspect of coding that I feel encouraged by is that there are wrong answers but there is not necessarily one, set, right answer"
+* "As someone who spent a lot of their undergraduate years writing papers, I am approaching coding in a similar fashion. I have never written a paper with zero errors on the first try so why should my coding be the same at this point?"
+* "One thing that I need to remind myself about learning code is that it is learning a new language....I have to consistently remind myself to have patience and to continue practicing."
 
-We'll take breaks within these sections as indicated below.
+## Skills (actions)
 
-# Pair up and Merge Up
+* "I am setting goals for myself in the next few weeks. I intend to continue to devote time to understanding the practice problems assigned each week. I also will continue to work on being patient when errors are made, to reflect on why they were made, and to accept that this is going to be a continuous learning process. In class, I would like to participate more as I become more confident in my programming. I am looking forward to the group work and collaborating with others and learning from them. Overall, I am proud of myself for taking this course and trying to learn a subject that had previously intimidated me."
+* "The method that has helped me best in learning has been taking notes systematically for each section per chapter (e.g., 2.1, 2.2, 2.3) in the assigned reading. Taking notes for important terms/concepts, and noting key takeaways from the mini-exercises has helped me in retaining a lot of the information presented."
+* "One tool that I have been using to help learn all of this new vocabulary has been a continuous glossary. I found that by copying the end-of-chapter glossaries, in addition to other keywords discussed in the chapter, I can have a quick and easy reference for when I encounter a confusing but familiar word while doing the exercises."
+* "I find that when I return to the material after a few hours or on the next day, things flow a little more smoothly."
 
-Pair up (via Zoom breakout rooms) and merge up!
+## Self-awareness
 
-Some steps:
+* "I learn best when I have access to an answer key or explanation of the problem."
+* "I _am_ worried by the speed of the instruction. We seem to be moving very fast and I wonder how things will look two months from now"
+* "I tend to veer on the side of just wanting to learn the bare minimum so I can perform a task, rather than taking the time to think through the concepts and apply what I’ve learned to the hands on activities"
 
-* "Request Review" from your partner in the right-hand portion of the pull request's Conversation tab. This is a mechanism to ask a specific person to look at your code on a project. I want you to know it exists, even though you can ask your partner verbally to review your PR.
-* Use the how-tos page and/or your notes to confirm that everything looks good for your partner. Approve or Request Changes
-* When you're both done, make any needed changes. Use each other as a resource for this!
-* Review, approve, and merge your partner's changes, if needed.
-* Verify that both your posts show up on our website. If not, try to diagnose why together. Ask for help if needed.
+# Agenda: 4 Pomodoros & A Wrap-up
 
-Take a break for any remaining time.
-
-# Code Talks on your Turtlehacks
-
-* Read & discuss each other's programs with your partner.
-* New Group up
-* Circle up
-
-Take a break for any Remaining time.
-
-# Part II: Functions
-
-Schedule:
-
-* My comments about Functions - 10m
-* Your questions - 10-20m
-* Homework code talks - 15-30m
-* Break - 10m
-
-# Functions as Idioms
-
-Generally, pull your function **definitions** up out of the code, then **call** them
-in your code.
-
-Conditionally defining a function (probably a bad idea):
-<iframe src="https://trinket.io/embed/python/1024e17c6f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-# Backing up: Anatomy of a function
-
-I never really got **parameter** vs **argument** until late in my career.  Now you know :)
-
-<iframe src="https://trinket.io/embed/python/18d7dfc759" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Pomodoro 1: Group warm up. Not graded, so go [straight there](https://runestone.academy/runestone/books/published/py4e-int/functions/func-group.html)
 
 
-# Part III: Functional Turtle Trinket & Pull Request
-
-Schedule:
-* Work on functional turtle assignment - 15m
-* Pair up and discuss - 15m
-* Wrap-up comments, Looking ahead, and Survey - 5-10m
-
-Balance of time: Complete in-class or homework assignments
-
-# Functional Turles: In Class
-
-Link in assignments.
-
-# Looking ahead
-
-* My Treasure hunt game, demonstrating click events and with an instructions animation:
-<iframe src="https://trinket.io/embed/python/5c8c1ce975?start=result&outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-Clicky Turtles are on their way!  You'll need Chapter 2 of my video to learn about them (they're not in the textbook)
+Pomodoro 2: All together
 
 
-# Homework: Treasure Hunt Turtles
+Pomodoro 3: Pairs
 
-Check it out on the assignments page.  **Use your resources**
 
-# Please complete this survey!
+Pomodoro 4: All together
 
-This will help inform the rest of the semester:
-https://docs.google.com/forms/d/e/1FAIpQLSfLeP97StyWrFa5DAdVLQ2DOsMhgQscDOemyJZPzDWh6URXJA/viewform?usp=sf_link
+# Wrap-up
+Lots of work for next week: start this week!
 
-Mark "N/A" of leave blank if questions don't apply to you or you don't have any feedback for me on that question.
+- You told me in your reflections that the exercises were helpful to test what you've just read. So I've added some back into the readings.
+- They will be graded for interaction, but you're doing the ones with answers. Try them first, and use the answers to learn. The only person you can cheat is yourself if you skip ahead to the answers.
+- There are both ActiveCode and Parsons versions to the mixed up code questions. For extra challenge, do some or all from scratch using the ActiveCode version.
 
-{% endcomment %}
+Strings: we've been using them all along! But you'll read about all sorts of cool things they've been able to do that you didn't know about. Data types in Python can have **methods**, which are function-like things attached to types. So, all along, strings have been able to do things like `"some string".capitalize()`
+
+Files: A logical addition to strings, files are how we store stuff in secondary memory (the hard drive). Reading files most often produces, you guessed it, strings.
