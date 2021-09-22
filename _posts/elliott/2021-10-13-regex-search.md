@@ -3,9 +3,12 @@ author: elliott
 category: notes
 layout: post
 title: "Regex & basic search"
-published: false
+mode: In Person
+published: true
 ---
+Forthcoming
 
+{% comment %}
 
 # Q & A
 
@@ -68,3 +71,4 @@ If you're disappointed about this, check out [https://regexcrossword.com/](https
 It's time. Due tomorrow!
 
 Stay after class for some help.
+{% endcomment %}
