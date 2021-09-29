@@ -19,7 +19,7 @@ Teaching Assistant: {{ site.course.ta }}
 
 Location: {{ site.course.location }} (and remote as indicated on Materials page)
 
-Office hours: [Schedule here](http://bit.ly/hauserofficehours) (UTMail or google account required), or contact me. All office hours will be conducted via Zoom.
+Office hours: [Schedule here](http://bit.ly/hauserofficehours) (UTMail or google account required), or contact me. All office hours will be conducted via Zoom.  {{ site.course.ta }} also has some office hours available; [Schedule here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUVMc1JxMUhXU19lfGRlZmF1bHR8NzVkZjI1MWY1MDA4ZTdjNjE2MDcxM2Y3M2QzYjg2OTQ)
 
 
 ### Official Course Description
