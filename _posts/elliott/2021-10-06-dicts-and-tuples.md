@@ -32,3 +32,7 @@ OK. Now let's look at an example comparing the count/sum approach, using a list,
 # Tuples
 
 If there's time we'll work through your questions.
+
+
+An example to help explain Lambdas and Sorting:
+<iframe src="https://trinket.io/embed/python/e07cd1c4ed" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
