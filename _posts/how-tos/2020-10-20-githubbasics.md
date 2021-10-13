@@ -6,7 +6,7 @@ categories:
  - exercise
 inclass: true
 title: Github basics
-published: false
+published: true
 ---
 
 # Can I Get A Volunteer?

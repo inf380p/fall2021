@@ -3,72 +3,66 @@ author: elliott
 category: notes
 layout: post
 title: "Regex & basic search"
-mode: In Person
+mode: Remote
 published: true
 ---
-Forthcoming
 
-{% comment %}
+# Q&A and Vocab
 
-# Q & A
+* Group up and let's get these on the board.
 
-* Please turn things in on time!  Zeros are no fun.  The assignments list is your friend.
-* My reflection responses to you will come out probably over the weekend.  Look for an email.
-* Overall message: positive, strategies are working, need to dig in more with the details.
-* So we will!
+Resources:
 
-# Reflections Review.
+* [Pythex](https://pythex.org/) is a nice way to build out regular expressions while testing them visually
+* [Regex Crossword](https://regexcrossword.com/) can be a fun way to learn regexes by producing text that will match multiple regexes, like crossword puzzles have overlapping words.
 
-In your words:
+# The Wild Wonderful World of Wegexes
 
-* "Sometimes learning python has been exhilarating; sometimes it has been exhausting."
-* "Even though I’ve accomplished a lot in this class, I’m not sure how much of it I'm actually learning and how much is just coincidentally working out."
-* "Most of the time, my “go to” problem solving strategy is to print as I go along.  This helps me ensure that the program is working appropriately step-by-step."
-* "Overall, one of the best problem solving strategies that works for me is reading what the assignment is as soon it's assigned or before it's assigned and not working on it for a few hours to a day. I'll brainstorm the problem away from my laptop and try to come up with potential creative ideas that I can execute."
-* "Being this is my first time programming, I experience confusion during every exercise, but can normally figure out a way to solve whatever I’m doing.  It’s definitely made me realize how coding is an iterative process."
-* "I'm still not a confident as I'd like to be with the list/string operations. I see those as potentially useful in my work, so getting more practice with those would probably do me some good."
-* "I ended up commenting ahead of actually getting things working and they were little helpful guides or mini-milestones that helped get me unstuck. I started making much better progress once I commented out the plan a bit."
-* "Usually I jump right in without a game plan, creating much chaos in my code that I can't remember what I was trying to obtain even with comments. Now I try to set up some sort of plan I can follow, but occasionally jumping right in gives me the prefect boost I need to give me a start on my work."
-* "I guess in a wider sense, I’m uncertain where the best places to go are for explanations of Python’s capabilities."
-* "Just getting away from the computer and refreshing my brain has done wonders. I had to walk away from the computer at least twice when writing my slam poetry code. When you come back the code becomes a fresh canvas in which you can see the issues more clearly and you dont get caught up in what you have already written. "
-* "I have also found working with a partner has been very useful. Sometimes just because they know something you dont, but mostly because it makes you form your ideas fully in order to explain it to your partner and it becomes clear whether or not it will work or not much faster. "
-* "My favorite strategy has been going back and looking at my or others old work. Often times, something I want to do for a current exercise, has been done in a similar circumstance in either one of my previous exercises or in other classmates previous exercises."
+Regexes are super powerful. It takes a lot of practice to be able to parse the complicated ones. But it's also OK to start simple:
 
-# Lists, loops, strings
+* `this` is a regex that matches these exact characters: `this`
+* `(t)?his` is a regex that matches `his` and, optionally, `this`. The parentheses plus the `?` indicate that the `t` is optional.
+* `[th]is` matches `his` OR `tis`. The square brackets indicate either/or.
 
-Let's review!
+[Here's this example on Pythex](https://pythex.org/?regex=%5Bth%7Cbr%5Dis&test_string=his%0Athis%0Athat%0Atis%0Awhich%0Awish%0Abris%0A&ignorecase=0&multiline=0&dotall=0&verbose=0)
 
-Go [here](https://trinket.io/python/0ca3ae7e98) to see my code.
+## Character Classes
 
-* For loops loop over lists.  Let's translate
-* Build a string from a list two ways: `.join` and `for` loop.
-* Fancy formatting: Multiplying strings `"-"" * 16`
-* Lists of lists: first, slice your rows.  Then, slice the cells you want.
-* Adding lists together (if it's not a list, make it one!)
-* Removing stuff from lists
-* Functions and global variables
-* Put it all together: [CSV1 Answer](https://trinket.io/python3/03dfabddb0)
+_Note: Regex character classes are different from the Classes used to make objects in Python._
 
-# Files
+The above examples add in some regex **syntax** but use characters. Regex also provides special symbols which indicate a range of characters. `\d` indicates a **d**igit, for instance.
 
-Slam Poetry Files Review.
+So, the pattern of a typical US phone number would be written
 
-For this you need to:
+* `\d\d\d-\d\d\d-\d\d\d\d`
 
-* Collect user input (as you were already doing)
-* Write that to a file in addition to writing it to the screen.
+This would match string like `555-867-5309`, since there are digits and hyphens that follow the pattern above.
 
-Pair up/merge up.
+* `\d` indicates **d**igit characters, 0-9
+* `\w` indicates **w**ord characters, a-z, A-Z, 0-9, and _
+* `\s` indicates **s**pace characters, like ` `, `\t` (tab), and `\n` (newline)
 
-# Regexes POSTPONED
+The capitalized versions of each of these match _everything not in the classes_.
 
-We were going to do this today but I think we need a breather to discuss loops, lists, strings, and files together.
+## Selecting
 
-If you're disappointed about this, check out [https://regexcrossword.com/](https://regexcrossword.com/).
+Let's say we only wanted the area code of a phone number. We can use parentheses to select just that portion of a match:
 
-# Drawing App or Blackjack Clinic
+* `(\d\d\d)-\d\d\d-\d\d\d\d`
 
-It's time. Due tomorrow!
+Why not just use `\d\d\d`? well, that would also find other instances of three digits in a row. We want three digits in a row only when they're followed by the rest of a phone number. So we write the pattern of a phone number and select what we want out of it.
 
-Stay after class for some help.
-{% endcomment %}
+# Specific examples from the homework
+
+* TBD
+
+# Getting Set Up Trinket
+
+1. Create a free Trinket account
+2. Create your first new trinket (any trinket)
+
+That's it: you can now make and share your own Python programs. We'll embed python trinkets into the class website next week as we go deeper with talking about code.
+
+If there's time, we'll walk through getting a Write Code exercise into Trinket. If we can all get through this, there's no homework for next class!
+
+That said, some of you might want to execute on the strategies for resolving fuzziness you identified in your reflections during this 'week off'. It's a week for catching our breath and catching up where needed.
