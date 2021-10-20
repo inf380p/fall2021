@@ -25,7 +25,7 @@ for line in hand:
     x = re.findall('[a-zA-Z0-9]\S+@\S+[a-zA-Z]\s([0-9])', line)
 ```
 
-Where I started to run into problems was when I was trying to take those numbers and append them into the empty list `num_lst` which I created earlier.
+Where I started to run into problems was when I was trying to take those numbers and append them into the empty list `num_lst` which I created earlier. Here is the correct code:
 
 ```python
 for line in hand:
@@ -35,4 +35,4 @@ for line in hand:
         num_lst.append(numbers) 
 print(num_lst)
 ```
-
+Note what is in in the parentheses in the `.append` line.
