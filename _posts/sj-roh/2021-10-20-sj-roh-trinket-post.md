@@ -28,7 +28,7 @@ for line in hand:
 Lastly, I run another for loop to go through the results from the regular expression, and then append each line of domain
 to the 'domains' open list. I must call the first element within the returned values for x because each line is already 
 in a list, and the findall() function automatically returns values in a list as well. Thus, I call the first element to
-append each email to the domains list so it contains strings and not lists.
+append each domain to the domains list so it contains strings and not lists.
 
 ```python
     for domain in x:
