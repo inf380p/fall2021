@@ -18,4 +18,6 @@ print(text_match("The quick brown fox jumps over the lazy dog."))
 ```  
 
 This is meant to test whether an entry is a string or not. 
-The simpelest way to do so is to see if a line begins (^) with a capital letter [A-Z]  
+The simpelest way to do so is to see if a line begins (^) with a capital letter [A-Z]
+    
+A small issue could be if someone has incorrect syntax and chooses to begin a string with a lowercase letter    
