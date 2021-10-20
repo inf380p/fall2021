@@ -39,15 +39,15 @@ def computegrade(score):
  def computegrade(score):
     if type(score) == type("") or score > 1:
       return 'Bad score'
-    elif score > .9:
+    elif score >= .9:
         return 'A'
-    elif score > .8:
+    elif score >= .8:
         return 'B'
-    elif score > .7:
+    elif score >= .7:
         return 'C'
-    elif score > .6:
+    elif score >= .6:
         return 'D'
-    elif score > 0:
+    elif score >= 0:
         return 'F'
  ```
  
