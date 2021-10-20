@@ -57,4 +57,4 @@ def computegrade(score):
  if type(score) == type("") or score > 1 or score < 0:
  ```
  
- While this did work, I wonder if there is a more elegant way to do this. In other words, I wonder if there is a way to make the code less verbose and still accomplish the same task. 
+ While this did work, I wonder if there is a more elegant way to do this. In other words, I wonder if there is a way to make the code less verbose and still accomplish the same task.  
