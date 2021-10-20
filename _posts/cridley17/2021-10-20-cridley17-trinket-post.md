@@ -37,5 +37,6 @@ In order to match uppercase letters and lowercase letters, both need to be inclu
 ```
 word = '[cC]+[aA]+[tT]'
 ```
+This code will match any mix of upper and lower case letters in the word 'cat'.
 
-One important thing to note is to remember to import regex by starting the code with `import re`. If this is not done the code will not work at all. 
+One important thing to note is to remember to import regex by starting the code with `import re`. If this is not done the regular expressions will not work in the function.  
