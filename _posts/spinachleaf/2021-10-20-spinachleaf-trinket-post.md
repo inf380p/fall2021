@@ -22,3 +22,4 @@ This code returns `Found a match!` if it does, and `Not matched!` if it does not
 ```
 
 When I ran "The quick brown fox jumps over the lazy dog" I got the result `Found a match!` and when I ran "2 foxes jump over lazy dogs" I got the result `Not matched!`
+This was the expected result.
