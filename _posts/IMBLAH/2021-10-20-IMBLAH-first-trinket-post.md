@@ -4,9 +4,11 @@ author: IMBLAH
 title: "IMBLAH's first trinket post!"
 ---
 
-Here's a an example about parsing using `cityState.split(",")` and `values[2]`.
+Here's a an example about parsing using `split()` method and index, `values[2]`, for example.
 
 <iframe src="https://trinket.io/embed/python/fd5f1e89b0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+The code below returns the average PM 2.5 value for the passed state (using the two letter abbreviation).
 
 ```
 def avg_PM25(state):
@@ -33,5 +35,8 @@ def avg_PM25(state):
 
 print(avg_PM25('OH'))
 ```
-
-In this case, when using split method, it returns a list.
+I chose this example because I spent a lot of time on correcting the index. This code executed the split method twice so I was confused about the index number of the part of the list I wanted extract. I retreated and came back with my magical 'print()' function.
+```
+print(values)
+```
+Then everything's clear.
