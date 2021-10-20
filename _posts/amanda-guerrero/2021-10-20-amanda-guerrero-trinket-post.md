@@ -7,6 +7,7 @@ Here's an example about loops:
 
 <iframe src="https://trinket.io/embed/python/8603e3fb89" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+For my first trinket, here's an example question from Runestone
 
 This question asks you to modify the following existing code: 
 ```python
