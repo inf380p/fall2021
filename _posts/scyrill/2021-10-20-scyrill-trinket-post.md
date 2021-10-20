@@ -1,7 +1,7 @@
 ---
 layout: post
 author: scyrill
-title: "Scyrill's First Post!"
+title: "Stephanie's Trinket File!"
 ---
 Here is an example about sorting items in a dictionary: 
 
