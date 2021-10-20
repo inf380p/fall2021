@@ -29,3 +29,4 @@ print(word_dictionary)
 ```
 Overall, this is a simple example of using a dictionary to count the number of times each word is used in a given phrase. This example was one of the first lightbulb moments I had in class regarding how to iterate through ``for loops`` to count something, and then use dictionaries to store it.
 
+I am practicing making an edit here!
