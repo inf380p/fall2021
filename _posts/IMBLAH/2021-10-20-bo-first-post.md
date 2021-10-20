@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Bo
+author: IMBLAH
 title: "Bo's first post!"
 ---
 
