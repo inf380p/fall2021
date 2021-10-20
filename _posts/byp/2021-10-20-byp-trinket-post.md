@@ -21,3 +21,12 @@ for item in s:
 when you are using `findall()`, parentheses indicate that while you want the whole expression to match, you only are interested in extracting a portion of the substring that matches the regular expression.
 
 Instead of calling `search()`, we add parentheses around the part of the regular expression that represents the floating-point number to indicate we only want `findall()` to give us back the floating-point number portion of the matching string.
+
+another example: 
+
+```python
+import re
+x = 'We just received $10.00 for cookies.'
+y = re.findall('\$[0-9.]+',x)
+print(y)
+```
