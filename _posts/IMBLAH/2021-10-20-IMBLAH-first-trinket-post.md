@@ -1,8 +1,8 @@
-- - -
+---
 layout: post
 author: IMBLAH
 title: "IMBLAH's first trinket post!"
-- - -
+---
 
 Here's a an example about parsing using `cityState.split(",")` and `values[2]`.
 
@@ -34,4 +34,4 @@ def avg_PM25(state):
 print(avg_PM25('OH'))
 ```
 
-In this case, when using split method returns a list.
+In this case, when using split method, it returns a list.
