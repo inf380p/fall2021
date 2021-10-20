@@ -40,4 +40,5 @@ print(tup_list)
 
 ```
 
+After doing it this way, the question was very easy and it made sense!
 
