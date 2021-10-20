@@ -30,7 +30,7 @@ ray@media.berkeley.edu 1
 ```
 my answer is:
 
-```python
+```
 with open("mbox-short.txt2", "r") as filename:
     message_count = {}
     messages = filename.readlines()
