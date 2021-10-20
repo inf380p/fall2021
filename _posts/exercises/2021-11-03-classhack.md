@@ -3,15 +3,25 @@ layout: post
 author: elliott
 categories:
   - exercise
-title: "Extra Credit: Class Hack"
-inclass: true
+title: "Class Hack"
+canvas: false
 ---
 
 {% include prblurb %}
 __
 
-_Note: this is a highly recommended but **Optional** Extra Credit exercise._
 
-Make a hack of one of your previous trinkets that uses **classes**.  This can be Turtle or text-based.  Your class can be constructed from scratch or extended from a built-in class.  For Turtle Finals, I HIGHLY recommend wathcing the portions of my video that deal with class extension.  Even if you're doing a text-based final, you can complete this with Turtle, but it might be more helpful to do it in a text-based way so that it's translateable to the requirements of your final.
+Extend the `Turtle` class such that it takes **three** (or more) parameters, and changes the color and starting position of the resulting object in the `__init__` method.
 
-The purpose of this exercise is to get you hands-on with classes in a program you're already familiar with so that it's easier to incorporate them into your final.  It should be a combination of a refactor (an improvement to code style that doesn't change functionality) and an improvement to the original, using the possibilities of classes.
+Then, **instantiate** four objects (or more) of your new `Turtle`-based class, with different parameters, to show how parameters affect the initial state of your objects.
+
+Then, add at least one new **method** to your class that enables it to make a shape when called. Call this method on all four instantiated objects.
+
+If your method draws a triangle and then hides the turtle, and you choose parameters that position your custom turtles in the four quadrants of the screen, your resulting program will show four different-colored triangles in the four quadrants of the screen.
+
+
+To optionally challenge yourself, consider:
+
+* instantiating your custom Turtles in a loop
+* using the `random` module to generate random integers, or choose random colors from a list you made.
+* accepting parameters in your custom method

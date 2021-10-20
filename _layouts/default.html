@@ -50,7 +50,7 @@
           <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right show-for-large-up">
-              <li><a href="{{ site.zoom_url }}"><i class="fa fa-video-camera"></i>&nbsp;Zoom</a></li>
+              <li><a href="{{ site.zoom_url }}" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;Zoom</a></li>
               <li><a href="#" class="js-gitter-toggle-chat-button">Chat</a></li>
               <li><a href="{{ site.github_repo_url }}"><i class="fa fa-github"></i>&nbsp;Github</a></li>
             </ul>
@@ -62,7 +62,7 @@
                 {% endfor %} {% if site.python == true %} {% for pagename in site.python-extra-pages %}
                 <li><a class="extra" href="{{ site.baseurl }}/{{ pagename }}.html">{{ pagename }}</a></li>
                 {% endfor %} {% endif %}
-                <li class="show-for-small-only"><a href="{{ site.zoom_url }}"><i class="fa fa-video-camera"></i>&nbsp;Zoom</a></li>
+                <li class="show-for-small-only"><a href="{{ site.zoom_url }}" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;Zoom</a></li>
                 <li class="show-for-small-only"><a href="#" class="js-gitter-toggle-chat-button">Chat</a></li>
                 <li class="show-for-small-only"><a href="{{ site.github_repo_url }}"><i class="fa fa-github"></i>&nbsp;Github</a></li>
             </ul>

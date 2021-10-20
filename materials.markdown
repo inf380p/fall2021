@@ -118,6 +118,7 @@ be completed by the date and time listed.  Class notes are for your reference of
             {% elsif post.categories contains "how-to" %}
                 {% assign canvas = false %}
             {% endif %}
+            {% assign external = true %}
             {% if canvas %}
                 {% assign link = site.canvas_url %}
             {% else %}
@@ -125,9 +126,10 @@ be completed by the date and time listed.  Class notes are for your reference of
                     {% assign link = post.link %}
                 {% else %}
                     {% capture link %}{{ site.baseurl }}{{ post.url }}{% endcapture %}
+                    {% assign external = false %}
                 {% endif %}
             {% endif %}
-            <a href="{{ link }}">{% if post.categories contains "notes" %} <b>{{ post.date | date: "%b %d" }} - {% endif %}{{ post.title }} {% if post.categories contains "notes" %} </b> <span class="label round mode">{{ post.mode}}</span>{% endif %}</a>
+            <a href="{{ link }}" {% if external == true %} target="_blank"{% endif %}>{% if post.categories contains "notes" %} <b>{{ post.date | date: "%b %d" }} - {% endif %}{{ post.title }}{% if external == true %} &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i> {% endif %} {% if post.categories contains "notes" %} </b> <span class="label round mode">{{ post.mode}}</span>{% endif %}</a>
         </td>
         <td>
             {% if post.categories contains "notes"%}

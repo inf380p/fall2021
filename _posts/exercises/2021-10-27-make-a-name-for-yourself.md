@@ -3,6 +3,7 @@ author: elliott
 layout: post
 category: exercise
 inclass: true
+canvas: false
 ---
 
 1. Submit a pull request that edits the entries in our _config.yml to be correct for you. [See my example](https://github.com/silshack/spring2016/blob/gh-pages/_config.yml#L54)

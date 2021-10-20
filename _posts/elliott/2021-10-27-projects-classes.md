@@ -1,12 +1,13 @@
 ---
 author: elliott
 category: notes
-title: "Project Ideas +  Classes"
+title: "Turtle +  Classes"
 layout: post
-published: false
-mode: Remote
+published: true
+mode: In Person
 ---
 
+{% comment %}
 # Q&A
 
 - Phew!  After today, we're done with non-final related exercises!
@@ -75,3 +76,4 @@ Work on this in class, and finish tonight if needed.
 
 
 **This is now Extra Credit**
+{% endcomment %}

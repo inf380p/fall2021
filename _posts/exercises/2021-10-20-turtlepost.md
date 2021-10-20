@@ -5,7 +5,8 @@ categories:
   - exercise
   - how-to
 inclass: true
-title: Embed Turtle Programs into our Class Blog
+title: Embed Trinkets into our Class Blog
+canvas: false
 ---
 
 Use the instructions below to submit a post with your trinket embedded into it.
@@ -46,8 +47,9 @@ Here's the program I'm embedding:
 
 ## Static code blocks
 
-If you want to display code that's not interactive (to talk about something you did, for instance)
-, the cool grey boxes above come from telling Jekyll that we're about to write code using backticks: `
+Add at least two static code blocks to your post, containing excerpts from your embedded program.
+
+If you want to display code that's not interactive (to talk about something you did, for instance), the cool grey boxes above come from telling Jekyll that we're about to write code using backticks: `
 
 <pre>
 ```
@@ -89,7 +91,9 @@ That code looks like this:
 
 ### Thoughts about the exercise
 
+Include a short reflection about why you selected the particular example that you did.
+
 When submitting exercises, always include reflections, roadblocks you ran into, or
 things you thought were cool. Always include links to example code if you use or are heavily influnced
 by someone else's work. They should be at least a paragraph or two. Regardless of length, the best ones give me a sense of what you did
-and why.  Here's [a post from a previous class](https://silshack.github.io/summer2017/zman7895-logic-turtle-exercise.html) that does a good job of this.
+and why.

@@ -4,9 +4,12 @@ author: elliott
 title: "Last Class & Project Work Session"
 category: notes
 mode: Remote
-published: false
+published: true
 ---
 
+Forthcoming
+
+{% comment %}
 
 # Q & A
 
@@ -109,3 +112,4 @@ perfecting the details.  If you're not, use your group to make sure you've got a
 
 
 {% include groups %}
+{% endcomment %}

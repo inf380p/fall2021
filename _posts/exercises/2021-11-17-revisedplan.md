@@ -5,6 +5,7 @@ categories:
   - exercise
 title: "Revised Project Plan Discussion"
 inclass: true
+canvas: false
 ---
 
 Group & Pair up.  Read the below silently. Review & merge each other's pull requests.

@@ -2,12 +2,15 @@
 layout: post
 author: elliott
 category: notes
-title: "Code Talks; Diversity & Inclusion in Programming"
-published: false
+title: "Class Extension; Diversity & Inclusion in Programming"
+published: true
 mode: Remote
 ---
 
+Forthcoming
 
+
+{% comment %}
 **Note: Class is remote, not in person. Our classroom remains available for any student who wants to use it to attend remote class.**
 
 # Q&A
@@ -64,3 +67,4 @@ Volunteer for an example?
 
 
 Come with a pull request, ready to discuss & revise.
+{% endcomment %}

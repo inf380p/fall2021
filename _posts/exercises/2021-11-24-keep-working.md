@@ -2,9 +2,11 @@
 author: elliott
 layout: post
 category: exercise
-title: "Project Update & Stand-up report"
+title: "(Recommended) Project Update"
 canvas: false
 ---
+
+The below assignment is optional. If you complete it, it will count towards your grade.
 
 Submit a pull request with a short narrative update on your progress since last class,
 along with your (almost final!) list of milestones (checked/unchecked as appropriate), **and a snapshot of your code** in
@@ -24,6 +26,5 @@ something else?
 
 Explicitly state what you're working on next and what you intend to accomplish before you turn in your project.
 
-# Pairs/Groups:
 
-{% include groups %}
+Have a great Thanksgiving Break!
