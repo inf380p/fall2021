@@ -54,7 +54,7 @@ def computegrade(score):
  With this function, if any string or score greater than 1 is entered, the function returns 'Bad score.' At this point, I did accomplish what the program asked. However, there was one question that I struggled with. I noticed that if I input a negative value into the function, it would return 'None.' I wondered if there was a way to indicate that a score greater than 1 OR less than 0 should return 'Bad score.' I came up with this addition to my if statement: 
  
  ```python
- if type(score) == type("") or score > 1 or score <0:
+ if type(score) == type("") or score > 1 or score < 0:
  ```
  
  While this did work, I wonder if there is a more elegant way to do this. In other words, I wonder if there is a way to make the code less verbose and still accomplish the same task. 
