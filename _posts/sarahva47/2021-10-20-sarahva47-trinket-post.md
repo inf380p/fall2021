@@ -12,14 +12,14 @@ This problem from chapter 12 takes a file, pulls out all email addresses, and pu
 
 This piece of code sets up the problem by first importing the information needed to use regex, then getting the file, and defining the list. This is important to do first so that everything is set up. :
 
-...
+```
 import re
 hand = open('mbox-short4.txt')
 email_list = []
-...
+```
 
 The pattern needed to pull out an email is weird, particularly because the syntax of emails requires an "@" and a "." so there are multiple parts. What this is doing is saying that the first character can be any letter (including uppercase or lowercase) followed by some non-whitespace characters (so, the "\S+" parts), then an "@" symbol for the domain, followed by some non-whitespace characters, and ending again with a letter (including uppercase or lowercase) or a number. :
 
-...
+```
 pattern = "[A-Za-z0-9]\S+@\S+[A-Za-z0-9]"
-...
+```
