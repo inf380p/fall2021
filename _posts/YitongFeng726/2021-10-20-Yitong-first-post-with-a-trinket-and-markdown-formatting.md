@@ -2,7 +2,6 @@
 layout: post
 author: YitongFeng726
 title: "Yitong's first Trinket post"
-
 ---
 
 <iframe src="https://trinket.io/embed/python3/e4d4dd346f" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -20,7 +19,5 @@ def calc_count(str):
 letter_count=calc_count(phrase)
 e_counter=letter_count['e']
 print(e_counter) 
-
-
 ```
 this question is interesting.
