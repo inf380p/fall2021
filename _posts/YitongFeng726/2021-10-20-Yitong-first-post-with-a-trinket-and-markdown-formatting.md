@@ -1,6 +1,7 @@
 ---
-layout:
-title:
+layout: post
+author: YitongFeng726
+title: "Yitong's first Trinket post"
 
 ---
 
