@@ -1,7 +1,7 @@
 ---
 layout: post
 author: areiter18
-Title: "Andrew Reiter's Trinket Post"
+title: "Andrew Reiter's Trinket Post"
 ---
 Here's my trinket post:
 
@@ -13,21 +13,17 @@ Here's my trinket post:
  This part of the code returns a match using the parameters above:
 
  ```
-
 def text_match(text):
     pattern = '[A-Z]_[a-z]+'
     if re.search(pattern,  text):
-        return('Found a match!')
-        
+        return('Found a match!')      
 ```
  
 Here are some of the examples I used to test this code:
  
 ```
-
 print(text_match("aab_cbbbc"))
 print(text_match("aBba_CbQuZ"))
 print(text_match("A_aaaab"))
 print(text_match("Q_c"))
-
 ```
