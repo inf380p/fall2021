@@ -1,7 +1,7 @@
 ---
 layout: post
-author: <yourgithubname>
-title: " Vanny's trinket post"
+author: vannyyeh
+title: "Vanny's trinket post"
 ---
 
 Here's an example about the list and dictionary:
@@ -25,13 +25,11 @@ def list_link(lst1, lst2):
 This is another code shows the example:
 
 ```python 
-
 def add_to_new_list(lst):
     new_list = []
     new_list.append(len(lst))
     new_list.append(lst[0] * 3)
     return new_list
-
 ```
 
     
