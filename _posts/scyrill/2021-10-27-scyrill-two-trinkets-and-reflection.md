@@ -1,9 +1,7 @@
 ---
-
 layout: post
 author: scyrill
 title: "**Steph's Trinket Posts and Reflections**"
-
 ---
 
 Trinket from the textbook:
