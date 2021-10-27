@@ -115,6 +115,7 @@ When this line of code runs, `__init__` tells Python how to set `tina` up. As pa
 
 And so on with other `BoxTurtles` we instantiate.
 
+In fact, this has already been happening with  _all_ `Turtle` objects you've ever created! So, even though it might look unfamiliar, you're already familiar with its effects.
 
 ## Methods
 
@@ -145,7 +146,7 @@ Delayed til next week!
 
 ## Class Hack
 
-You've got the skills to extend the turtle class for homework!
+You've got the skills to extend the turtle class for homework! Be sure to reflect substantially and write clearly about code, using Markdown as needed.
 
 ## Diversity Discussion
 There are a lot of readings for this! They're all short, though, and very worthwhile.
