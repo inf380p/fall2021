@@ -35,7 +35,7 @@ colors: setting the turtle color, instantiating the filling of the color, beginn
 function followed by the begin_fill() function, then followed by the end_fill() function before the drawing lines of code, and noticed this did not work. 
 One important lesson I learned was that the end_fill must come after the program knows what to draw. 
 
-As I ran through my first couple attempts, I noticed that if this code would only make sense to me with some of the language I used. I wanted to make sure 
+As I ran through my first couple of attempts, I noticed that if this code would only make sense to me with some of the language I used. I wanted to make sure 
 that the code would make sense to any reader, without any explanation of what I intended to do. I started with verbiage like “range_value” instead of “sides” 
 as a parameter, but I realized that it would not be intuitive to someone running the code. Thus, I made the change throughout the code and this small change 
 made a huge difference (i.e, 360/num_sides). 
