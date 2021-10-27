@@ -4,6 +4,7 @@ author: tommytester
 title: "Tommy's two trinket post and reflection"
 ---
 
+I needed to edit something.
 
 # My Trinket from the textbook:
 
