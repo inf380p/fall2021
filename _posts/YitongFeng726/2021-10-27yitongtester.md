@@ -1,7 +1,7 @@
 ---
 layout: post
-author: Yitong
-title: yitong's trinket post and reflection
+author: YitongFeng726
+title: "yitong's trinket post and reflection"
 ---
 
 #My trinket from textbook
