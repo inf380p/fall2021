@@ -40,4 +40,3 @@ for x in range(20):
         else:
             turtle.left(225)
 #Reflection: It's hard to think about putting conditional statement in turtle. While using turtle to draw oval is a good choice.
-            turtle.left(225)
