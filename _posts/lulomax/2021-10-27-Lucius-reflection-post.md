@@ -1,7 +1,7 @@
 ---
 layout: post
-author: Lucius
-title: reflections
+author: lulomax
+title: "reflections"
 ---
 
 I don’t know what I’m being asked to reflect on here. There are no instructions about a subject. The instructor keeps talking about light bulbs going off or aha moments which are not occurring, at least for me. Obviously there are people who were already familiar with Github and with Trinket and presumably with turtle. I am concerned, as I have bene throughout that course that, like with turtle, content and homework comes before the lecture. 
