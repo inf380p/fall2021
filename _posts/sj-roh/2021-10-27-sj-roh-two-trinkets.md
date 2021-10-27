@@ -38,4 +38,4 @@ One important lesson I learned was that the end_fill must come after the program
 As I ran through my first couple of attempts, I noticed that if this code would only make sense to me with some of the language I used. I wanted to make sure 
 that the code would make sense to any reader, without any explanation of what I intended to do. I started with verbiage like “range_value” instead of “sides” 
 as a parameter, but I realized that it would not be intuitive to someone running the code. Thus, I made the change throughout the code and this small change 
-made a huge difference (i.e, 360/num_sides). 
+made a huge difference (i.e, 360/num_sides vs. 360/range_value, makes more sense). 
