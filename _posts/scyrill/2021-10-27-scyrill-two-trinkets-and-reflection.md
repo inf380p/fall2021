@@ -1,7 +1,7 @@
 ---
 layout: post
 author: scyrill
-title: "**Steph's Trinket Posts and Reflections**"
+title: "Steph's Trinket Posts and Reflections"
 ---
 
 Trinket from the textbook:
@@ -10,6 +10,7 @@ Trinket from the textbook:
 
 Trinket that I made:
 <iframe src="https://trinket.io/embed/python/509cf6926b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 
 My Reflection:
 Writing my own Turtle program was interesting because I didn’t know how Python could be used to draw pictures and make graphics. I did know a little bit about it because some old friends were in Arts and Entertainment Technology and I would see them coding to make their graphics. However, I didn’t think that that would be something that I would use. When we started the course, I remember that we talked about the things we would learn in class and Prof. Hauser showed us code that, when ran, would make shapes and change colors depending on the input. At that time, it was fun to run the pre-written code and play with the different things that could be added (I remember one of my first thoughts being, ‘Does Python really know all the colors or is it just RGB? Or ROY G. BIV?’ so I kept messing with various inputs waiting for it to crash or something to prove that I was right). In addition to this, I remember Prof. Hauser said that in this class we would learn how to write code from scratch that would allow us to do the same thing. This week, that came true. 
