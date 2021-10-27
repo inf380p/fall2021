@@ -32,8 +32,8 @@ For Trinket 2, I think a confusion for me was knowing the structure of how I wan
 statements. Then, it was just coming up with my own design that is interesting enough to me. I wanted to still use the shape-based problems that we focused 
 on so much during this chapter, but include my own design and twist. A confusion I ran into was not knowing the correct order for filling the shapes with 
 colors: setting the turtle color, instantiating the filling of the color, beginning to fill, and ending the fill. I started with writing the `fillcolor()` 
-function followed by the begin_fill() function, then followed by the end_fill() function before the drawing lines of code, and noticed this did not work. 
-One important lesson I learned was that the end_fill must come after the program knows what to draw. 
+function followed by the `begin_fill()` function, then followed by the `end_fill()` function before the drawing lines of code, and noticed this did not work. 
+One important lesson I learned was that the `end_fill()` must come after the program knows what to draw. 
 
 As I ran through my first couple of attempts, I noticed that if this code would only make sense to me with some of the language I used. I wanted to make sure 
 that the code would make sense to any reader, without any explanation of what I intended to do. I started with verbiage like “range_value” instead of “sides” 
