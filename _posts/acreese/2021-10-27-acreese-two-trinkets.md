@@ -1,3 +1,9 @@
+---
+layout: post
+author: acreese
+title: "Alex's two trinket post and reflection"
+---
+
 # My Trinket from the textbook
 
 <iframe src="https://trinket.io/embed/python/86339e52d8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
