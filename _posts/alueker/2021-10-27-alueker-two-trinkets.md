@@ -16,8 +16,9 @@ leo.forward(50)
 leo.backward(150)
 leo.right(90)
 leo.forward(150)
+# https://trinket.io/library/trinkets/04caebe410
 ```
-#my trinket of my own design
+# My trinket of my own design
 ```python
 from turtle import *
 
@@ -47,6 +48,7 @@ def turtlewrite():
   raph.hideturtle() #hides the arrow/turtle
   raph.write(message, font = style, align = 'center') #draws from message to print, uses style variable for font, aligns to center.
 turtlewrite()
+# https://trinket.io/library/trinkets/75d3d9838d
 ```
 #Reflection
 For my custom turtle program I wanted to search the web for other functions that the turtle module had past the drawing function we looked at in class. After a while I learned of a few new commands that can be implemented with the turtle module such as turtle.hideturtle() to hide a turtle after it was done drawing as well as the turtle.write function. With the write function, you can print simple messages on your turtle screen but you can also be a little bit more creative, customizing the color, size, weight, font, etc. of your message. 
