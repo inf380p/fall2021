@@ -25,3 +25,5 @@ def triangle(turtle, length = 80, color = ‘red’): # create function called t
 triangle(ted,100,'blue')        # call function for nico
 ```
 Why would you ever put ``length = 80, color = red``, when those inputs will be overwritten later?
+
+# practicing committing
