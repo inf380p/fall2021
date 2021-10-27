@@ -4,13 +4,16 @@ author: sarahva47
 title: "Sarah V.'s two trinket posts and reflection"
 ---
 
-My Trinket from the textbook:
+#My Trinket from the textbook:
 <iframe src="https://trinket.io/embed/python/5a4df579bf" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-My Trinket I made:
+
+#My Trinket I made:
 <iframe src="https://trinket.io/embed/python/7a673b03fc" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-Reflection:
+
+#Reflection:
+
 In considering Turtles, one lightbulb I had came pretty early on. I mention this lightbulb because there was one element I was really confused by and have been wanting to know in Python: how to get things on screens to move, like video games. I think 17.1 explained it really well with the explanation statements like "ask alex to move forward by 150 units," because that little statement made it click on how something moves: the same way you adjust an element in HTML by moving it little unit by unit. So I think in this instance, comparing turtles to something with which I was already familiar helped a lot in contextualizing how they work.
 
 For a textbook problem, I am choosing to talk about 17.14.19. I am choosing this one because, honestly, it felt a little tedious. The textbook had discussed how to use functions to create polygons and spirals, but I'm not sure quite how to translate that to irregular shapes. If I wanted a program that could write names, for example, would I need to define a function for each letter of the alphabet and then call those for each letter? Also, I am left with anticipation on how to make curves! I want to draw curvy "S"s. 
