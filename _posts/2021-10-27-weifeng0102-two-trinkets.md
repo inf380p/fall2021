@@ -12,6 +12,6 @@ title: "Weifeng's two trinket post and reflection"
 
 
 # Reflection:
-I tried to define a function to draw teeth. After calling this function, I can customize the number of teeth. The first difficulty I encountered was calculating the angle of rotation and when to turn the angle in the nested loop.
+I tried to define a function to draw sharp teeth. After calling this function, I can customize the number of teeth. The first difficulty I encountered was calculating the angle of rotation and when to turn the angle in the nested loop.
 
 After several attempts, I finally succeeded, but it seems that I have made the code a bit complicated. Turtle has to turn the angle twice after drawing a tooth. I am trying to simplify it.
