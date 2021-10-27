@@ -3,6 +3,7 @@ layout: post
 author: boyeonpark
 title: "Boyeon's two trinket post and reflection"
 ---
+I needed to edit something
 
 # My Trinket from the textbook:
 
