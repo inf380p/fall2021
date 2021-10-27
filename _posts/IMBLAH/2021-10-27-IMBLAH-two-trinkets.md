@@ -62,4 +62,4 @@ def draw_semicircle(turtle, direction):
       turtle.forward(4)
 ```
 Speaking of the whole process, the biggest takeaway is to run the code as many times as possible since it's useful when tweaking the code.
-That’s it. :)
+That’s it. :):)
