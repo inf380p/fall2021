@@ -1,8 +1,8 @@
-===
+---
 layout: post
 author: benderliz
 title: "Liz's Two Turtle Trinkets: Post and Reflection"
-===
+---
 
 # first turtle Trinket for class 10/27
 
