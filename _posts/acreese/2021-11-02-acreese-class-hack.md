@@ -4,7 +4,7 @@ author: acreese
 title: "Alex's Class Hack post"
 ---
 
-# My Extension of the Turtle Code
+# My Extension of the Turtle Class
 
 <iframe src="https://trinket.io/embed/python/d20ad33cf4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
