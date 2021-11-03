@@ -1,7 +1,7 @@
 ---
 layout: post
 author: cridley17
-title: “Claire’s Class Hack and Reflection”
+title: "Claire’s Class Hack and Reflection"
 ---
 
 In the code below, a new turtle class is created named PinkTurtle.
