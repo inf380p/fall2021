@@ -33,8 +33,103 @@ I created a class called ```MyTurtle()``` that took one argument, ```turtle.Turt
 
 In application to my code, this meant that when I defined ```__init__(self)``` and later added components to the object ```self```, I was initializing what the object was going to be like and adding values to it. This made more sense after having these definitions solidified. After defining this, I set the speed, shape, and color of the turtle. Following this, I defined two new functions, ```draw_stars()``` and ```draw_small_stars()```. I separated these so that I could have a slight variation in the sizes of the stars. Though it probably would have been easier to just stamp stars across the black screen, it wouldn’t capture what I wanted to do, in which I wanted there to be a randomization of stars of different sizes on the screen to create a sense of depth.
 
-Lastly, I called the function and had the turtle go to various places on the grid, in an attempt to randomize the placement of the stars, this was the result:
+Lastly, I called the function and had the turtle go to various places on the grid, in an attempt to randomize the placement of the stars.
 
+# This was my code
+
+```python
+import turtle
+
+#change the background color to black
+turtle.Screen().bgcolor("black")
+
+#set MyTurtle to like normal Turtle
+class MyTurtle(turtle.Turtle):
+  def __init__(self):
+    turtle.Turtle.__init__(self)
+
+#customize the components of the turtle
+    self.speed(20)
+    self.penup()
+    self.shape("turtle")
+    self.color("white")
+
+#create a custom method that makes 'draw_stars' work on 'MyTurtle'
+  def draw_stars(self):
+    self.pendown()
+    self.fill(True)
+    for size in range(4):
+      self.forward(100)
+      self.left(145)
+    self.fill(False)
+    
+#create a custom method that makes 'draw_small_stars' work on 'MyTurtle'    
+  def draw_small_stars(self):
+    self.pendown()
+    self.fill(True)
+    for size in range(4):
+      self.forward(50)
+      self.left(145)
+    self.fill(False)
+   
+#name the turtle and set it to draw the first star in the center
+gemma = MyTurtle()
+gemma.goto(0,0)
+gemma.draw_stars()
+
+#continue moving the turtle to different places on the grid to randomize the star placement
+gemma.penup()
+gemma.goto(150,130)
+gemma.pendown()
+gemma.draw_small_stars()
+
+gemma.penup()
+gemma.goto(-150,130)
+gemma.pendown()
+gemma.draw_stars()
+
+gemma.penup()
+gemma.goto(0,-130)
+gemma.pendown()
+gemma.draw_small_stars()
+
+gemma.penup()
+gemma.goto(-90,-130)
+gemma.pendown()
+gemma.draw_stars()
+
+gemma.penup()
+gemma.goto(-125,0)
+gemma.pendown()
+gemma.draw_small_stars()
+
+gemma.penup()
+gemma.goto(160,-120)
+gemma.pendown()
+gemma.draw_stars()
+
+gemma.penup()
+gemma.goto(130,-110)
+gemma.pendown()
+gemma.draw_small_stars()
+
+gemma.penup()
+gemma.goto(-40,-45)
+gemma.pendown()
+gemma.draw_small_stars()
+
+gemma.penup()
+gemma.goto(-10,130)
+gemma.pendown()
+gemma.draw_small_stars()
+
+gemma.penup()
+gemma.goto(20,150)
+gemma.pendown()
+gemma.draw_stars()
+```
+
+# This was the result
 
 <iframe src="https://trinket.io/embed/python/5c7d5cb968" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
