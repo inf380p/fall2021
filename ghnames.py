@@ -4,8 +4,33 @@
 
 # In Python """ starts a string that can span multiple lines
 # Add student github names here.
-names = """
-"""
+names = """benderliz
+choim7
+hdubbe
+YitongFeng726
+agunnells
+srj1220
+Elizard0926
+lulomax
+alueker
+itohosagie
+boyeonpark
+areiter18
+cridley17
+cmr4658
+sj-roh
+spinachleaf
+apurva-shah515
+sarahva47
+weifeng0102
+ArisWells
+vannyyeh
+IMBLAH
+zheinsohn
+scyrill
+amanda-guerrero
+acreese
+AU-turtledragon"""
 
 
 # The data format our blog uses is called YAML.  It's a common way of

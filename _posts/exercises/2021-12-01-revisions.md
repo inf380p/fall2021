@@ -3,6 +3,7 @@ author: elliott
 layout: post
 category: exercise
 title: "(Extra Credit) Homework Revisions/Reflections"
+canvas: false
 ---
 
 Going back over items in this course that puzzled you can be a really powerful way to cement your learning.
