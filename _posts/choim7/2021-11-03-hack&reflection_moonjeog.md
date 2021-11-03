@@ -1,4 +1,5 @@
 ---
+layout: post
 author: choim7
 title: "Moonjeog's hack assignment and reflection"
 ---
