@@ -1,6 +1,6 @@
- ---
+---
 layout: post
-author: <YitongFeng726>
+author: YitongFeng726
 title: "YitongFeng's first post!"
 --- 
   
