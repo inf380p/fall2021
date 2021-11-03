@@ -99,7 +99,6 @@ After this discussion, work on this in-class exercise together or alone, whichev
 
 Our class website knows who you are now! Well, kinda. You'll fill in the blanks now.
 
-
 See the [exercise](/exercise/make-a-name-for-yourself.html).
 
 You and your posts are now on the [people page](/people.html).
@@ -109,3 +108,5 @@ You and your posts are now on the [people page](/people.html).
 ## Self-directed work
 
 Use any remaining class time to work on assignments for this class.
+
+*You may* discuss your reflections and/or project ideas with your partner if you like. Everyone's work should be individual and distinct, but it can be helpful to refine ideas in discussion if you like.
