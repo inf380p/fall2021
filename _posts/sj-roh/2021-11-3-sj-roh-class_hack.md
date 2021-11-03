@@ -10,4 +10,4 @@ title: "SJ's Class Hack post and reflection"
 
 # Reflection:
 
-For the trinket I made, I wanted to make sure that there were four distinct shape objects 
+For the trinket I made, I wanted to make sure that there were four distinct shape objects that I used, starting with a triangle (3-sided) moving up to a dodecagon (12-sided) by 3's. What I sharpened through this reflection, is my understanding of how a class can be structured with functions and methods. With a working knowledge of how to draw with the Turtle library, it was confusing to me at first how to create a class with methods and have multiple objects called. It was helpful to rewatch portions of this past week's lecture, and especially the focus on class extensions and how to instantiate objects.
