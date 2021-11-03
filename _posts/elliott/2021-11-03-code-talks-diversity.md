@@ -93,7 +93,9 @@ Tommy's Classhack:
 
 <iframe src="https://trinket.io/embed/python/ff125bbd4b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-# Make a name for yourself
+After this discussion, work on this in-class exercise together or alone, whichever you decide as a group.
+
+## Make a name for yourself
 
 Our class website knows who you are now! Well, kinda. You'll fill in the blanks now.
 
@@ -104,6 +106,6 @@ You and your posts are now on the [people page](/people.html).
 
 *If any of your posts don't have a listed author and don't show up on the people page, what you entered as `author:` in the file doesn't exactly match what's in `_config.yml`.* We'll go through and fix things like this later, but you're welcome to do so now if you think you know how.
 
-# Self-directed work
+## Self-directed work
 
 Use any remaining class time to work on assignments for this class.
