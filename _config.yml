@@ -279,10 +279,10 @@ authors:
     name: spinachleaf
     prof: false
     gravatar:
-    website: "#"
+    website: "https://en.wikipedia.org/wiki/Spinach"
     github: spinachleaf
-    twitter:
-    about: "Here's a little about spinachleaf"
+    twitter: "https://twitter.com/search?q=%23spinach"
+    about: "spinachleaf is a green leafy vegetable."
 
   srj1220:
     name: srj1220
