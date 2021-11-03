@@ -1,7 +1,7 @@
 ---
-layout : post
-author : Boyeon Park
-title : Boyeon Park's class hack assignment.
+layout: post
+author: boyeonpark
+title: "Boyeon Park's class hack assignment."
 ---
 
 
