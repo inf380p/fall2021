@@ -72,6 +72,9 @@ If you believe someone is not adhering to these rules during your discussion, ca
 These discussions are always powerful, and can at times be uncomfortable. There's some mutual trust that enables the kind of examination of discomfort that will make this session a success. Let's earn that trust from each other and make our technical community even more inclusive together.
 
 
+Further reading, coauthored by the iSchool's own Dr. Angela Smith:
+[Critical Race Theory for HCI](https://dl.acm.org/doi/abs/10.1145/3313831.3376392)
+
 # Next Week
 
 ## Diversity Reflection
