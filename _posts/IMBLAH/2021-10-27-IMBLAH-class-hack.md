@@ -1,7 +1,7 @@
 ---
 layout: post
 author: IMBLAH
-title: 'Bo's Class Hack and Reflection'
+title: "Bo's Class Hack and Reflection"
 ---
 
 # Class Hack
