@@ -4,6 +4,7 @@ author: scyrill
 title: 'Stephanie's Class Hack'
 ---
 
+# Reflection
 For my hack, I wanted to create a small print of stars in the sky. At first I thought this would be simple as I thought I could just do what I did when we first learned about turtles, in which I could just write out every step that I wanted the turtle to take, copy it, and paste it a bunch of times. However, this would have been too difficult and time-consuming, along with it potentially becoming very lengthy. Therefore, I turned to the new material that we learned in class to create this starry sky. I did this using for loops, creating classes, geometric commands, and defining functions, along with using ```self``` in order to instantiate the creation of the stars in my sky.  
 
 To start, I imported turtle using ```import turtle```, so that I could use all the features of the package. At first, I thought that this was the same as writing out ```from turtle import * ```,  but I learned quickly that these things were different. I wanted the background to be black, but in the process of trying to change the color of the screen from white to black, I hit a block. I tried the following variations:
@@ -20,7 +21,7 @@ screen = Screen()
 screen.bgcolor(“black”) 
 ```
 
-Neither of these things worked! I was very confused because that was the way that I remembered learning how to change the background color, but now it didn't seem to work anymore, and the error message that kept coming up said, “NameError: name 'Screen' is not defined on line 4 in main.py” This was puzzling to me because I thought that ```Screen()``` was a built-in function in Python, so I was doubly confused. To solve this, I turned to Python docs (https://docs.python.org/3/library/turtle.html#turtle.color) and GeeksforGeeks, which helped me see that it was the way that I wrote my line of code that was the problem. The turtle package had to be called, along with ```Screen()```, followed by the background color, and then the color I wanted. I was kind of off, so to fix this, it had to be:
+Neither of these things worked! I was very confused because that was the way that I remembered learning how to change the background color, but now it didn't seem to work anymore, and the error message that kept coming up said, “NameError: name 'Screen' is not defined on line 4 in main.py” This was puzzling to me because I thought that ```Screen()``` was a built-in function in Python, so I was doubly confused. To solve this, I turned to Python docs and GeeksforGeeks, which helped me see that it was the way that I wrote my line of code that was the problem. The turtle package had to be called, along with ```Screen()```, followed by the background color, and then the color I wanted. I was kind of off, so to fix this, it had to be:
 
 ```
 import turtle 
@@ -133,9 +134,9 @@ gemma.draw_stars()
 
 <iframe src="https://trinket.io/embed/python/5c7d5cb968" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+# Result when introducing a new turtle
 
-Out of complete curiosity, I wanted to try approaching my code from another angle by introducing a second turtle into the program that could draw the smaller stars instead of one turtle, Gemma, doing it all. This is the result of that attempt.
-
+Out of complete curiosity, I wanted to try approaching my code from another angle by introducing a second turtle into the program that could draw the smaller stars instead of one turtle, Gemma, doing it all. 
 
 <iframe src="https://trinket.io/embed/python/5f1b746851" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
