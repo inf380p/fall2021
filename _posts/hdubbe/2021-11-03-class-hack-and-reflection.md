@@ -1,7 +1,7 @@
 ---
 layout: post
 author: hdubbe
-title: Hannah's class hack assignment
+title: "Hannah's class hack assignment"
 ---
 
 # class hack turtle assignment
