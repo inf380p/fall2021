@@ -1,0 +1,19 @@
+---
+layout: post
+author: apurva-shah515
+title: "Apurva's Meetup Reflections and Experience"
+---
+# My Meetup Reflection
+For my cultural immersion experience, I was looking for a meetup that was catered towards some kind of front-end dev work. As I am interested in UX design, and technology has been such a large part of my education and career goals this far, I had already dabbled in some JavaScript classes and playing around with the language React. I decided for my meetup that I wanted to try and extend this foray into the language and the opportunities that React can present for front-end dev work, so I looked for a meetup that would help me along this path.
+
+The meetup I chose to attend was the "React World Tour - Talks by the React community!", hosted by The Atlanta JavaScript Meetup Group. This meetup consisted of 3 presentations about React, including what new features had been added to React in version 18, and two different tools used by React practitioners in the industry. 
+
+Overall, the meetup experience was very eye-opening in terms of what potential there is for JavaScript, and React specifically, within the tech industry. Although my current understanding of the language is somewhat limited, I was still able to grasp most of what the presentations included. Unfortunately some of the content of the presentations still went over my head, but I felt that it was a good experience to get my feet wet in this space, and with meetups for programming in general. I had kept an open mind going into this meetup, as I had no idea what to expect from an event such as this.
+
+The meeetup itself taught me that there are many different directions that programming can go, and there are many possibilities. Just between the 3 presentations at this meetup, and a cursory look at other talks on React held previously, the breadth of content that each presenter has brought to the meetup has been very diverse. I also learnt that within the React community, there are many efforts being made to make the standard library and language more intuitive and friendly for programmers to use, which helps with accessibility and encouraging more people to pick up the language. 
+
+After this class, I think that events like this would be very valuable. However, this particular event felt more aimed at knowledgable, more advanced users of React. Given the current limits of my knowledge, I would either need to take subsequent classes to further my understanding in a given programming language, or look for a meetup at a more introductory level. In this way, I could make use of meetups to help widen my knowledge at each point and build on the foundations I have, and use them as educational material for progressing and becoming more involved in my chosen programming languages. 
+
+The experience was vastly different from my expectations. I had attended meetups before for other communities, and so I was expecting this meetup to be somewhat similar. Previous meetups I had attended were more of a social gathering, built on a mutual interest in a given topic. Given that this meetup was programming related, I was expecting more of a social networking style event, or even possibly a hackathon. I was quite surprised to see that this meetup, and many other programming meetups I had looked at, were more akin to a professional networking event with speakers and presentations. Although this was a surprise, I believe that having access to both types of events can only be a benefit going forward. 
+
+I definitely can see myself becoming a part of a professional community such as this in the future. I took this class already having some level of interest in programming, and this class has helped nurture and further this interest. I do want to explore other languages besides Python in the future, and meetups such as these can only be a benefit to that learning. 
