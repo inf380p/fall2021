@@ -19,4 +19,8 @@ Work Plan:
  --> Include the current temp, forcasting temp, air quality and humidity, etc <br />
 (4) Adding help and exit function for this app <br />
 
-Extra: Hopefully can make it to an App or a Web.
+Extra: Hopefully can make it to an App or a Web. <br />
+
+Inspiration: According to the class, I've learn so many useful concept and function like running the data until it reach the max. 
+Therefore, I want to turn those methods into a functional and practical application that I can see what I've made as my python 
+learning capstone. 
