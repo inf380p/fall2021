@@ -320,13 +320,13 @@ authors:
     about: "Here's a little about YitongFeng726"
 
   zheinsohn:
-    name: zheinsohn
+    name: Zoe
     prof: false
     gravatar:
-    website: "#"
+    website:
     github: zheinsohn
     twitter:
-    about: "Here's a little about zheinsohn"
+    about: "Zoe is a second-year MSIS student with a focus on archives and digital humanities."
 
 
 baseurl:
