@@ -1,7 +1,7 @@
 ---
 layout: post
 author: sarahva47
-title: Sarah Varenhorst's Final Project Idea and Work Plan
+title: "Sarah Varenhorst's Final Project Idea and Work Plan"
 ---
 
 For the final project, I want to make a Turtle game. I'm still a little unclear on what my own abilities will be for the semester and how feasible my current idea is, but so far I have a general idea of what I would like to do. It is important to note that this work plan is due November 10th, two days before Red (Taylor's Version) by Taylor Swift releases and this has been the singular focus of my mind and will continue to be the only thing on my mind for the rest of the semester. With that said, I want to make a game around Taylor Swift. This game is for a very specific audience (myself ando ther Swifties).
