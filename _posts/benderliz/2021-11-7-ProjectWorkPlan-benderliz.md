@@ -1,7 +1,7 @@
 ---
 layout: post
 author: benderliz
-title: “Liz’s Project Idea + Work Plan”
+title: "Liz’s Project Idea + Work Plan"
 ---
 # Project Idea
 
