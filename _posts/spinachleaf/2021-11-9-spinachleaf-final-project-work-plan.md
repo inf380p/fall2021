@@ -1,7 +1,7 @@
 ---
 layout: post
 author: spinachleaf
-title: spinachleaf's final project work plan
+title: "spinachleaf's final project work plan"
 ---
 
 I would like to create a turtle game for my final project.
