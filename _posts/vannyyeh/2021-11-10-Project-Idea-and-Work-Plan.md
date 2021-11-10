@@ -1,12 +1,13 @@
 ---
-Student: Vanny Yeh
+layout: post
+author: vannyyeh
+title: "Vanny's Final Project Idea and Work Plan"
 ---
 
 
 Type of final project: text-based data analysis <br />
 Topic: Weather Fetching Application
 
----
 
 Idea: To fetch the weather and air quality in the next 5 days by the current location.
 
