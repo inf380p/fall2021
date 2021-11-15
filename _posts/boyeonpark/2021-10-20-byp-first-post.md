@@ -1,7 +1,7 @@
 ---
 layout: post
-author: byp
-title: "byp's first post!"
+author: boyeonpark
+title: "boyeonpark's first post!"
 ---
 
 Hello.
