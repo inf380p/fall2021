@@ -1,7 +1,7 @@
 ---
 layout: post
-author: byp
-title: "byp's trinket post!"
+author: boyeonpark
+title: "boyeonpark's trinket post!"
 ---
 
 Here's an example about regex :
