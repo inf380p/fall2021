@@ -19,9 +19,8 @@ Below is the trinket code:
 
 New modifications (added items to my old checklist - copied below):
 - Must figure out how to deal with option 3: Creating a histogram, what are the necessary steps for the user to go through?
-- How to add code to carry out these ideas
+- Add code to carry out these ideas (learn how to incorporate if statements & for loops within each function specic to my plan)
 - How to distinguish the two data sets? I think this is a prime spot to provide some help text to differentiate the two data sets, especially for those not interested in basketball. 
-- Learn how to incorporate for loops within each function 
 - Learn how to incorporate dictionaries in program
 
 ## Reflection:
