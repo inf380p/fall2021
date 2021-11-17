@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Stephanie's Project Interface'
+title: "Stephanie's Project Interface"
 author: scyrill
 ---
 
