@@ -35,15 +35,15 @@ Other than tooling around with this user interface, I've been experimenting with
 
 # Revised Schedule/Milestones
 
-[x] Import smaller test data files to trinket and analyze how it looks from Python’s perspective. 
-[x] Identify 3 categories of data analysis/extraction I intend to focus on.
-[x] draft and test a preliminary user menu interface
-[x] Identify areas of data that will need cleaning
-[ ] Identify specific data analysis/extraction actions to implement (1 in each category)
-[ ] Build and test data analysis/extraction action 1.1 (category 1, action 1)
-[ ] Build and test data analysis/extraction action 2.1
-[ ] Build and test data analysis/extraction action 3.1
-[ ] Test actions on larger and more complicated data sets
-[ ] Build a bonus function that converts original reports and exports a cleaner/more readable version. 
-[ ] Final testing and debugging
-[ ] Present
+- [x] Import smaller test data files to trinket and analyze how it looks from Python’s perspective. 
+- [x] Identify 3 categories of data analysis/extraction I intend to focus on.
+- [x] draft and test a preliminary user menu interface
+- [x] Identify areas of data that will need cleaning
+- [ ] Identify specific data analysis/extraction actions to implement (1 in each category)
+- [ ] Build and test data analysis/extraction action 1.1 (category 1, action 1)
+- [ ] Build and test data analysis/extraction action 2.1
+- [ ] Build and test data analysis/extraction action 3.1
+- [ ] Test actions on larger and more complicated data sets
+- [ ] Build a bonus function that converts original reports and exports a cleaner/more readable version. 
+- [ ] Final testing and debugging
+- [ ] Present
