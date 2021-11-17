@@ -1,6 +1,6 @@
 ---
 layout: post
-author: AU-turtlragon
+author: AU-turtledragon
 title: "Aaron Ulmer's final project proposal and work plan"
 ---
 
