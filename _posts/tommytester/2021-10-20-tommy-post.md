@@ -1,6 +1,6 @@
 ---
 layout: post
-author: noone
+author: tommytestertwo
 title: "Tommy's Trinket Post"
 ---
 
