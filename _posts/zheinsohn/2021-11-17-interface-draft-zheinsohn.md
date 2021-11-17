@@ -1,7 +1,7 @@
 ---
 layout: post
 author: zheinsohn
-title: Zheinsohn Interface Draft and Project Update
+title: "Zheinsohn Interface Draft and Project Update"
 ---
 My interface draft:
 <iframe src="https://trinket.io/embed/python/4efd7c4a8e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
