@@ -1,8 +1,10 @@
+---
 layout: post
 author: areiter18
 title: Interface Draft
+---
 
-Here is my original plan: 
+<b>Here is my original plan: </b>
 For my final project, I would like to do something related to data analysis. I was thinking, because I am interested in working for the federal government and in international relations, of doing a project comparing government spending of the United States versus other countries.
 
 Essentially, the data I would utilize would be defense budgets for each country. I would hope to create a “.csv” file of each nation’s defense budget that would churn out the maximum amount of money a NATO member spends on defense, the minimum amount, the median amount, the range, and the mean amount. I think it would be interesting to create a pie chart that visualizes this data, as well.
@@ -11,7 +13,7 @@ Second, I want to take another data set that provides the percentage of each mem
 
 My challenge will be creating the “.csv” files for use so I will have to compile the data and cite where it is coming from. I am also unsure of how to fully complete my second goal of sorting data into two separate lists so I will need to some research on that.
 
-Here's what has changed and what I plan to do next: 
+<b>Here's what has changed and what I plan to do next: </b>
 
 I found a .csv file on Kaggle that includes a breakdown of government budgets: revenues, expenditures, surplus/deficit, and surplus percentage of GDP. 
 I have invested a lot of time in visualizing what I want this project to look like now. I have successfully converted the file into a dictionary (my goal for 11/14) and plan to add user input so that data can be pulled and revealed to the user based on what they inputted. I am still working through this and refreshing my knowledge on dictionaries, loops, and user inputs. I hope to have this section of the project completed by Sunday, November 21 (or, at least, I hope to have made progress on the user input section so that I have a workable draft). 
@@ -20,10 +22,7 @@ In addition, I completed a pie chart and a table for data visualization purposes
 
 My biggest struggle, I think, is going to be the user interface and pulling data based on the user. I am currently struggling with this right now and have decided to take some time to review previous chapters in our textbook. I think this might be helpful. I still remain pretty nervous about the final project and how this will turn out. I am being patient with myself while trying to set deadlines. 
 
-
-
-
-As of now, my revised timeline looks as such:
+<b>As of now, my revised timeline looks as such:</b>
 
 11/10/2021: Create table and pie chart for data visualization (complete, might add another graph based on time constraints)
 
@@ -42,6 +41,6 @@ By 11/21/2021: Have the user input section draft completed (or almost completed)
 12/6/2021-12/8/2021: Final edits, edits on reflection, prepare to submit. 
 
 
-Here is my code so far: 
+<b>Here is my code so far: </b>
 
 <iframe src="https://trinket.io/embed/python3/64ce60f646" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
