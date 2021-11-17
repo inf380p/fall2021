@@ -77,23 +77,23 @@ authors:
     twitter: mishacienfuegos
     about: "Misha is the course's Teaching Assistant, currently in her second year of the MSIS program at the iSchool. Previously, she worked as a software developer, learning to code on the job. She loves exploring the world by bike! :bike:"
 
-  tommytester:
+  tommytestertwo:
     name: Tommy Tester
     prof: false
     gravatar:
     website: "https://en.wikipedia.org/wiki/Turtle"
-    github: tommytester
+    github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
 
   acreese:
-    name: acreese
+    name: Alex Reese
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.linkedin.com/in/alexandercreese/"
     github: acreese
     twitter:
-    about: "Here's a little about acreese"
+    about: "Alex is a second year graduate student studying librarianship and data management at UT Austin’s School of Information. He enjoys tending plants, reading literature, cooking beans."
 
   agunnells:
     name: Ali Gunnells
@@ -120,7 +120,7 @@ authors:
     website: "#"
     github: amanda-guerrero
     twitter:
-    about: "Here's a little about amanda-guerrero"
+    about: "Amanda is in her first year of the MSIS program at the UT Austin iSchool"
 
   apurva-shah515:
     name: apurva-shah515
@@ -135,10 +135,10 @@ authors:
     name: areiter18
     prof: false
     gravatar:
-    website: "#"
+    website: https://www.linkedin.com/in/andrew-reiter-6930a8223/
     github: areiter18
     twitter:
-    about: "Here's a little about areiter18"
+    about: "Andrew is a first year MSIS student studying Digital Archives. Currently, he works as Graduate Research Assistant at the Texas Digital Library.  A Michigan native, he previously worked in higher education at the University of Michigan- Ann Arbor, where he earned his bachelor's degree in History."
 
   ArisWells:
     name: Aris Wells
@@ -164,17 +164,17 @@ authors:
     gravatar:
     website: "#"
     github: benderliz
-    twitter:
-    about: "Here's a little about benderliz"
+    twitter: betweenthelibs
+    about: "Liz is a first-year dual degree MA in English and MS in Information Studies student at UT Austin. Her research interests lie at the intersection of language, technology, and culture. She enjoys reading, hiking, going to museums, and reviewing ice cream parlors on Instagram."
 
   boyeonpark:
-    name: boyeonpark
+    name: BoyeonPark
     prof: false
     gravatar:
     website: "#"
     github: boyeonpark
     twitter:
-    about: "Here's a little about boyeonpark"
+    about: " loves waffles, ice cream, latte. "
 
   choim7:
     name: choim7
@@ -182,44 +182,44 @@ authors:
     gravatar:
     website: "#"
     github: choim7
-    twitter:
-    about: "Here's a little about choim7"
+    twitter: choimwd
+    about: "Hi, I want Lego for Christmas present:)"
 
   cmr4658:
-    name: cmr4658
+    name: Chase Rigby
     prof: false
     gravatar:
-    website: "#"
+    website:
     github: cmr4658
     twitter:
-    about: "Here's a little about cmr4658"
+    about: "Chase is a first-year MSIS student at the iSchool and works in the captioning group at UT Libraries. He is interested in UX research/design and accessibility. Also, he enjoys writing, knitting, and hiking. :running:"
 
   cridley17:
-    name: cridley17
+    name: Claire Ridley
     prof: false
     gravatar:
     website: "#"
     github: cridley17
     twitter:
-    about: "Here's a little about cridley17"
+    about: "Claire is a second year MSIS student concentrating in Archives and Preservation."
 
   Elizard0926:
     name: Elizard0926
     prof: false
     gravatar:
-    website: "#"
+    website: "https://leelizabeth0926.wixsite.com/website-1"
     github: Elizard0926
     twitter:
-    about: "Here's a little about Elizard0926"
+    about: "Elizabeth is a first-year student in the iSchool doctoral program. It is her personal mission to do puzzles with no less than 1000 pieces."
 
   hdubbe:
-    name: hdubbe
+    name: Hannah Dubbe
     prof: false
     gravatar:
-    website: "#"
+    website: 
     github: hdubbe
     twitter:
-    about: "Here's a little about hdubbe"
+    about: "Hannah is a second year MSIS student with a focus on data science. She has a white cat named Sweet Merle."
 
   IMBLAH:
     name: Bo Zhang
@@ -231,13 +231,13 @@ authors:
     about: "Bo is in her first year of the MSIS program at the iSchool. She's not a good speaker but a good listener. :)"
 
   itohosagie:
-    name: itohosagie
+    name: Itohan Osagie
     prof: false
     gravatar:
     website: "#"
     github: itohosagie
-    twitter:
-    about: "Here's a little about itohosagie"
+    twitter: 
+    about: "Current MSIS student in her second year. Living in Austin, TX. Trying to kick her coffee addiction :coffee:, but keeps failing. New to programming, but excited to learn!"
 
   lulomax:
     name: Lucius
@@ -252,10 +252,10 @@ authors:
     name: sarahva47
     prof: false
     gravatar:
-    website: "#"
+    website: https://www.linkedin.com/in/sarah-varenhorst-6b2100129/ 
     github: sarahva47
-    twitter:
-    about: "Here's a little about sarahva47"
+    twitter: SarahAV47
+    about: "Sarah Varenhorst (she/her/hers) is a second year in the ISchool. She has two cats named Marie and Oliver, and is a major Swiftie."
 
   scyrill:
     name: Stephanie C. Cyrill
@@ -272,16 +272,18 @@ authors:
     website: "#"
     github: sj-roh
     twitter:
-    about: "Here's a little about sj-roh"
+    about: "SJ Roh is a second year graduate student pursuing his Master of Science degree in Information Studies with a focus in Data Science at the School of Information. 
+    Prior to his master's studies, he graduated with a Bachelor's degree in Information Sciences and Technology at Penn State University. SJ enjoys playing sports, listening to music, 
+    watching Disney shows & films, and shopping."
 
   spinachleaf:
     name: spinachleaf
     prof: false
     gravatar:
-    website: "#"
+    website: "https://en.wikipedia.org/wiki/Spinach"
     github: spinachleaf
-    twitter:
-    about: "Here's a little about spinachleaf"
+    twitter: "https://twitter.com/search?q=%23spinach"
+    about: "spinachleaf is a green leafy vegetable."
 
   srj1220:
     name: srj1220
