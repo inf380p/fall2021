@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 author: amanda-guerrero
 title: "Project Update and Interface Draft"
 ---
