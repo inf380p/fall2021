@@ -8,6 +8,10 @@ canvas: false
 
 The below assignment is optional. If you complete it, it will count towards your grade.
 
+I recommend that Analysts focus on reading in and decomposing your data file into something that contains any kind of summary statistics in it. I recommend that Turtlers focus on building out the logic (what happens when) of their game. Both keep in mind that **sketches** are the way to go.
+
+If possible, then **duplicate** your interface sketch and try to pull in some of the work you did in another sketch, building decomposed data, or building game logic, respectively. You'll then have a more advanced sketch of your game to work with and maybe improve upon.
+
 Submit a pull request with a short narrative update on your progress since last class,
 along with your (almost final!) list of milestones (checked/unchecked as appropriate), **and a snapshot of your code** in
 Trinket. To make a snapshot, duplicate your project and embed the duplicate **and don't work on the duplicate anymore**.  Address how your actual work compared with your plan from the previous update.
