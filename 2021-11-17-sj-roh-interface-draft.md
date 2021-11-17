@@ -11,7 +11,7 @@ For this week, I managed to check a few items off the checklists, specifically: 
 Brainstorm how to set up the structure of the program: CSV upload (CHECK), and Begin to code, but start light with foundational lines (CHECK).
 There is still a lot of work to be done, but I was glad to get off to a start. I focused on functionality, and laying down some groundwork for 
 the interaction between the user via text input and the program. For each option within the main menu, this sketch displays some of the functionalities 
-that I have planned: Selecting a data set to find a summary statistic (2), Creating a histogram (3). 
+that I have planned: Option 2: Find summary statistic - first selecting a data set between the 2 uploaded data sets (NBA 2021 Per Game Stats, NBA 2021 Advanced Per Game Stats) and then to pick a summary statistic: Min(1), Max(2), Mean(3), Median(4), Standard Deviation(5), and Option 3: Creating a histogram (3). 
 
 Below is the trinket code:
 
@@ -20,6 +20,8 @@ Below is the trinket code:
 New modifications (added items to my old checklist - copied below):
 - Must figure out how to deal with option 3: Creating a histogram, what are the necessary steps for the user to go through?
 - How to add code to carry out these ideas
+- How to distinguish the two data sets? I think this is a prime spot to provide some help text to differentiate the two data sets, especially for those not interested in basketball. 
+- Learn how to incorporate for loops within each function 
 - Learn how to incorporate dictionaries in program
 
 ## Reflection:
