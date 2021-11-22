@@ -7,7 +7,7 @@ title: Meetup Writeup
 canvas: false
 ---
 
-Submit one request with a writeup of your off-campus cultural immersion meetup experience.
+Submit one Github pull request with a writeup of your off-campus cultural immersion meetup experience.
 
 Cover questions like these:
 * How did it go?
