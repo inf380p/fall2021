@@ -16,7 +16,7 @@ It worked! This was a small step, but considering that there were issues pasting
 
 # Goal 2: Have Python read through the file and find everywhere that the phrase ‘Discharge Diagnosis’ comes up and print the lines that follow it
 
-To address this goal, I decided to break it up into smaller steps, as reading the file, finding the phrase, and printing the lines that followed it were all different. I began with trying to find the phrase ‘Discharge Diagnosis’  because I thought that it would be the easiest to do because it would just be looking for instances of lines starting with it and it was throughout the entire txt file. I created a for loop so that it would iterate through the entire file and used the ```startswith()``` function to look for lines that started with ‘Discharge Diagnosis’ and printed the line to make sure that it would work. 
+To address this goal, I decided to break it up into smaller steps, as reading the file, finding the phrase, and printing the lines that followed it were all different. I began with trying to find the phrase ‘Discharge Diagnosis’  because I thought that it would be the easiest to do because it would just be looking for instances of lines starting with it and it was throughout the entire txt file. I created a for loop so that it would iterate through the entire file and used the `startswith()` function to look for lines that started with ‘Discharge Diagnosis’ and printed the line to make sure that it would work. 
 ```python 
 #look for the lines that have discharge diagnosis 
 for line in pt_notes: 
@@ -42,7 +42,7 @@ for line in pt_notes:
   If line.startswith.upper(‘Discharge Diagnosis’) or line.startswith.upper(‘Discharge Diagnoses’) or line.startswith.upper(Final Diagnosis’) or line.startswith.upper(‘Final Diagnoses’):
   print (line)
 ```
-Not only was this longer, it didn’t work. Therefore, I turned to ```regex``` because I knew that it would at least be able to get it. Since it wasn’t catching the other ‘(blank) Diagnos(i/e)s’, I tried using regex to get all the instances where it begins with ______ Diagnos(i/e)s to get all the instances. To get a regex to do this, I searched the file for lines that started with any character, have a whitespace, accepted ‘diagnos’, followed by any character being acceptable to account for i/e, and end with ‘s’. I turned back to chapter 12 on Regular Expressions, and figured that the way to write the code would be using ```re.findall()```. I had used it in the past for homework and exercises, so I figured that it could be used here too.  My code looked something like this: 
+Not only was this longer, it didn’t work. Therefore, I turned to ```regex``` because I knew that it would at least be able to get it. Since it wasn’t catching the other ‘(blank) Diagnos(i/e)s’, I tried using regex to get all the instances where it begins with ______ Diagnos(i/e)s to get all the instances. To get a regex to do this, I searched the file for lines that started with any character, have a whitespace, accepted ‘diagnos’, followed by any character being acceptable to account for i/e, and end with ‘s’. I turned back to chapter 12 on Regular Expressions, and figured that the way to write the code would be using `re.findall()`. I had used it in the past for homework and exercises, so I figured that it could be used here too.  My code looked something like this: 
 ```python 
 for line in pt_notes: 
   #figure out why this isn't printing 'final diagnosis'
@@ -51,7 +51,7 @@ for line in pt_notes:
 ```
 This didn’t work and I thought that it was because of what I put in the parentheses. I changed it to ‘discharge diagnos.s’, but once I did this, the page would not load, so I switched back to the code I had before and gave up on doing this task because I figured that it was something that I could figure out later on. I moved on to making a dictionary or list for the diagnoses to go into later on and went to ch. 9 to see how I could create an empty list. After a couple of tries, I decided to make a list for now, so I introduced one that I intended to take in the diagnoses on the file, but I soon found that I couldn’t append anything into it yet because I still hadn’t found a way to tell Python to get the diagnoses that were usually listed between the final/discharge diagnos(i/e)s and the discharge condition.
 
-This left me kind of fed up with Python and I had to retreat. After doing so, I went to a friend to see how I could break up lines of text in Python and she directed me to https://careerkarma.com/blog/python-attributeerror-list-object-has-no-attribute-split/, where I learned about how to split a list. I tried applying it to my code, this resulted in the the following error: “The attribute file has no split function”. This confused me, how could it not have this attribute when I just saw it used in the website? I asked her why this error was occurring and she said that it was because the file hadn’t been read yet and the file had to be converted to a string. I thought that it had already been converted, so I was doubly confused. I thought that I had that there with the ```open((filename), "r")```.  So I scrapped everything and started looking for ways to get Python to read the file to turn it into a string. 
+This left me kind of fed up with Python and I had to retreat. After doing so, I went to a friend to see how I could break up lines of text in Python and she directed me to https://careerkarma.com/blog/python-attributeerror-list-object-has-no-attribute-split/, where I learned about how to split a list. I tried applying it to my code, this resulted in the the following error: “The attribute file has no split function”. This confused me, how could it not have this attribute when I just saw it used in the website? I asked her why this error was occurring and she said that it was because the file hadn’t been read yet and the file had to be converted to a string. I thought that it had already been converted, so I was doubly confused. I thought that I had that there with the `open((filename), "r")`.  So I scrapped everything and started looking for ways to get Python to read the file to turn it into a string. 
 
 I turned to chapter 8 of our textbook to find out how to read and split the lines in python, along with the following websites: 
 
@@ -71,7 +71,7 @@ for line in pt_notes:
   diagnosis = pt_notes.split(‘Discharge Diagnosis’)
   print(diagnosis)
 ```
-This returned the same error, but I figured that it had to do with my putting line.split instead of pt_notes.split, but this was not the error, instead it turned out to be that ```readlines()``` makes a list, so it couldn’t be split at all because that is not an attribute that lists have, so I changed it from ```readlines()``` to ```read()``` and it began to work! However, I caused Trinket to crash once I reintroduced the for loop, so I reached out to my friend again to see why that might be. She mentioned checking if the discharge diagnosis is even in the pt_notes. I didn’t really understand what she meant, so I got rid of everything and went back to the beginning, reading the file. 
+This returned the same error, but I figured that it had to do with my putting line.split instead of pt_notes.split, but this was not the error, instead it turned out to be that `readlines()` makes a list, so it couldn’t be split at all because that is not an attribute that lists have, so I changed it from `readlines()` to `read()` and it began to work! However, I caused Trinket to crash once I reintroduced the for loop, so I reached out to my friend again to see why that might be. She mentioned checking if the discharge diagnosis is even in the pt_notes. I didn’t really understand what she meant, so I got rid of everything and went back to the beginning, reading the file. 
 ```python 
 #open and read the file 
 notes = open("MIMIC-IIIData.txt", "r")
@@ -79,7 +79,7 @@ pt_notes = notes.readlines()
 pt_notes.close()
 print(pt_notes)
 ```
-This didn’t print anything, to my frustration, until I figured out that the reason it wasn’t printing anything was because I closed the file, so I left it open and changed ```readlines()``` to ```read()```. Once I did this, the file printed everything again. From here, I moved on to putting everything into a list: 
+This didn’t print anything, to my frustration, until I figured out that the reason it wasn’t printing anything was because I closed the file, so I left it open and changed `readlines()` to `read()`. Once I did this, the file printed everything again. From here, I moved on to putting everything into a list: 
 ```python 
 #open and read the file 
 notes = open("MIMIC-IIIData.txt", "r")
@@ -87,12 +87,12 @@ pt_notes = notes.read()
 diagnosis = pt_notes.split(“Discharge Diagnosis:”)
 print(diagnosis)
 ```
-However, this is not what I wanted to do, so I asked my friend, and she told me that, as is, I am telling Python to print the entire file in a list and if I wanted to get python to grab everything after the first instance of ‘Discharge Diagnosis’, I would have to print that position, which resulted in me putting ```print(diagnosis[1])```, which wound return the first line after ‘Discharge Diagnosis’ which is the list of diagnoses that I wanted. The next step was to get Python to stop printing right before the phrase ‘Diagnosis Condition’. To do this, I added the following lines: 
+However, this is not what I wanted to do, so I asked my friend, and she told me that, as is, I am telling Python to print the entire file in a list and if I wanted to get python to grab everything after the first instance of ‘Discharge Diagnosis’, I would have to print that position, which resulted in me putting `print(diagnosis[1])`, which wound return the first line after ‘Discharge Diagnosis’ which is the list of diagnoses that I wanted. The next step was to get Python to stop printing right before the phrase ‘Diagnosis Condition’. To do this, I added the following lines: 
 ```python 
 dc = pt_notes.split(“Discharge Condition:”)
 print(dc[0])
 ```
-This ended up returning all the lines before ‘Discharge Condition:’, which was partially what I wanted since it didn’t include the phrase ‘Discharge Condition:’, but it was not printing just the diagnoses that I wanted. Some learnings that I gained from this were that with ```dc[0]```, it completely cuts ‘Discharge Condition:’ off from the file, whereas the ```diagnosis[1]``` included what I wanted, so I had to find a way to put them together. I ended up making ```diagnosis[1]``` a variable and then splitting it in a new variable called ```dc```. To have a place to store all this information, I introduced an empty list called ```bank``` to put the diagnoses. From here, I added the diagnoses to ```bank``` by using the ```append()``` function, thus resulting in the following code: 
+This ended up returning all the lines before ‘Discharge Condition:’, which was partially what I wanted since it didn’t include the phrase ‘Discharge Condition:’, but it was not printing just the diagnoses that I wanted. Some learnings that I gained from this were that with `dc[0]`, it completely cuts ‘Discharge Condition:’ off from the file, whereas the `diagnosis[1]` included what I wanted, so I had to find a way to put them together. I ended up making `diagnosis[1]` a variable and then splitting it in a new variable called `dc`. To have a place to store all this information, I introduced an empty list called `bank` to put the diagnoses. From here, I added the diagnoses to `bank` by using the `append()` function, thus resulting in the following code: 
 ```python 
 #open and read the file 
 notes = open("MIMIC-IIIData.txt", "r")
@@ -104,12 +104,12 @@ dc = dd.split(“Discharge Condition:”)
 bank.append(dc[0])
 print(bank)
 ```
-This finally worked! It returned all the diagnoses, but it included the whitespace character ```\n```, which was something I wanted to get rid of. I knew that I could use ```strip``` to take out the whitespace, so I tried using ```rstrip()``` to do so. I chose to do this by introducing another variable called ```entries```, attaching ```rstrip()```, and putting into what I wanted it to strip out of the list. 
+This finally worked! It returned all the diagnoses, but it included the whitespace character `\n`, which was something I wanted to get rid of. I knew that I could use `strip` to take out the whitespace, so I tried using `rstrip()` to do so. I chose to do this by introducing another variable called `entries`, attaching `rstrip()`, and putting into what I wanted it to strip out of the list. 
 ```python 
 entries = bank.rstrip(“[0-9]\n”)
 print(entries)
 ```
-From this error, I learned that lists don't have the attribute ```rstrip()```, so things cannot be stripped from lists like I thought they could be. Because of this, I had to scrap this idea and instead introduced another variable that would call ```dc``` and split it at the whitespace characters: 
+From this error, I learned that lists don't have the attribute `rstrip()`, so things cannot be stripped from lists like I thought they could be. Because of this, I had to scrap this idea and instead introduced another variable that would call `dc` and split it at the whitespace characters: 
 ```python 
 d1 = dc[0].split("\n")
 bank.append(d1)
