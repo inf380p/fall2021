@@ -1,3 +1,9 @@
+---
+layout: post
+author: scyrill 
+title: "Project Update"
+---
+
 # Goal 1: Upload a blank file, then upload a few lines at a time to see where the problem is arising, and see if it can be saved
 After the last course, I began copying and pasting small chunks of the txt file into Trinket and it actually started saving! However, because I wanted to get started on writing code, I pasted 6K/550K lines of the txt file, and figured that I could either just work with lines there or paste the rest of the txt file later. I moved on to actually writing out the code and I wrote the following to see if it would open the file and at least print it out: 
 ```python 
@@ -141,6 +147,7 @@ for diagnosis in diagnoses[1:]:
 
 # Final Project Progress Copy
 <iframe src="https://trinket.io/embed/python/d081208c70" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 
 After going through all of these errors, I think it helped me learn a lot both about writing code myself, in that things aren't as simple as I think they are and being able to see what the code is doing is important in solving issues. I did get to eventually use regex, but only after all the roadblocks that I ran into in doing this. 
 
