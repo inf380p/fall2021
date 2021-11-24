@@ -4,8 +4,7 @@ author: alueker
 title: "Andrew L's Trinket Post"
 ---
 Here is a basic string tester:
-<iframe> <src="https://trinket.io/python/5eb23967dc" width = "100%" length = "600" frameborder = "0" marginwidth = "0" marginheight = "0" allowfullscreen> <iframe>
-
+<iframe src="https://trinket.io/embed/python/5eb23967dc" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ```python
 import re
 def text_match(string):
