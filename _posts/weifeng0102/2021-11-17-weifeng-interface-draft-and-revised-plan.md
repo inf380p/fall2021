@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <weifeng0102>
+author: weifeng0102
 title: "Weifeng's interface draft and revised plan"
 ---
 
