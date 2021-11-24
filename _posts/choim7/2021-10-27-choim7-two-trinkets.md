@@ -1,6 +1,6 @@
 ---
 layout: post
-author: moonjeog choi
+author: choim7
 title: "Moonjeog's two trinket post and relection"
 ---
 
