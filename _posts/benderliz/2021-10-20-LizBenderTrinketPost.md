@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Liz Bender
+author: benderliz
 title: "Liz's Trinket Post"
 ---
 
