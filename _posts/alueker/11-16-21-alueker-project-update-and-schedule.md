@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Andrew Lueker
+author: alueker
 title: "Andrew L's Project Update and Schedule"
 ---
 <iframe src="https://trinket.io/embed/python/7d6244c2c0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
