@@ -2,7 +2,7 @@
  layout: post
  author: cmr4658
  title: "Chase's Meetup Writeup"
- ---
+---
 
 # Meetup Writeup
 
