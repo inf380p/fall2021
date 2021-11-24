@@ -5,15 +5,15 @@ title: "Elizabeth's two trinket post and reflection"
 ---
 
 
-#My Trinket from the textbook
+# My Trinket from the textbook
 
 <iframe src="https://trinket.io/embed/python/e2ec4caa66" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-#My Trinket I made
+# My Trinket I made
 
 <iframe src="https://trinket.io/embed/python/a5f632ac52" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-#Reflection
+# Reflection
 
 
 From the WriteCode questions, I chose to do #17 (17.14.17) which is the problem that asks the programmer to draw a star based on the given picture. I was pretty excited going into this problem because I felt like the chapter had equipped me with the tools to do this successfully, and I was so ambitious that I thought that I perhaps would try to solve this problem two different ways. The first way would be based on the concept from the “Making Patterns with Patterns” section of the chapter. For the second way, I wanted to have the turtle draw the star in the way that I learned how to draw a star (like [this](http://www.howtodrawguide.com/drawing-techniques/how-to-draw-a-star-44/)) back in elementary school. Based on my load history, I ended up running code 88 times; it was frustrating to say the least.
