@@ -54,5 +54,15 @@ I have the final line hashed out because I could not get `onkey` to work.
 I have accomplished my first objective of getting the turtle to move across the screen, but I need it to be based on user interaction. This is my next immediate goal for next week, in addition to building the correct data files/dictionaries. 
 Other than that, I believe my timeline will remain the same for now. I will update as necessary.
 
-Here is the full code for my interface draft: 
-<iframe src="https://trinket.io/embed/python/67d0ab6541" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+UPDATE BELOW
+
+During class, I was able to work with my group. Someone noticed right away that the reason my code wasn't working was because I forgot a set of parentheses in the line
+```python
+keyscreen = turtle.Screen()
+```
+After that, my I was able to move the progress bar across the screen when I pressed the "a" button. This was exactly what I wanted it to do today.
+
+For next week, I will work on trying to build out my `advance` function to reset `onkey` so that I can make it work for each letter when needed.
+
+Here is the updated full code for my interface draft: 
+<iframe src="https://trinket.io/embed/python/58448d3ea7" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
