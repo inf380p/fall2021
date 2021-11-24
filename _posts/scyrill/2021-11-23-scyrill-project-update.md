@@ -106,12 +106,12 @@ print(bank)
 ```
 This finally worked! It returned all the diagnoses, but it included the whitespace character `\n`, which was something I wanted to get rid of. I knew that I could use `strip` to take out the whitespace, so I tried using `rstrip()` to do so. I chose to do this by introducing another variable called `entries`, attaching `rstrip()`, and putting into what I wanted it to strip out of the list. 
 ```python 
-entries = bank.rstrip(“[0-9]\n”)
+entries = bank.rstrip('[0-9]\n')
 print(entries)
 ```
 From this error, I learned that lists don't have the attribute `rstrip()`, so things cannot be stripped from lists like I thought they could be. Because of this, I had to scrap this idea and instead introduced another variable that would call `dc` and split it at the whitespace characters: 
 ```python 
-d1 = dc[0].split("\n")
+d1 = dc[0].split('\n')
 bank.append(d1)
 print(d1)
 ```
