@@ -4,11 +4,11 @@ author: benderliz
 title: "Liz's Two Turtle Trinkets: Post and Reflection"
 ---
 
-# first turtle Trinket for class 10/27
+# First turtle Trinket for class 10/27
 
 <iframe src="https://trinket.io/embed/python/4695ed9e36" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-# second turtle Trinket for class 10/27
+# Second turtle Trinket for class 10/27
 
 <iframe src="https://trinket.io/embed/python/8d1fcf9024" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -25,5 +25,3 @@ def triangle(turtle, length = 80, color = ‘red’): # create function called t
 triangle(ted,100,'blue')        # call function for nico
 ```
 Why would you ever put ``length = 80, color = red``, when those inputs will be overwritten later?
-
-# practicing committing
