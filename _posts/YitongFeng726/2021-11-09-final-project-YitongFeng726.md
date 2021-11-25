@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <YitongFeng726>
+author: YitongFeng726
 title: "Yitong Feng's final project plan"
 ---
 
