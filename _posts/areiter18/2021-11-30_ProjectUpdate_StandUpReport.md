@@ -31,21 +31,21 @@ Essentially, I forgot to include the phrase ```break``` at the end, causing the 
 
 This weekend, I am going to work on custom modules and incorporating them into the project. I have already incorporated the following into my project:
 
-[x] csv file
-[x] dictionary
-[x] definite loops 
-[x] custom functions
-[x] Python 3 Trinket
-[] <b> Need:</b< Custom Modules
+<li>[x] csv file </li>
+<li> [x] dictionary </li>
+<li> [x] definite loops </li>
+<li> [x] custom functions <li>
+<li>[x] Python 3 Trinket </li>
+<li> [] <b> Need:</b> Custom Modules </li>
 
 <b> Stretch goal:</b>  I’d also like to create a section with user input to look at the max, min, mean, and median values for a particular column of data in my csv file. That will require some research so I plan to see if this if feasible this coming weekend when I have time to work on this.
   
 <b>Timeline </b>:
-<i>By December 6 </i>: add custom modules
-<i> By December 7 </i>: see if my stretch goal is feasible
-<i>By December 7 </i>: Have the reflection written
-<i>By December 8 </i>: Edit code/reflection and get ready to publish to a pull request
-<i>By December 9</i>: Turn in
+<li> <i>By December 6 </i>: add custom modules <li/>
+<li> <i> By December 7 </i>: see if my stretch goal is feasible </li>
+<li> <i>By December 7 </i>: Have the reflection written </li>
+<li> <i>By December 8 </i>: Edit code/reflection and get ready to publish to a pull request </li>
+<li> <i>By December 9</i>: Turn in </li>
   
 Overall, I am feeling good about this project. My knowledge has vastly expanded and while my project isn’t perfect, I think I have definitely learned a lot this semester.
  
