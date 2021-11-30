@@ -27,9 +27,9 @@ Over the weekend, I did tweak and edit my code a little bit, discovering a probl
     print("If you see a negative number for the 3rd value it means that particular country has a budget deficit. A positive number means they have a budget surplus.")
  ```
 
-Essentially, I forgot to include the phrase ```break``` at the end, causing the code to continually loop and ask the same thing repeatedly if you selected a particular input. This was an important reminder to remove yourself from the project (I had not noticed this before) and then return to closely edit line-by-line. 
+<p>Essentially, I forgot to include the phrase ```break``` at the end, causing the code to continually loop and ask the same thing repeatedly if you selected a particular input. This was an important reminder to remove yourself from the project (I had not noticed this before) and then return to closely edit line-by-line. </p>
 
-This weekend, I am going to work on custom modules and incorporating them into the project. I have already incorporated the following into my project:
+<p>This weekend, I am going to work on custom modules and incorporating them into the project. I have already incorporated the following into my project:</p>
 
 <li> csv file </li>
 <li> dictionary </li>
@@ -41,13 +41,13 @@ This weekend, I am going to work on custom modules and incorporating them into t
 <b> Stretch goal:</b>  I’d also like to create a section with user input to look at the max, min, mean, and median values for a particular column of data in my csv file. That will require some research so I plan to see if this if feasible this coming weekend when I have time to work on this.
   
 <b>Timeline </b>:
-<li> <i>By December 6 </i>: add custom modules <li/>
-<li> <i>By December 7 </i>: see if my stretch goal is feasible </li>
-<li> <i>By December 7 </i>: Have the reflection written </li>
-<li> <i>By December 8 </i>: Edit code/reflection and get ready to publish to a pull request </li>
-<li> <i>By December 9</i>: Turn in </li>
+<p> <i>By December 6 </i>: add custom modules </p>
+<p> <i>By December 7 </i>: see if my stretch goal is feasible </p>
+<p> <i>By December 7 </i>: Have the reflection written </p>
+<p> <i>By December 8 </i>: Edit code/reflection and get ready to publish to a pull request </p>
+<p> <i>By December 9</i>: Turn in </p>
   
-Overall, I am feeling good about this project. My knowledge has vastly expanded and while my project isn’t perfect, I think I have definitely learned a lot this semester.
+<p>Overall, I am feeling good about this project. My knowledge has vastly expanded and while my project isn’t perfect, I think I have definitely learned a lot this semester.</p>
  
 <b> Here is my project as of 11/30: </b>
 <iframe src="https://trinket.io/embed/python3/ffbc2ef790" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
