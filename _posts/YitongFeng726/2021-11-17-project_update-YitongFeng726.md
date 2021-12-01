@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Yitong Feng
+author: YitongFeng726
 title: "Yitong Feng's final project update."
 ---
 
