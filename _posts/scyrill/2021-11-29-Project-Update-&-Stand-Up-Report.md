@@ -60,7 +60,10 @@ By doing this, we accounted for lines that were blank, but we didn’t think abo
 
 I thought that this was good progress, but I still wanted to make it interactive for the user because I wanted them to type something they wanted to know more about, so I asked how can I make this interactive for the user? I was told that I had to be more pragmatic and adapt what I want to do with what the dataset would allow me to do. Because my dataset is idiosyncratic, it would be better to decompose the notes into data structures, extract what I think are the most important kind of items, and combining that with an interface where the user can either compare across notes or get an overview of a certain note then that becomes a tool for understanding this dataset. I thought that this was a good idea because considering what I had before this, to try making a large scale dictionary at this point would not be wise, so it would be better to scale down to get more out of the data. 
 
-Therefore I scrapped my original goals and decided to do the following: 
+# Here is my code so far
+<iframe src="https://trinket.io/embed/python/6144d7845c" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+With the ways things were going, I scrapped my original goals and decided to do the following: 
 
 1. Build the dicts so that the user can explore the data that is in the dictionaries
 2. Grab all the headers from the notes so that the user can broadly know what is in each note 
