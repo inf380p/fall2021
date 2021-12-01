@@ -1,7 +1,7 @@
 ---
 layout: post
 author: IMBLAH
-title: “Bo's Project idea & work plan”
+title: "Bo's Project idea & work plan"
 ---
 # Project idea
 For the final project, I would like to pursue the Turtle-based option. 
