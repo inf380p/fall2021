@@ -7,22 +7,19 @@ mode: Remote
 published: true
 ---
 
-Forthcoming
-
-{% comment %}
 
 # Q & A
 
-* Five (5) hours of Open Office Hours next week: Monday 1-3 and Weds 12-3 (normal class time). Grab a 30 minute slot, and/or drop in on someone else's slot during those times.
+* Four (4) hours of Open Office Hours over the coming week: Friday 11-1 and Weds 12-1 and 2-3 (normal class time, minus a research presentation I need to attend). Grab a 15 minute slot Fiday, and/or drop in on Wednesday.
 * Strategies for everyone's code:
   * encapsulate 'naked' code
   * Group like things into Classes.  Variables => Attributes  Functions => Methods etc.
   * Manage scope: pass things you'll need inside functions/methods in as arguments, `return` things you'll need afterwards
   * Definitions of functions and classes are great candidates for putting into custom modules (new files) as long as you manage scope correctly.
-  * Your main.py file should succinctly communicate what your program does **overall**.
+  * Your main.py file should succinctly communicate what your program does **overall**, due to well-named variables, functions, etc. and good use of custom modules.
   * Tweak/iterate.  Analysts: this means thinking of new ways to view your data.  Turtlers: this means small alterations to your games that make them more fun
   * Everyone: make sure your interfaces are **robust** and **graceful**.
-
+*
 
 # Agenda
 
@@ -48,9 +45,33 @@ As for confidence about your abilities, let's not forget how far we've come...
 
 # Looking back: how far you've come!
 
-Let's take a quick look at the [before picture]({{ site.baseurl }}/before-picture.html) from way back on September 2nd. You've all come a long, long way!
+Think back to the beginning of class. Here are some of the things you said then:
 
-The code talks on December 11th will be our 'after' picture. Each of you will present a substantial, working Python program, and talk insightfully about it and your process of making it. You've all deepened and added to your skills and knowledge about programming.
+What excites you about coding or learning to code?
+* It can be a great way to creatively express myself
+* I view learning to code (and, I suppose, coding itself) as a type of creative problem solving
+* I am excited to learn a subject that has always intimidated me
+* I love the idea of being able to engage more with technology
+* I like the idea of being able to create or edit programs so they work for the specific way I want to do things.
+* I think what excites me most about learning to code is just that, when I feel like I'm truly learning.
+
+Do you have any apprehensions about code or learning to code?
+* I don't like that coding is literal. If you're off infinitesimally, you're wrong
+* I have some experience but no formal training
+* One thing that I find really daunting is the amount of jargon and terminology that you need to remember
+* I am nervous about learning something so new to me
+* I worry that the way I solve problems through code isn't necessarily the most efficient or straightforward.
+
+What are your goals for this class?
+* Looking forward to developing a cool extended project to represent my skills
+* I hope that I will be able to use this course knowledge in my future profession (multiple responses: academic librarian, UX designer)
+* I want to become competent at the processes of learning to program
+* My primary goal is to become comfortable with the language of programming.
+* I'd like to learn more about how to collaborate with other people/how to "be a programmer" in general.
+
+These are the "before" picture. Hopefully you've found ways to engage and deepen your excitment, mitigate and overcome your apprehensions, and acheive some of your goals.
+
+The code talks on December 9th will be our 'after' picture. Each of you will present a substantial, working Python program, and talk insightfully about it and your process of making it. You've all deepened and added to your skills and knowledge about programming.
 
 
 # Thank You!
@@ -110,6 +131,3 @@ After you've completed your evaluation, take a break!
 Last one of the semester.  Make it count!  You should have most of the functionality of your project done and be working on stretch goals or
 perfecting the details.  If you're not, use your group to make sure you've got a plan to catch up!
 
-
-{% include groups %}
-{% endcomment %}
