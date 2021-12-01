@@ -9,7 +9,7 @@ title: "SJ's Final Project Update"
 For this week, I changed a lot of stuff. I managed to select two entirely different datasets for my project: US Births in 1978 and US Births in 2015. I definitely
 made progress with the workflow of my code, and understanding how I want it to be structured. This was confusing to me until this past week, and getting to know concepts
 we went over earlier in the semester helped a ton. I am running into issues with how to order the structure of my code, specifically with the two while loops that I implement.
-I want to understand better where to place them so that the two menus I have run correctly and the right time. 
+I want to understand better where to place them so that the two menus I have run correctly at the right time. 
 
 Below is the trinket code:
 
