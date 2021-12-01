@@ -1,0 +1,49 @@
+---
+layout: post
+author: sarahva47
+title: "Sarah Varenhorst's December 1 project update"
+---
+My Trinket post:
+<iframe src="https://trinket.io/embed/python/8a96f79d6d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+For this penultimate update, I don't have a ton of concrete items to put down into Trinket to share. The past week and a half since our last class, I have honestly fallen a little behind on actually getting things typed up due to working retail and the craziness that is Thanksgiving Week and Black Friday weekend. That isn't to say I have not done work; because I have had little time at home with my computer, I mostly have been combing through my class notes (Google Docs on one's phone is an excellent and flexible tool) and figuring out what pieces I'm going to need to put the code all together. Therefore, I have been able to refine my milestones further and have a strong idea of what I need to do, I just need time away from the craziness of the mall to sit down and work, which I have.
+
+I think this approach has helped a little because previously, it felt a little helpless when I would sit down in front of the screen and need to type. I was having trouble just adding to the Trinket file. It very much had been feeling like that one scene from Spongebob where he needs to write the "What I learned in Boating School is..." essay. Here is where I tried to take a step back and just listen to what my brain needed from me in the moment to get to work. I had a final project for another class due this week which required more of a literature review and report. When I was working on that, I realized how I best put together essays: I usually make an annotated bibliography and outline the skeleton of the essay first with brief talking points and specific citations. I had a basic user interface, but I did not have a skeleton. 
+
+So, that is what I did. It's not exactly something I can show in Trinket as it's a very rough design on a piece of physical paper, but I tried to reframe it into something familiar in my mind. For example, I made notes on what colors I wanted to use and what their Trinket names were (such as "light color" versus "red" as I have already incorporated into the user interface). I made a list of what things I would need and what specific pages of Runestone have those things that I need (for example, "17.11.2 has the screen method list for Turtles"). 
+
+On the 17th, I had said that I want to finalize the user interface and figure out how to use dictionaries to store the song lyrics (the items the turtle is going to collect). After some more consideration, I realize that the dictionary is not the best place to store song lyrics since the order of the lyrics is important, and a seperate file with the lyrics will be better. I am a little unsure where to incorporate dictionaries into this project, but I'm sure I will find a spot for them. I did manage to get the Turtle to turn all of the directions which I want it to go, which was tripping me up earlier in the month. 
+
+I think the biggest roadblock ahead is just forcing myself to sit down and work. Any unchecked milestones are mostly due to a lack of time or focus to sit down and work. Therefore, bad execution has been the main barrier for myself so far. I think my milestones currently are the right amount of ambitious since if I don't have time to make the game look "pretty," I still should have a functioning game by the end of class. I think I will be able to keep to my plan, but I have some ideas in mind if I need to trim back (for example, if I start to get tripped up with all of the words in the songs, I have some ways to cut it back like doing "Level 1: just the words 'All Too Well'," "Level 2: Bridge to the song," and "Level 3: Complete 5 minute version of the song". Because I have ADHD, I've found I tend to end up working best when I get multi-hour chunks of time and power through working on something than doing it a little bit at a time (e.g. getting into the "zone" of hyperfocusing on something). 
+
+Immediately next, I am going to make plain text files of the song lyrics and add those to my Trinket. I am going to check through the class website and Runestone for examples of how to make the Turtle collect objects and set up some language to only allow for collecting them in a certain order. I am going to break up the songs by stanza and line, and randomize the appearance of those words on the screen for the Turtle to have to collect them in order. Here, I think having lists will be useful to force a sense of order into each line. I am not fantastic at looking ahead on a workplan, but that is what I intend to accomplish within the next day at least.
+
+This was my original work plan last week and how it has progressed:
+
+1. Before project: I suppose the first step is to clear up how to do any of this, and go back to the drawing board if this project isn't feasable. How do I import an image? How do we make a Turtle move around and collect things like in the game example that was shown on the first day of class?
+  11/17: This goal has been accomplished as we discussed in class what we can and cannot do. So, I cannot import music but I can import images. I may want to see about moving my project to PyGames and outside of Trinket after this class ends so that I can see a final version with the music that I want.
+  12/1: This is no longer a pressing goal, but I may ask Elliot about adding music after the class has ended. 
+
+2. Before project: Identify images to import; I may draw the Taylor Turtle myself and the scarves to make cute, pixellated ones if I can't find something usable (as far as copyright restrictions or anything) on the Internet.
+  11/17: During class, we discussed that images are a final concern but are expected. This is good to know. This task, which I had made second priority I suppose, is going to be moved to last priority.
+  12/1: I have moved this to last priority but do have images in mind to use and some ways to clean up the interface in mind. 
+
+3. Before project: Ensure I can import the song and images into the Trinket
+  11/17: Again, a song will not be feasible for the requirements of the project but I can worry about images later.
+  12/1: Same as 11/17 update.
+
+4. Before project: Try to use dictionaries to set up the lyrics.
+  11/17: I want to try to work on this during the upcoming week. I still think it will be a clean way to keep track of all of the information that I need. I wrote out this plan before actually hearing the ten minute version of the song and well, it is quite a lot to grapple with.
+  12/1: Dictionaries won't work as well for the song lyrics. Instead, I will be using plain text files and lists to import the lyrics in-order and cleanly.
+
+5. Before project: Take the project level-by-level, focusing on level 1, level 2, level 3, then the win screen.
+  11/17: For this week, I started with level one and just getting a basic interface done. I think continuing to focus on each level individually will allow me to also gauge how detailed level 3 can be or if I need to scale back levels 2 and 3 and just work with the original version of the song.
+  12/1: Still taking it level by level. 
+
+6. Before project: Test and re-test the game, checking for bugs
+  11/17: This is, of course, a continuous goal and something I mostly have written down as a reminder to myself.
+  12/1: It is still a good idea to test and re-test the game, but not necessarily a milestone as much as it is a good reminder. 
+
+7. Before project: Have a Swiftie friend play the game as a small goal of user testing
+  11/17: This is definitely the very last thing that should be accomplished in the final revision and completion stages of this project.
+  12/1: I do have a classmate in another course in mind to try out the game but this is the very last priority. 
