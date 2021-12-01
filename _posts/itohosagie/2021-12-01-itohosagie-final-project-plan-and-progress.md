@@ -1,7 +1,7 @@
 ---
 layout: post
 author: itohosagie
-title: Final Project Plan and Progress
+title: "Final Project Plan and Progress"
 ---
 
 ### Final Project Update: Setbacks and Progress
