@@ -1,7 +1,7 @@
 ---
 layout: post
 author: hdubbe
-title: Project Update and Standup Report (12/1/2021)
+title: "Project Update and Standup Report (12/1/2021)"
 ---
 
 I am still experiencing the hang-up of not being able to drag objects one at a time which is frustrating. I have read over the Turtle documentation and tried everything I can think of but I am still getting the same issue with:
