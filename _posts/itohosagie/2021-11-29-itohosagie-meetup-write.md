@@ -1,10 +1,10 @@
 ---
 layout: post
 author: itohosagie
-title: Meet-up Write-up: Workshop on Spatial Data in SQL Server
+title: "Meet-up Write-up: Workshop on Spatial Data in SQL Server"
 ---
 
-# Meet-up Write-up: Workshop on Spatial Data in SQL Server
+# "Meet-up Write-up: Workshop on Spatial Data in SQL Server"
 
 ### First Impression
 Going into the meet-up, I expected for the material to be way over my head, despite my interest in the topic. Even a quick glance at the roster initially intimidated me because it seemed as though I would be the only student and likely the attendee most inexperienced at SQL at that. Looking back, I realize that I lacked confidence going into this space and carried this false perception that the content would surpass my level of understanding. 
