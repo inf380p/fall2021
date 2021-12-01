@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Zheinsohn
+author: zheinsohn
 title: "Zheinsohn Trinket Post"
 ---
 
