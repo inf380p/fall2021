@@ -1,7 +1,7 @@
 ---
 layout: post
 author: scyrill
-title: "Stephanie's Class Hack"
+title: "Stephanie's Meetup Writeup"
 ---
 
 # Reflection
