@@ -4,7 +4,7 @@ author: agunnells
 title: "Ali's Project Update & Stand-Up Report"
 ---
 
-# My Updated Project Interfact
+# My Updated Project Interface
 
 <iframe src="https://trinket.io/embed/python3/5af4e521d4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
