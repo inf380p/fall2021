@@ -19,7 +19,7 @@ published: true
   * Your main.py file should succinctly communicate what your program does **overall**, due to well-named variables, functions, etc. and good use of custom modules.
   * Tweak/iterate.  Analysts: this means thinking of new ways to view your data.  Turtlers: this means small alterations to your games that make them more fun
   * Everyone: make sure your interfaces are **robust** and **graceful**.
-*
+* **Final Project Option: Virtual 5 minute code talks**. We've got a really big group, and having time for everyone's code talks will be a challenge. Contact me if you'd like to do your 5 minute code talk about your project via **Panopto**. The requirements and deadlines will be the same, you'll just include a Panopto video in your final post instead of giving your talk over Zoom. Attendance at the final presentations is still required.
 
 # Agenda
 
@@ -88,19 +88,44 @@ update to share: [eah13@utexas.edu](mailto:eah13@utexas.edu)
 - There are tons of great nonprofits doing good work for kids- share what you know!
 - Be an ally for an underrepresented group!
 
-# Keep hacking!
+# Keep coding!
 
-Paul Graham has written that the way to win at startups is the same as the way to not losing - [Don't Die](http://www.paulgraham.com/die.html).  In
-other words, the main criterion of success is whether you keep going.  I think this is exactly analogous to success - whatever that means to you-
-in programming.  You win the same way you avoid losing: keep going.
+Brain teaser-like exercises:
+* [Codingbat](https://codingbat.com)
 
-I've tried to make this class a safe and encouraging space for you to try lots of things and get messy.  The real world isn't a lot different
-except you'll find spaces that will be more or less encouraging and, hopefully, over time, things get a little less messy.  But it's still just humans and code.
+Online IDEs:
+* [Pythonanywhere](https://pythonanywhere.com)
+* [Codeanywhere](https://codeanywhere.com/)
+* [Amazon Cloud9](https://aws.amazon.com/cloud9/)
 
-Just know that whatever role you want programming to play in your career, you can get there if you keep going.  Things get way easier
-after liftoff, when your rate of learning becomes exponential.  But regardless of your trajectory, you've found problem solving skills and
-attitudes, along with a significant knowledge of Python, that have equipped you to get out there and do real things.  The Final and all
-the apps you've made are proof enough of that.
+Python Notebooks
+* [Jupyter Notebooks](https://jupyter.org/)
+* [Google Collab](https://colab.research.google.com/)
+
+Desktop IDEs:
+* [Visual Studio Code](https://code.visualstudio.com/) (which link up with [Github Codespaces](https://github.com/features/codespaces))
+* [Sublime Text](https://www.sublimetext.com/)
+* [Pycharm](https://www.jetbrains.com/pycharm/)
+
+Desktop Python:
+* [Python](https://www.python.org/downloads/)
+* [Anaconda](https://www.anaconda.com/products/individual) - Python bundled with common tools and modules used in science/data science
+
+Learning Resources:
+* [Automate the Boring Stuff](https://automatetheboringstuff.com/) - Use Python to do repetive tasks on your computer
+* [Beyond the Basic Stuff with Python](https://inventwithpython.com/beyond/) - Go beyond the basics into professional tools and practices
+* [Invent with Python](https://inventwithpython.com/invent4thed/) - Pygame games. Install locally or use the Pygame Trinket
+* [Software Carpentry](https://software-carpentry.org/) (Including [Data Carpentry](https://datacarpentry.org/) and [Library Carpentry](https://librarycarpentry.org/))
+
+Community Groups (some of which offer learning resources too!):
+* [Code For America Brigades](https://brigade.codeforamerica.org/?_ga=2.93350677.926840580.1638379763-1811795933.1638379763)
+* [Code4Lib](https://code4lib.org/)
+* [Pyladies](https://pyladies.com/)
+* [Black Girls Code](https://www.blackgirlscode.com/)
+* [GirlDevelopIt](https://girldevelopit.com/)
+* [QueerTech](https://www.queertech.org/)
+* [Out In Tech](https://outintech.com/)
+* [The A11y Project](https://www.a11yproject.com/) - Accessability-focused group. An idiom in programming is to collapse long words with the number of missing letters between the first and last letters, hence a11y.
 
 # Final Project Review
 
