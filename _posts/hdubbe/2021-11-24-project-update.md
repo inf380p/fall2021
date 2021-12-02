@@ -1,5 +1,5 @@
 ---
-layout: Project Update - Thanksgiving Break
+layout: post
 author: hdubbe
 title: "Hannah's Project Update"
 ---
