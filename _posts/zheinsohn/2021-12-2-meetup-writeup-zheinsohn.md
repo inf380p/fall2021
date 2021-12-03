@@ -1,7 +1,7 @@
 ---
 layout: post
 author: zheinsohn
-title: Zoe's Meetup Writeup
+title: "Zoe's Meetup Writeup"
 ---
 
 I joined the Michigan Python monthly meetup. The topic for the meeting was Mastering Loops, with Debora Shelby giving a talk on the uses and differences between while loops and for loops. Initially when I joined the meeting, I was nervous because I felt a little out of place, especially because it was supposed to be for Michigan coders. However, it was a very casual meeting and basic terms were explained without prompting. Any future talks that were promoted were described by topic and skill level which I appreciated, especially as a newcomer.
