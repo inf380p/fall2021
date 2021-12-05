@@ -6,8 +6,7 @@ title: "Boyeon Park's final project update(11/23)."
 
 
 # Revised plan & what I have done
-<to do list>
-  
+
 - [O] cleansing data to use (11/16)
   
 - [O] designing user interface (11/16)
