@@ -1,0 +1,14 @@
+---
+layout: post
+author: hdubbe
+title: "Hannah's Meetup Writeup"
+---
+The Austin Python Monthly Meetup - Nov 10, 2021
+The meetup that I chose to go to was The Austin Python MonthlyMeetup. They began by talking about API issues with Python and other python related news. It felt very informal which was nice. I think I was one of five women in the meet-up of 30 total people.The meeting then officially started with announcements which included job openings, conferences and other relevant python career news. It was interesting that attendees were from all over the world and not just Austin. 
+The meeting then introduced a speaker who had prepared a presentation called Introduction to Anvil, which seemed very interesting and complicated. It had to do with web development.
+Here is an example of what he talked about regarding Anvil:
+The Web: Database Tables -> SQL-> Objects(server) -> Methods-> JSON + REST ->HTTP -> Objects(client) -> HTML DOM -> Pixels
+I know a little about SQL and a little about Python, so I could understand some of this but a lot of it still went over my head. The speaker then demoed building a database-backed web application which was pretty cool.
+I honestly understood more than I thought I would. I am glad I went to this meeting at the end of the semester versus at the beginning. I was actually able to wrap my head around what the speakers were talking about which made me feel included. I thought I would be sitting in a meeting of people basically speaking a language I don’t understand. It felt good that I could keep up.There were still things that went over my head, but it wouldn’t have been a worthwhile experience if I wasn’t learning new things I didn’t know before. For example, they were talking about Java and VIM a lot but I have only a surface level understanding of those so I couldn’t really keep up with that conversation. Still, it was nice to be in a room where coding professionals were discussing their work and interests.
+Learning about the newest applications and innovations surrounding Python was a cool experience. Even though I don’t feel confident using a lot of what was talked about during the meeting, I could see myself using these applications at some point in my career. I am glad to be keeping up with Python in the news.
+I could see myself going to another one of these meetups after the semester ends. They seem to have really valuable and accessible information about what Python professionals are dealing with right now. It is important to stay up to date with things, so it would benefit me to continue attending these meetings. It was nice to see how what I have learned in class is being applied practically in the professional world. I feel like I am learning about something really important that has endless possibilities.
