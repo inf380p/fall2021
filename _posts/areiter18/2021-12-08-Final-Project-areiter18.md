@@ -1,8 +1,7 @@
 ---
 layout: post
 author: areiter18
-title: Andrew R's Final Project Code + Reflection
-
+title: Final Project Code + Reflection
 ---
  I would not be truthful if I did not say somewhere in this reflection that the final project for this course had caused me some nervousness at the start of the semester when I first looked over the syllabus. At the time it felt, as someone who knew nothing about code, that this would be an insurmountable task, a project that would cause me considerable stress. However, as I reflect on this project, and the semester, I believe that my final project was the component of this course that I learned the most from. It required me to synthesize various skills and definitions that we had used and put them together. Having the opportunity to reflect on the previously learned materials while trying to fit them into a personalized project was the most rewarding and challenging aspect of this course. 
     
