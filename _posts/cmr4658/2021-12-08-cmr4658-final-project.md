@@ -1,7 +1,7 @@
 ---
  layout: post
  author: cmr4658
- title: "Chase's Final Project Update 3"
+ title: "Chase's Final Project and Reflection"
 ---
 
 # Final Project
