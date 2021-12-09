@@ -1,3 +1,4 @@
+---
 layout: post
 author: amanda-guerrero
 title: "Amanda's Meetup Writeup"
