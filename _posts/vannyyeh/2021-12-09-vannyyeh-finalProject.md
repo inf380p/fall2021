@@ -19,15 +19,23 @@ This is the flowchart of the program:
 ![Flowchart](https://user-images.githubusercontent.com/70726508/145355501-bdbe5c97-73f5-4a39-a2ac-f46066eb5309.png)
 
 # Programming process 
-The project had based on 2 main different components it, “CSV” and “API”. 
+The project had based on 2 main different components it, “CSV” and “API” but there are also some other challenges that I have encountered.
 ### API
 The first challenge I faced was having the API settle up. It’s my first time to import a built-in function that hasn’t been covered in class before. After watching a couple of tutorials online, I quickly grabbed the concept of requesting the API. However, I kept looking for the API key until I realized that it should only be personal; everyone has its unique code. 
+I am using the slimier idea of finding the ‘main’ column and ‘temp’ column, which matches those names, and it will return back the number. Because the value I got from openweathermap.com is Kelvin, so I used the formula to turn it into Fahrenheit and round it up to an integer. 
+For example: `temp = round(((api_data['main']['temp'])- 273.15) * 9/5 + 32)`
+
 ### CSV & Dataset
-After moving on to the CSV part is the most challenging part for me because I want to group and split the data to catch specific rows from the CSV file. I built a data structure of a data dictionary. I will need to pull the data from a particular date range from the dictionary. I was struggling with how to group the datetime. My goal is to filter out the “time” of the column and set up a time range. I did a lot of research and tried `datetime`, `groupby` and rows, etc. 
+Moving on to the CSV part is the most challenging part for me because I want to group and split the data to catch specific rows from the CSV file. I built a data structure of a data dictionary. I will need to pull the data from a particular date range from the dictionary. I was struggling with how to group the datetime. My goal is to filter out the “time” of the column and set up a time range. I did a lot of research and tried `datetime`, `groupby` and rows, etc. 
 The groupby function was not working when I tried `pd.groupby('2020-01-01' : '2020-01-31')`, I think it’s because that it couldn’t recognize it as an item. Therefore, I end up using `pd.to_datetime('2020-01-01') and pd.to_datetime('2020-01-31')` 
 
-After I created the dictionary, I used a loop to go through the data with the specific months that the user called. 
+Besides, I am using `.loc` to get values on a data frame with an index that has integer labels. `.loc` is primarily labeled based on pandas. 
+For example: `sum_lt_1 = records.loc[records.time <= ts1, :]['temperatureLow'].sum()`
+according to the datetime on the previous section, I am using it for setting the date range and then, I get the value of 'temperatureLow' from this time range.  This function helps me to organize all the data from specific columns and a requested rows. 
+
+After I created the dictionary of months, I used a for loop to go through the data with the specific months that the user called. And the data of each specific month has already been organized by using pandas.
 The below codes show how I implement the dictionary and for loop to print out the data.
+
 ```
 #calling the function of the custom dictionary that ask Python to do the math!
 def get_monthly_weather():
@@ -55,6 +63,11 @@ def start_the_Game():
       break  #leave the programe
     ...
 ```
+### Color
+After completing the flow of the program, I felt something missing, and the UI was not smooth enough. Before moving all the codes to the PySimpleGUI, I decide to do the simple color text and font at this moment. Therefore, I create a new module python file to save all the code for colors and bold fonts. I add the color in front of each print line, yet, there is a new concept that I need to be aware of. Because putting the color function in `print()` means starting from the word after the function will apply the color but it doesn't ask to stop using the color function. Therefore, I created a default reset code to use at the end of the print line. Remarkably, I can customize each print line by different colors efficiently without remembering what color has been used in the previous line. 
+For example: `print(BIRed + 'text' + Color_Off)`
+
+
 
 
 # Reflection
