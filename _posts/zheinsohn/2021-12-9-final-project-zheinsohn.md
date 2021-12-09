@@ -2,6 +2,7 @@
 layout: post
 author: zheinsohn
 title: zheinsohn final project reflection
+---
 
 Here is my trinket:
 <iframe src="https://trinket.io/embed/python/b2fd756eb9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
