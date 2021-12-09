@@ -1,3 +1,9 @@
+---
+layout: post
+author: benderliz
+title: "Liz's Meetup Writeup"
+---
+
 # Introduction
 On October 13th, I attended a virtual meet-up with the Austin Python Monthly Meet-up group. Most of their meetings, including this one, are posted on YouTube [here.](https://www.youtube.com/channel/UCMYbTawA7NcTLOYOxg1WOoA.) Generally, the meeting attendance was more than I expected-- about 20-25 folks-- and it seemed that about 15 of those people were regular attendees, based on their participation and familiarity with each other. 
 
