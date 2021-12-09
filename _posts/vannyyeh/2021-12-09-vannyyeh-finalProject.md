@@ -15,6 +15,7 @@ Before starting the project, I always wanted to create a system that could tell 
 # Introduction of the program
 This is weather-fetching data. It can pull the data from the website and give users the most real-time weather information and it can also provide you with historical data of Texas state. Therefore, this program breaks into two parts. One is the current data and the other one is the historical data. Users can easily switch between two functions. 
 
+This is the flowchart of the program:
 ![Flowchart](https://user-images.githubusercontent.com/70726508/145355501-bdbe5c97-73f5-4a39-a2ac-f46066eb5309.png)
 
 # Programming process 
@@ -54,3 +55,13 @@ def start_the_Game():
       break  #leave the programe
     ...
 ```
+
+
+# Reflection
+Overall, I felt confident and proud of making my final project. I think this is the most important and valuable milestone of becoming a programmer for me. The project gave me a good first impression when I made the brainstorming. However, when I go more detail and did the research deeply, I realized that this project is more challenging than I expect. Therefore, I started to put more effort into this and it’s worthful. 
+
+The first API punish me severely, I was middle of nowhere trying the API key and requesting the wrong data with an incorrect API key. Also, I didn’t expect there will be some unexpected disconnection error from the server that I tried to connect to before I had several terrible test cases. I kept using the wrong city name which I didn’t realize, so I was debugging the wrong way by using a different code to execute the `request.get(api)`. It cost me hours to figure out it’s my wrong input that caused the error. Of course, I end up using ` if api_data['cod'] == '404'` to prevent this situation. Therefore, this experience taught me to think about every single possible scenario of the program and I should write every possible test case so it would be easier to debug. 
+
+After going through the first challenge I mentioned previously of API, I felt more confident building something new that is not covered in class. I strongly feel that the most valuable skills I learn from this class and this project are not just the python itself but also how to utilize the fundamental concept to apply the new programming skills and further algorithm concepts. For example, I now know how to use the code if I found a code on stackoverflow.com which is not in my skillset before doing this project. 
+
+Hence, after completing this project, I have more confidence to move on to the next step and become a better programmer. I aim to make this project with GUI by importing `PySimpleGUI`, I believe this could be a good chance to evaluate what I’ve done and optimize this program. 
