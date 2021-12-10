@@ -7,9 +7,12 @@ title: "Yitong Feng's final project"
 # Pre-recording link
 https://utexas.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa81a87f-c836-4123-b7fb-adf9005b6fea![image](https://user-images.githubusercontent.com/92881338/145430565-460ebd84-bb4b-4289-9ea7-a2817da0ff5e.png)
 
+# Final Trinket Link(Fix the problem of image overlap)
+<iframe src="https://trinket.io/embed/python3/da22710a70" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 # Trinket link:
 <iframe src="https://trinket.io/embed/python3/cfff4ee042" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 
 # Reflection
 # 1.Topic Selection
