@@ -9,7 +9,7 @@ https://utexas.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa81a87f-c836-412
 
 
 # Trinket link:
-<iframe src="https://trinket.io/embed/python3/cfff4ee042" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python3/f5be25d5cb" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 # Reflection
 # 1.Topic Selection
