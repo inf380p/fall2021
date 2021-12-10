@@ -41,9 +41,13 @@ This semester ended up being one of my hardest semesters in my academic career, 
 
 Future Developments
 
-The win screen is fairly barebone, especially with the hardest difficulty. In the future, I would like to program a fun win screen to reward anyone who sticks with the game that much. 
+The code is a little messy, especially with the turtles. This could be cleaned up in the future by using classes, I just didn't have time to work through that logic. 
 
 Because I stuck to a regular trinket format, I lost out on the ability to plug the original sound effects from the game into the program. While I don’t think it’s necessary as the lack of audio provides its own unique challenge, it would be a welcome quality of life upgrade on some of the lower difficulties. 
+
+Last Minute Addition - Added new turtle 'Keeper' that prints score to the screen.
+Added a more detailed win screen. I felt like there should be something for users who somehow manage to beat master difficulty
+Added file congratulations.py that is the basis for the win screen, gets imported in main.py to create win screen
 
 Program Dictionary and In-Detail Structure
 
@@ -63,20 +67,22 @@ leo - Leo is the cursor in the game and is the star of the show. In every comman
 
 writer - Writer illustrates which areas of the game are which for beginners or people that did not grow up with Bop It. If hard or master difficulty are chosen, writer’s input is removed. Think of writer as training wheels that get removed once you mastered the game.
 
-casey - Lastly is casey, who prints output onto the screen. I added Casey later in development as a way to reduce the need for the user to look anywhere other than the screen during the main game. 
+casey - Casey prints output onto the screen. I added Casey later in development as a way to reduce the need for the user to look anywhere other than the screen during the main game. 
+
+keeper - Keeper prints track of the score on the right corner of the screen. Resets along with the score when the run() is relaunched.
 
 Functions and Variables
 
-x,y – Do nothing, there as backups in case leogo() fails.
-z – The sleep timer. Z’s value is changed based upon the difficulty setting
-addscore() – The counter function that creates a game’s score. 
-reset() – Set’s score back to 0 at the beginning of a new game.
+x,y – Do nothing, backups in case leogo() fails.
+z – The sleep timer. Z’s value is changes based upon the difficulty setting
+addscore() – The counter function that creates the game’s score. 
+reset() – Sets score back to 0 at the beginning of a new game.
 difficulty – an input function used to set the games difficulty. Because z’s default value is 2, the game is set to easy by default.
 leogo() – this function is bound to onscreenclick to move leo to anywhere on the map.
 rules() – redirects users to the instructions, the rules changed a lot and I got tired of updating them.
 intro() – sets the difficulty and connects to the run() function
 fail() – The fail protocol. If a user loses, they are sent here to either restart the game of change the difficulty. Once writer is removed, help text will not be available until the program is restarted. Leo will reappear if you change from master difficulty.
-bopit(), twistit(), spinit(), flickit(), pullit() – The command functions. Each command function is cycled between randomly during an active game. Each function is identical to one another: command will print, will sleep for z seconds, will judge success, or fail based on leo’s position.
+bopit(), twistit(), spinit(), flickit(), pullit() – The command functions. Each command function is cycled between randomly during an active game. Each function is identical to one another: command will print, will sleep for z seconds, will judge success or fail based on leo’s position.
 game – game is a list of all command functions that is cycled between.  
 run() – The function that runs the game, cycles between game functions.
 
