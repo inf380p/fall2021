@@ -5,7 +5,7 @@ title: "Moonjeog's two trinket post and relection"
 ---
 
 #Embedded code turtle1:
-<iframe src="https://trinket.io/embed/python/2d5331231e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/e73b94ea2e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #Embedded code turtle2:
 <iframe src="https://trinket.io/embed/python/5e546bc310" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
