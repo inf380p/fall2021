@@ -1,7 +1,7 @@
 ---
-Layout: post
-Title: “Liz’s Final Project Reflection”
-Author: benderliz
+layout: post
+title: "Liz’s Final Project Reflection"
+author: benderliz
 ---
 
 # EJ Insights Portal
