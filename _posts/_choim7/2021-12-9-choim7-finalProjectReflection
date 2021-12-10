@@ -1,0 +1,68 @@
+---
+layout: post
+author: choim7
+title: "Moonjeog's final project reflection"
+---
+
+#Please check the last 2nd paragrph of the reflection before checking the code
+#because there might be 2 problems when running on trinket(but can successfully run on my end on IDLE)
+#Embedded code:
+<iframe src="https://trinket.io/embed/python/e73b94ea2e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+final project reflection
+
+#original thoughts on this project
+The earliest thought I had is to design a Mario like game. But since I didn't manage my time well in preparing the finals for 4 of my classes this semester, 
+I decided to choose to design a ping pong game instead. 
+
+#The process of coding and confusions I had
+When I started to code, I found designing this ping pong game is not as easy as I thought. I was even failling in uploading the .jpg/.jpeg/.png images as the 
+background of my game. I felt very frustrated and spent a lot of time on trying to change suffix and to see if it will succeed. After all the failures on my tries,
+I googled for some help. Then I noticed I could import a cv2 module, even though I've never heard about it before. I also noticed that python is more likely accept 
+.png format. So I used cv2.imread method to successfully make my IDLE take the batman2.png as the background of my design. After I successfully uploaded this image 
+as my backgroud, I also wanted to upload another png image as the image for the ping pong ball in my game. So by default, the ping pong ball is just a circle, so I 
+was thinking because my game theme is batman, a joker image attached to my ping pong ball would be cool. But things didn't go as I imagined. I failed in uploading t
+he joker image and don't know why. I also put a lot time in just uploading it, and finally I gave up. I decided to use a batman background and a normal ping pong 
+ball and two normal ping pong brackets. 
+
+I then started to setup the size of my game window and set up diverse dimensions and characteristcs of my turtles. In the process of my design, I first decided to
+use 1 source I found online for my ping pong game, and that source is the calculation of how the ball will move when it collide with the 2 brackets. I actually 
+tried to re-calculate the equations after I change my background size for a few times, but not only should I take care of these equations, there were more 
+unexpected other issues happened in my code, so I just leave that part as it used to be. One of the problems I've been stuck on is when I tried to set different 
+speed values for the turtle named ball. So I was intending to first write a sentence:"1. slowMode, 2. normalMode, 3.Fast" to indicate the difficulty level of my 
+game by changing the speed of the ball. And I tried to use screen.onkey(changeVelocity,'1'), screen.onkey(changeVelocity,'2'), etc and change the parameters of 
+the method changeVelocity to set different values for the ball. But later I noteiced, when useing screen.onkey, I can not include any parameters in the first 
+part seperated by the comma(changeVelocity, '1'). So I was confused how to make the ball has different velocity when users choose different difficulty levels. 
+I then started to think if I can use 3 different methods to set the ball with different velocities. But I also had a problem with it, which is if I include the 
+initiation of the ball in the method, it will become a local turtle. And when I try to run the main while loop, the ball is not considered and bugs will showup. 
+I was not able to solve this problem even at the end. I hope I can use more time to find a good solution for it. And as long as I talk about the solution, 
+I want to share 1 method that helped me get more easily understand the code or increase my abilities in coding. That is to look other people's code. Just to 
+try to understand their logics in managing the code, but not just copy and paste. In this final presentation, I am really excited to see all the amazing, 
+outstanding, and talent thoughts my peers have, and I felt like I had a long long way to go to catch up with them. I felt a little bit frustrated, but I felt 
+more excited and felt happy that I had chances in seeing how other people think and what good points I can learn from them. I used to practice some java problems 
+and there were also several file processing problems I've practiced, but when I see my peers' solutions today at the presentation, I realized I've done so little 
+practice and I have to hurry up to catch up with them. 
+
+When I was doing my project, there was another thing I've noticed. So I basically started my project by importing pygame and used some pygame method to construct 
+my design. I then tried to also import turtle to combine them together, however, after I took some time in constructing my design with these 2, I found from the 
+online blogs that these 2 won't work well if they are put together. So this experience has taught me I should really understand what pygame and turtle do and 
+what's the basic concept of them before I start my project, otherwise, I will waste so much time in doing a wrong thing. Another thing I learned from my final 
+project is that I should never give up polishing my codes, even though there were a lot of times I felt headache because I don't believe I can solve the problems.
+But what I found is, if I don't give up, and if I keep search solutions online, and if I keep trying to understand what others' code is talking about, 
+I will finally solve the problems in my code little by little. And after my code is able to run successfully, I would feel more confident and would have more 
+courages to enhance my code. And I would consider such process a benefitial process for me to grow in the path of a pythoner. 
+
+I actually want to suggest 2 things as well. So there are still 2 problems I can't solve in my code. So I can run my code successfully in IDLE on my end, but if
+I upload it to trinket, the first problem is trinket says there is no cv2 module. So I just make my cv2 part as comments because I could upload my image to 
+trinket manually and it runs well. But sequently, I met a nother problem. So when I ran my code in trinket in python(not python3), my dashboard can be 
+successfully shown, but when I ran the game, it says 'Turtle' object has no attribute 'shapesize' on line xx. I could not figure it out until the end. So here 
+I want to suggest another issue when I was doing my project or coding. That is I spent a lot of time in searching online to find a solution to a problem that 
+I've never seen before. I don't know if it's because I still don't have an efficient way of learning, or it's just a common issue that my peers will also 
+encounter. I hope I can enhance my abilites of finding solutions online to solve problems. 
+
+All in all, these are my thoughts as I was doing my final project. What I can conclude is I still have a very long way to go in the path of being a good 
+pythoner after I saw my deficiencies in my project compared to my peers'. But at the same time, I'm glad I have this chance in seeing other people's talent 
+works. And finally, I really appreciate the work Pro.Hauser and Misha have done in this semester. I really like the harmonious environment in the class and 
+the nice attitudes you have when being asked questions. That really makes me feel more confident in coming up with questions！ Thank you and all my other 
+peers for spending a memorable semester together！ I hope I can enhance my python/coding skills quickly so that I can (or maybe) have a chance in becoming a 
+smart/great person as you(Pro.Hauser and Misha)!! :)
