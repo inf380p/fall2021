@@ -93,3 +93,11 @@ I aim to turn this project with GUI by importing `PySimpleGUI`, I believe this c
 Overall, I felt confident and proud of making my final project. I think this is the most important and valuable milestone of becoming a programmer for me. The project gave me a good first impression when I made the brainstorming. However, when I dig more details and did the research furthermore, I realized that this project is more challenging than I expect. Therefore, I started to put more effort into this and it’s worthful. Nevertheless, I also put attention to writing a good styling code and keeping my name consistent like using the underline (start_the_game) instead of (startTheGame). I believe having this good habit could help me in my career. 
 
 After going through the first challenge I mentioned previously of API, I felt more confident building something new that is not covered in class. I strongly feel that the most valuable skills I learn from this class and this project are not just using python itself but also how to utilize and carry the fundamental concept to apply on the new programming skills and other algorithm concepts. For example, I now know how to use and convert the code if I found a sample code on stackoverflow.com which is not in my skillset before doing this project. As well as, I heard "doing google search" is the essential daily life of being a programmer in career life from my meet-up. Therefore, I am delighted about myself of able to read and understand the new codes. 
+
+
+# --- Update reflection after the code talks ---
+After hearing my classmates discuss their work, it triggered my interest in doing the graph. Therefore, I tried to make a graph of catching the data from API. I hope I can make more graphs based on using the dictionary in the future when I have more time and knowledge. For all that, I also learn to put input inside the function while putting the assigned parameters. For example, `get_graph(a,b,c,d)` and I assign the parameters when I call the function `get_graph(temp,feel_temp,max_temp,min_temp)`.
+
+Below is the screenshot of what I add:
+<img width="461" alt="Screen Shot 2021-12-09 at 7 58 30 PM" src="https://user-images.githubusercontent.com/70726508/145505538-74f46e54-8860-4676-8b1b-83a6e2d7643c.png">
+
