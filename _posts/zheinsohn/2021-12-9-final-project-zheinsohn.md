@@ -4,8 +4,11 @@ author: zheinsohn
 title: zheinsohn final project reflection
 ---
 
-Here is my trinket:
+Here is my trinket of the final project:
 <iframe src="https://trinket.io/embed/python/b2fd756eb9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Here is the trinket of some user interface sketches:
+<iframe src="https://trinket.io/embed/python/8e9dbf1736" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Program I chose:
 I chose to do a data analysis program that involves users being able to search for incomplete words and return the results by how common the words are, ostensibly to aid in the completion of crossword puzzles. This was not what I ended up with, for a variety of reasons. I initially started this project because I wanted to use regex, which I felt comfortable with. At the time, I felt more comfortable with doing this kind of data analysis than I did with turtles. However, since I ended up not even using regex at all and struggling to make the data analysis tool work, I think I should have attempted a turtle program instead. I think the data analysis idea I had needed to be more grounded and started smaller, especially when it came to the user input aspects of the program. Though I am pretty embarrassed by the lack of success of this program, I felt it was better to turn some functioning code in than none at all.
