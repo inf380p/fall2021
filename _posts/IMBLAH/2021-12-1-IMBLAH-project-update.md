@@ -1,6 +1,6 @@
 ---
 layout: post
-author:IMBLAH
+author: IMBLAH
 title: "Bo's Project Update 12/1"
 ---
 # Project Update
