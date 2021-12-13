@@ -1,6 +1,6 @@
 ---
 layout: post
-author: weiefeng0102
+author: weifeng0102
 title: "Weifeng's meetup write up!"
 ---
 
